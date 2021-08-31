@@ -111,7 +111,6 @@ export default {
     let result = await axios
       .get("https://api.mcsrvstat.us/2/minecraft.itulan.dk")
       .then((res) => res.data);
-    console.log(result);
     if (!result.online) {
       this.serverData = {
         icon: "-",
