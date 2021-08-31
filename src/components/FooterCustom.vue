@@ -13,7 +13,6 @@
         />
       </div>
       <div>
-        <h5>{{ $t("footer.address.title") }}</h5>
         <address>
           {{ $t("footer.address.name") }}
           <br />

@@ -54,10 +54,10 @@ const router = new Router({
     },
     {
       path: "/join",
-      name: "join us",
+      name: "join the crew",
       component: JoinUs,
       meta: {
-        title: "ITU LAN - Join Us",
+        title: "ITU LAN - Join the Crew",
         id: "join"
       }
     },

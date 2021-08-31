@@ -1,6 +1,5 @@
 export default {
     address: {
-        title: "CONTACT",
         name: "ITU LAN",
         partOf: "part of",
         studentCouncil: "Student Council of IT University of Copenhagen",

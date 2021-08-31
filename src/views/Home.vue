@@ -11,8 +11,11 @@
       <div class="header-overlay"></div>
       <div class="header-content text-md-center">
         <h1 data-aos-once="true" data-aos="fade-right" data-aos-delay="100">
-          ITU LAN
+          WE'RE BACK!
         </h1>
+        <p>
+          We're pleased to announce that ITU LAN is returning for the FALL 2021 semester.
+        </p>
         <!-- <h2
           data-aos-once="true"
           data-aos="fade-right"
@@ -24,18 +27,9 @@
         <h2 data-aos-once="true" data-aos="fade-right" data-aos-delay="200">
           {{ $t("home.date.dayMonth") }}
         </h2> -->
-        <p>
-          Due to Covid-19, we can't host any LAN's at the moment. Stay tuned for
-          announcements.
-        </p>
+        <h3>Meet and greet</h3>
+        <p>Would you be interested in being a part of a fantastic family of LAN organizing people? Then come by and say <i>HI</i> and hear what we do before, under, and after LAN, on Tuesday, 7th of September 2021 around 17.00. <a href="https://www.facebook.com/events/1241576162960343">Sign up here</a>. </p>
         <div class="button-container">
-          <a
-            class="button"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.sst.dk/en/english/corona-eng"
-            >ABOUT COVID-19</a
-          >
           <a class="button" href="/join">Join the crew?</a>
           <a class="button" href="/partner">Partner with us?</a>
         </div>
@@ -134,7 +128,7 @@ a:hover {
 .header-content {
   z-index: 2;
   padding: 3rem;
-  max-width: 410px;
+  max-width: 710px;
   background: #031d44dd;
 }
 
@@ -204,7 +198,7 @@ a:hover {
 
 @media only screen and (max-width: 400px) {
   .header-content {
-    margin-top: -200px;
+    margin-top: 50px;
   }
 }
 </style>

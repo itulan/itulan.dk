@@ -1,12 +1,7 @@
 <template>
   <div id="minecraft-container">
     <h3 class="title">
-      Minecraft<img
-        v-if="doneFetching"
-        :src="serverData.icon"
-        alt="Minecraft Server Icon"
-        loading="lazy"
-      />
+      Minecraft
     </h3>
     <div v-if="fetching">
       <LoadingSpinner />
@@ -116,7 +111,7 @@ export default {
     let result = await axios
       .get("https://api.mcsrvstat.us/2/minecraft.itulan.dk")
       .then((res) => res.data);
-
+    console.log(result);
     if (!result.online) {
       this.serverData = {
         icon: "-",
