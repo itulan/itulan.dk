@@ -14,7 +14,8 @@
           WE'RE BACK!
         </h1>
         <p>
-          We're pleased to announce that ITU LAN is returning for the FALL 2021 semester.
+          We're pleased to announce that ITU LAN is returning for the FALL 2021
+          semester.
         </p>
         <!-- <h2
           data-aos-once="true"
@@ -28,7 +29,16 @@
           {{ $t("home.date.dayMonth") }}
         </h2> -->
         <h3>Meet and greet</h3>
-        <p>Would you be interested in being a part of a fantastic family of LAN organizing people? Then come by and say <i>HI</i> and hear what we do before, under, and after LAN, on Tuesday, 7th of September 2021 around 17.00. <a href="https://www.facebook.com/events/1241576162960343">Sign up here</a>. </p>
+        <p>
+          Would you be interested in being a part of a fantastic family of LAN
+          organizing people? Then come by and say <em>HI</em> and hear what we
+          do before, under, and after LAN, on Tuesday, 7th of September 2021
+          around 17.00 in room 2A20.
+          <a href="https://www.facebook.com/events/1241576162960343"
+            >Sign up here</a
+          >
+          (or just show up ¯\_(ツ)_/¯).
+        </p>
         <div class="button-container">
           <a class="button" href="/join">Join the crew?</a>
           <a class="button" href="/partner">Partner with us?</a>
