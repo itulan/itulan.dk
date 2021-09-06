@@ -3,7 +3,9 @@
     <h1 class="title" data-aos="fade-up">{{ $t("joinUs.title") }}</h1>
 
     <div v-if="!hasSuccessfullySubmitted">
-      <h2 class="hollow-text" data-aos="fade-up">{{ $t("joinUs.subtitle") }}</h2>
+      <h2 class="hollow-text" data-aos="fade-up">
+        {{ $t("joinUs.subtitle") }}
+      </h2>
       <p>
         It is not necessary to like games to join the ITU LAN crew! Whether
         you're interested in hosting tournaments, designing graphics stuff for
@@ -28,6 +30,9 @@
 
         <div class="input-group">
           <label for="email">E-mail address</label>
+          <small class="uppercase"
+            >preferable your @itu.dk-address, if you have one
+          </small>
           <input
             required
             type="email"
@@ -46,7 +51,7 @@
             id="subject"
             name="subject"
             placeholder="Please write a couple of sentences on why you wan't to join the crew."
-            style="height:200px"
+            style="height: 200px"
             v-model="form.motivation"
             :disabled="isSubmitting"
           ></textarea>
@@ -95,16 +100,13 @@ export default {
     async submitForm() {
       this.isSubmitting = true;
       await axios
-        .get(
-          "https://europe-west1-itulan.cloudfunctions.net/sendMail",
-          {
-            params: {
-              name: this.form.name,
-              email: this.form.emailAddress,
-              motivation: this.form.motivation,
-            },
-          }
-        )
+        .get("https://europe-west1-itulan.cloudfunctions.net/sendMail", {
+          params: {
+            name: this.form.name,
+            email: this.form.emailAddress,
+            motivation: this.form.motivation,
+          },
+        })
         .then((res) => {
           this.res = res;
           this.hasSuccessfullySubmitted = true;
@@ -120,7 +122,8 @@ export default {
   text-align: initial;
 }
 
-#contact-form label {
+#contact-form label,
+#contact-form small {
   margin-left: 10px;
 }
 

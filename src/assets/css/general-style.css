@@ -239,3 +239,16 @@ textarea:disabled {
 img:not([alt]) {
   border: 5px solid red;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+small {
+  text-transform: uppercase;
+}
