@@ -34,7 +34,7 @@
 
     <BCollapse v-model="mobileNavOpen" id="nav-collapse" is-nav>
       <BNavbarNav>
-        <span
+        <li
           v-for="route in routes"
           :key="route.name"
           v-bind:class="{ desktop: !isMobile }"
@@ -45,12 +45,12 @@
               route.name
             }}</span>
           </RouterLink>
-        </span>
+        </li>
       </BNavbarNav>
 
       <!-- Right aligned nav items -->
       <BNavbarNav class="some-buttons ml-auto">
-        <b-nav-item
+        <BNavItem
           class="some-button"
           href="https://discord.gg/nSFXWQN"
           target="_blank"
@@ -62,8 +62,8 @@
             height="25px"
             loading="lazy"
           />
-        </b-nav-item>
-        <b-nav-item
+        </BNavItem>
+        <BNavItem
           class="some-button"
           href="https://www.facebook.com/itulan"
           target="_blank"
@@ -75,8 +75,8 @@
             height="25px"
             loading="lazy"
           />
-        </b-nav-item>
-        <b-nav-item
+        </BNavItem>
+        <BNavItem
           class="some-button"
           href="https://www.instagram.com/itulan/"
           target="_blank"
@@ -88,8 +88,8 @@
             height="25px"
             loading="lazy"
           />
-        </b-nav-item>
-        <b-nav-item
+        </BNavItem>
+        <BNavItem
           class="some-button"
           href="https://www.youtube.com/channel/UCa8UEVBGtOfykw6N9G6db8g"
           target="_blank"
@@ -101,7 +101,7 @@
             height="20px"
             loading="lazy"
           />
-        </b-nav-item>
+        </BNavItem>
       </BNavbarNav>
     </BCollapse>
   </BNavbar>
@@ -187,6 +187,7 @@ button {
 
 .open {
   background-color: var(--brand-primary) !important;
+  border-bottom: 4px solid white;
 }
 
 .some-button {

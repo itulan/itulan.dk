@@ -24,7 +24,7 @@
 
         <br />
         <Hyperlink url="mailto:pr@itulan.dk"
-          >Interested? Please contact Kenneth Nielsen -> pr@itulan.dk</Hyperlink
+          >Interested? Please write an email to pr@itulan.dk</Hyperlink
         >
       </div>
     </div>
