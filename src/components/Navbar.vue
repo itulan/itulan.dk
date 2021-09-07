@@ -1,6 +1,5 @@
 <template>
   <BNavbar
-    class="navbar"
     v-bind:class="{ open: isMobile && mobileNavOpen }"
     toggleable="lg"
     type="dark"
@@ -27,7 +26,6 @@
       aria-expanded="false"
       v-bind:class="{ 'is-active': mobileNavOpen }"
       class="hamburger hamburger--collapse"
-      type="button"
     >
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>

@@ -40,7 +40,7 @@
       <div class="server-info">
         <p class="label">Status</p>
         <div v-if="serverData.online">
-          <p class="info">Online<StatusIndicator color="#32CD32" /></p>
+          <p class="info">Online<StatusIndicator color="#32cd32" /></p>
         </div>
         <div v-else>
           <p class="info">Offline<StatusIndicator color="#ff4935" /></p>

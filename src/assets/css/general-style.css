@@ -155,7 +155,7 @@ input[type="button"] {
 }
 
 a.button:before,
-button:before {
+button:not(.hamburger):before {
   position: absolute;
   top: 0;
   right: 0;
