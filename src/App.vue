@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <navbar></navbar>
-    <router-view class="router-view" />
-    <footer-custom />
+    <Navbar></Navbar>
+    <RouterView class="router-view" />
+    <FooterCustom />
     <!-- <cookie-law theme="dark-lime">
       <div slot="message">{{ $t("common.cookieNotice") }}</div>
     </cookie-law> -->
@@ -12,7 +12,6 @@
 <script>
 import Navbar from "./components/Navbar";
 import FooterCustom from "@/components/FooterCustom";
-// import CookieLaw from "vue-cookie-law";
 export default {
   components: {
     Navbar,

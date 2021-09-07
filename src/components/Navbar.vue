@@ -1,12 +1,12 @@
 <template>
-  <b-navbar
+  <BNavbar
     class="navbar"
     v-bind:class="{ open: isMobile && mobileNavOpen }"
     toggleable="lg"
     type="dark"
     variant="info"
   >
-    <router-link class="router-link" to="/">
+    <RouterLink class="router-link" to="/">
       <span @click="closeMenu" class="router-link-home">
         <img
           src="../assets/img/common/navbar_logo2.png"
@@ -16,7 +16,7 @@
           loading="lazy"
         />
       </span>
-    </router-link>
+    </RouterLink>
 
     <button
       v-show="isMobile"
@@ -34,24 +34,24 @@
       </span>
     </button>
 
-    <b-collapse v-model="mobileNavOpen" id="nav-collapse" is-nav>
-      <b-navbar-nav>
+    <BCollapse v-model="mobileNavOpen" id="nav-collapse" is-nav>
+      <BNavbarNav>
         <span
           v-for="route in routes"
           :key="route.name"
           v-bind:class="{ desktop: !isMobile }"
           :id="`link-${route.meta.id}`"
         >
-          <router-link class="router-link" :to="route.path">
+          <RouterLink class="router-link" :to="route.path">
             <span @click="toggleOpen" class="router-link-text">{{
               route.name
             }}</span>
-          </router-link>
+          </RouterLink>
         </span>
-      </b-navbar-nav>
+      </BNavbarNav>
 
       <!-- Right aligned nav items -->
-      <b-navbar-nav class="some-buttons ml-auto">
+      <BNavbarNav class="some-buttons ml-auto">
         <b-nav-item
           class="some-button"
           href="https://discord.gg/nSFXWQN"
@@ -104,9 +104,9 @@
             loading="lazy"
           />
         </b-nav-item>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+      </BNavbarNav>
+    </BCollapse>
+  </BNavbar>
 </template>
 
 

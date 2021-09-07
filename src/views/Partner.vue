@@ -23,8 +23,8 @@
         </p>
 
         <br />
-        <hyperlink url="mailto:pr@itulan.dk"
-          >Interested? Please contact Kenneth Nielsen -> pr@itulan.dk</hyperlink
+        <Hyperlink url="mailto:pr@itulan.dk"
+          >Interested? Please contact Kenneth Nielsen -> pr@itulan.dk</Hyperlink
         >
       </div>
     </div>
@@ -33,15 +33,16 @@
 
 <script>
 import Hyperlink from "@/components/Hyperlink";
+
 export default {
+  components: {
+    Hyperlink,
+  },
   data() {
     return {
-      pdf: require("../assets/docs/ITU-LAN-sponsor-folder-S20.pdf")
+      pdf: require("../assets/docs/ITU-LAN-sponsor-folder-S20.pdf"),
     };
   },
-  components: {
-    Hyperlink
-  }
 };
 </script>
 

@@ -1,17 +1,17 @@
 <template>
   <div class="tickets">
     <h1 class="title" data-aos="fade-up">{{ $t("tickets.title") }}</h1>
-    <hyperlink id="ticket-link" newTab :url="$t('common.ticketUrl')">
-      <text-circle
+    <Hyperlink id="ticket-link" newTab :url="$t('common.ticketUrl')">
+      <TextCircle
         data-aos="fade-left"
         data-aos-delay="400"
         data-aos-duration="1250"
         message="Buy ticket"
         radius="180px"
         font-size="2rem"
-        >{{ $t("tickets.title") }}</text-circle
+        >{{ $t("tickets.title") }}</TextCircle
       >
-    </hyperlink>
+    </Hyperlink>
 
     <div class="steps">
       <span data-aos="fade-left" data-aos-delay="300">
@@ -81,9 +81,9 @@
           <h3>{{ $t("tickets.steps.buyTicket.title") }}</h3>
         </span>
         <p>
-          <hyperlink id="inline-link" :url="$t('common.ticketUrl')">{{
+          <Hyperlink id="inline-link" :url="$t('common.ticketUrl')">{{
             $t("tickets.steps.buyTicket.text")
-          }}</hyperlink>
+          }}</Hyperlink>
         </p>
       </div>
       <div id="step-three">

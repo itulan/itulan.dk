@@ -17,7 +17,7 @@
         loading="lazy"
       />
       <div class="accordion-wrapper">
-        <accordion v-for="t in tournaments" :key="t.url" :tournament="t" />
+        <Accordion v-for="t in tournaments" :key="t.url" :tournament="t" />
       </div>
     </div>
     <div v-else>

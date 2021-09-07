@@ -45,22 +45,8 @@
         </div>
       </div>
     </header>
-    <div id="circle-container">
-      <CircleBrand>Buy Ticket</CircleBrand>
-    </div>
   </div>
 </template>
-
-<script>
-import CircleBrand from "@/components/Circle.vue";
-
-export default {
-  components: {
-    CircleBrand,
-  },
-};
-</script>
-
 
 
 <style scoped>

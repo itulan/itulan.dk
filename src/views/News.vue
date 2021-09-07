@@ -12,50 +12,50 @@
           data-aos-delay="200"
         >
           <div>
-            <hyperlink newTab :url="$t('common.socialMedia.discord.url')">
+            <Hyperlink newTab :url="$t('common.socialMedia.discord.url')">
               <img
                 src="../assets/img/common/socialmedia/discord_icon.svg"
                 alt="Discord logo"
                 loading="lazy"
               />
-            </hyperlink>
+            </Hyperlink>
           </div>
           <div class="some-desc">
             {{ $t("common.socialMedia.discord.description") }}
           </div>
           <div>
-            <hyperlink newTab :url="$t('common.socialMedia.facebook.url')">
+            <Hyperlink newTab :url="$t('common.socialMedia.facebook.url')">
               <img
                 src="../assets/img/common/socialmedia/facebook_icon.svg"
                 alt="Facebook logo"
                 loading="lazy"
               />
-            </hyperlink>
+            </Hyperlink>
           </div>
           <div class="some-desc">
             {{ $t("common.socialMedia.facebook.description") }}
           </div>
           <div>
-            <hyperlink newTab :url="$t('common.socialMedia.instagram.url')">
+            <Hyperlink newTab :url="$t('common.socialMedia.instagram.url')">
               <img
                 src="../assets/img/common/socialmedia/insta_icon.svg"
                 alt="Instagram logo"
                 loading="lazy"
               />
-            </hyperlink>
+            </Hyperlink>
           </div>
           <div class="some-desc">
             {{ $t("common.socialMedia.instagram.description") }}
           </div>
           <div>
-            <hyperlink newTab :url="$t('common.socialMedia.youtube.url')">
+            <Hyperlink newTab :url="$t('common.socialMedia.youtube.url')">
               <img
                 width="40px"
                 src="../assets/img/common/socialmedia/youtube_icon.png"
                 alt="YouTube logo"
                 loading="lazy"
               />
-            </hyperlink>
+            </Hyperlink>
           </div>
           <div class="some-desc">
             {{ $t("common.socialMedia.youtube.description") }}
@@ -66,7 +66,7 @@
         <div id="mobile">
           <div v-if="isLoading">{{ $t("news.loadingLabel") }}</div>
           <div v-else>
-            <post
+            <Post
               v-for="post in posts"
               :key="post.id"
               :date="post.created_time"
