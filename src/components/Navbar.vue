@@ -149,10 +149,9 @@ export default {
     },
     routes() {
       let allRoutes = this.$router.options.routes;
-      let relevantRoutes = allRoutes.filter((r) => {
+      return allRoutes.filter((r) => {
         return r.name !== "home" && r.name !== undefined;
       });
-      return relevantRoutes;
     },
   },
 };
@@ -177,11 +176,11 @@ button {
 }
 
 .navbar-dark .navbar-toggler-icon {
-  color: #fff !important;
+  color: var(--brand-white) !important;
 }
 
 .navbar-toggler-icon {
-  color: #fff !important;
+  color: var(--brand-white) !important;
 }
 
 .bg-info {
@@ -189,7 +188,7 @@ button {
 }
 
 .open {
-  background-color: #031d44 !important;
+  background-color: var(--brand-primary) !important;
 }
 
 .some-button {
@@ -210,7 +209,7 @@ button {
 
 .router-link {
   margin: 0 2rem;
-  color: #fff;
+  color: var(--brand-white);
   text-decoration: none;
 }
 
@@ -228,7 +227,7 @@ button {
 }
 
 .router-link-active span:not(.router-link-home) {
-  color: #808080;
+  color: var(--brand-gray);
 }
 
 #link-tickets.desktop {
@@ -255,7 +254,7 @@ button {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .some-buttons {
     flex-direction: initial;
     justify-content: center;
@@ -276,13 +275,13 @@ button {
     font-size: 2.5rem;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: var(--brand-white);
     letter-spacing: 4px;
     text-transform: uppercase;
     display: block;
   }
   .router-link:hover :not(.router-link-home) {
-    color: #fff;
+    color: var(--brand-white);
     -webkit-text-stroke-width: initial;
     -webkit-text-stroke-color: initial;
   }

@@ -10,8 +10,20 @@
   font-display: swap;
 }
 
+:root {
+  --brand-primary: hsl(216, 92%, 14%);
+  --brand-secondary: hsl(242, 100%, 50%);
+  --brand-white: hsl(0, 0%, 100%);
+  --brand-gray-light: hsl(0, 0%, 80%);
+  --brand-gray: hsl(0, 0%, 50%);
+  --brand-dark-gray: hsl(0, 0%, 36%);
+  --brand-gray-transparent: hsla(0, 0%, 100%, 0.34);
+  --brand-black: hsl(0, 0%, 0%);
+
+}
+
 body {
-  background-color: #031d44;
+  background-color: var(--brand-primary);
   letter-spacing: 1px;
 }
 
@@ -45,7 +57,7 @@ h3 {
 }
 
 small {
-  color: #888888;
+  color: var(--brand-gray);
 }
 
 a:hover {
@@ -69,7 +81,7 @@ a:hover {
   font-family: "Roboto Mono", System-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #fff;
+  color: var(--brand-white);
 }
 
 .center-image {
@@ -85,38 +97,21 @@ a:hover {
 .hollow-text {
   color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: var(--brand-white);
 }
 
 .button {
   border: none;
   padding: 0.5rem 3.5rem;
   text-transform: uppercase;
-  background: #0800ff;
-  color: #fff;
+  background: var(--brand-secondary);
+  color: var(--brand-white);
   font-family: Anton, Helvetica, Arial, sans-serif;
   font-size: 2rem;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   display: inline-block;
   letter-spacing: 3px;
-}
-
-@keyframes border-pulsate {
-  0% {
-    border-color: #fff;
-    outline-color: #fff;
-  }
-
-  50% {
-    border-color: #ffffff22;
-    outline-color: #ffffff22;
-  }
-
-  100% {
-    border-color: #fff;
-    outline-color: #fff;
-  }
 }
 
 a.button,
@@ -138,8 +133,8 @@ button {
   font-family: Anton, Helvetica, Arial, sans-serif;
   line-height: 26px;
   letter-spacing: 2px;
-  background: #0800ff;
-  color: #fff;
+  background: var(--brand-secondary);
+  color: var(--brand-white);
   overflow: hidden;
   transition: background 0.2s ease-in, color 0.2s ease-in, border 0.2s ease-in;
   border-radius: 0;
@@ -169,7 +164,7 @@ button:before {
   content: "";
   display: block;
   padding: 15px 2.5rem;
-  background: #5c5c5c;
+  background: var(--brand-dark-gray);
   transform: scaleY(0);
   transform-origin: center top;
   transition: transform 0.2s ease-in;
@@ -184,18 +179,18 @@ button:not(:disabled):hover:before {
 
 input[type="submit"]:hover,
 input[type="button"]:hover {
-  background: #031d44;
+  background: var(--brand-primary);
 }
 
 button:disabled {
-  background-color: #444;
-  color: #666;
+  background-color: var(--brand-dark-gray);
+  color: var(--brand-gray-light);
   cursor: not-allowed;
 }
 
 button.text-style {
   border: none;
-  color: #031d44;
+  color: var(--brand-primary);
   background: transparent;
   text-align: left;
   display: inline-block;
@@ -208,7 +203,7 @@ button.text-style {
 }
 
 button.text-style:hover {
-  color: #fff;
+  color: var(--brand-white);
 }
 
 button.text-style:before {
@@ -218,10 +213,10 @@ button.text-style:before {
 input[type="text"],
 input[type="email"],
 textarea {
-  color: #000;
+  color: var(--brand-black);
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--brand-gray-light);
   border-radius: 0px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -233,11 +228,6 @@ input[type="text"]:disabled,
 input[type="email"]:disabled,
 textarea:disabled {
   opacity: 0.5;
-}
-
-
-img:not([alt]) {
-  border: 5px solid red;
 }
 
 .uppercase {

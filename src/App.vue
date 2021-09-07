@@ -37,7 +37,7 @@ export default {
 }
 
 .Cookie__button {
-  background: #0800ff !important;
+  background: hsl(242, 100%, 50%) !important;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }

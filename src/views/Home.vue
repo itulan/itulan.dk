@@ -45,8 +45,22 @@
         </div>
       </div>
     </header>
+    <div id="circle-container">
+      <CircleBrand>Buy Ticket</CircleBrand>
+    </div>
   </div>
 </template>
+
+<script>
+import CircleBrand from "@/components/Circle.vue";
+
+export default {
+  components: {
+    CircleBrand,
+  },
+};
+</script>
+
 
 
 <style scoped>
@@ -63,12 +77,6 @@
   display: block;
   margin: 10px auto;
   width: 100%;
-}
-
-#circle-container {
-  display: flex;
-  flex-direction: row;
-  z-index: 9;
 }
 
 .circsle {
@@ -100,7 +108,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 .container {
@@ -132,14 +140,14 @@ a:hover {
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: #031d4466;
+  background-color: hsla(216, 92%, 14%, 0.4);
 }
 
 .header-content {
   z-index: 2;
   padding: 3rem;
   max-width: 710px;
-  background: #031d44dd;
+  background-color: hsla(216, 92%, 14%, 0.866);
 }
 
 .header-content h1,
@@ -163,13 +171,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .header-content h1 {
-    font-size: 4.5rem;
-  }
-
-  .header-content h2 {
-    font-size: 3rem;
-  }
   .header-content {
     padding: 1.5rem;
   }

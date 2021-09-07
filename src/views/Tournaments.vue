@@ -69,7 +69,7 @@ export default {
 }
 
 .tournament-wrapper {
-  background-color: #444546;
+  background-color: var(--brand-dark-gray);
   height: 72px;
   width: 100%;
   margin-bottom: 15px;

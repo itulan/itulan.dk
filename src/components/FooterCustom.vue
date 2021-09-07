@@ -53,7 +53,7 @@ export default {};
 }
 
 hr {
-  border-top: 1px solid #fff;
+  border-top: 1px solid var(--brand-white);
   margin-top: 0;
   margin-bottom: 1rem;
 }

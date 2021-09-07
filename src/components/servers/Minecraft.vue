@@ -1,8 +1,6 @@
 <template>
   <div id="minecraft-container">
-    <h3 class="title">
-      Minecraft
-    </h3>
+    <h3 class="title">Minecraft</h3>
     <div v-if="fetching">
       <LoadingSpinner />
     </div>
@@ -153,7 +151,7 @@ export default {
 #show-players-button {
   cursor: pointer;
   text-transform: capitalize;
-  color: #808080;
+  color: var(--brand-gray);
   font-size: 0.8rem;
 }
 

@@ -158,8 +158,8 @@ export default {
 
 #mobile-wrapper {
   margin: 10px 15px 10px 15px;
-  background-color: #07214c;
-  border: 15px solid #000;
+  background-color: var(--brand-primary);
+  border: 15px solid var(--brand-black);
   border-radius: 40px;
 }
 
@@ -285,7 +285,7 @@ export default {
   }
 
   .post {
-    border-top: 1px solid #fff;
+    border-top: 1px solid var(--brand-white);
     padding-top: 25px;
   }
 

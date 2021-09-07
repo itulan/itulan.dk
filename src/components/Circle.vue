@@ -1,7 +1,9 @@
 <template>
-  <div class="circle-outline">
-    <div :style="styleCircle" class="circle">
-      <span :style="styleMessage" class="message"><slot></slot></span>
+  <div class="circle-container">
+    <div class="circle-outline">
+      <div :style="styleCircle" class="circle">
+        <span :style="styleMessage" class="message"><slot></slot></span>
+      </div>
     </div>
   </div>
 </template>
@@ -11,32 +13,38 @@ export default {
   props: {
     radius: {
       type: String,
-      default: "200px"
+      default: "200px",
     },
     fontSize: {
       type: String,
-      default: "2rem"
-    }
+      default: "2rem",
+    },
   },
   computed: {
     styleCircle() {
       return {
         width: this.radius,
-        height: this.radius
+        height: this.radius,
       };
     },
     styleMessage() {
       return {
-        fontSize: this.fontSize
+        fontSize: this.fontSize,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style scoped>
+.circle-container {
+  display: flex;
+  flex-direction: row;
+  z-index: 9;
+}
+
 .circle {
-  background-color: #0800ff;
+  background-color: var(--brand-secondary);
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -52,7 +60,7 @@ export default {
 }
 
 .circle-outline {
-  border: 2px solid #fff;
+  border: 4px solid var(--brand-white);
   padding: 1.5rem;
   border-radius: 50%;
   display: block;
@@ -75,6 +83,23 @@ export default {
 @media only screen and (max-width: 600px) {
   .circle-outline {
     transform: scale(0.7);
+  }
+}
+
+@keyframes border-pulsate {
+  0% {
+    border-color: var(--brand-white);
+    outline-color: var(--brand-white);
+  }
+
+  50% {
+    border-color: var(--brand-gray-transparent);
+    outline-color: var(--brand-gray-transparent);
+  }
+
+  100% {
+    border-color: var(--brand-white);
+    outline-color: var(--brand-white);
   }
 }
 </style>
