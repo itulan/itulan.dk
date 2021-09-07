@@ -23,10 +23,6 @@
   </transition>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style>
 .modal-mask {
   position: fixed;

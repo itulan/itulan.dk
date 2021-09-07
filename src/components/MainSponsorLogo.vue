@@ -4,14 +4,14 @@
       <em>powered by</em>
     </span>
     <br />
-    <hyperlink newTab url="https://orsted.com/en/Careers">
+    <Hyperlink newTab url="https://orsted.com/en/Careers">
       <img
         alt="Ørsted logo"
         id="logo"
         src="../assets/img/common/sponsor_logos/Orsted_RGB_White.png"
         loading="lazy"
       />
-    </hyperlink>
+    </Hyperlink>
   </div>
 </template>
 
