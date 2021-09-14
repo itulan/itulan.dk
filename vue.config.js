@@ -5,5 +5,5 @@ module.exports = {
       .test(/\.pdf/)
       .use("file-loader")
       .loader("file-loader");
-  }
+  },
 };

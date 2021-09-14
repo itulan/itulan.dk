@@ -1,7 +1,7 @@
 <template>
   <header class="home header container">
     <h1 data-aos-once="true" data-aos="fade-right" data-aos-delay="100">
-      WE'RE BACK!
+      WE'VE RESPAWNED!
     </h1>
     <p data-aos-once="true" data-aos="fade-left" data-aos-delay="200">
       We're pleased to announce that ITU LAN is returning for the FALL 2021
@@ -17,29 +17,33 @@
     </h2>
 
     <div class="button-container">
-      <a
+      <Hyperlink
         data-aos-once="true"
         data-aos="fade-left"
         data-aos-delay="400"
-        class="button"
-        href="/join"
-        >Join the crew?</a
+        asButton
+        url="/partner"
+        >Join the crew?</Hyperlink
       >
-      <a
+      <Hyperlink
         data-aos-once="true"
         data-aos="fade-right"
         data-aos-delay="500"
-        class="button"
-        href="/partner"
-        >Become partner</a
+        asButton
+        url="/partner"
+        >Become partner</Hyperlink
       >
     </div>
   </header>
 </template>
 
 <script>
+import Hyperlink from "@/components/Hyperlink.vue";
 export default {
   name: "Home",
+  components: {
+    Hyperlink,
+  },
 };
 </script>
 
@@ -94,7 +98,7 @@ export default {
 .button-container > button,
 .button-container > a {
   display: block;
-  margin: 10px auto;
+  margin: 15px auto;
   width: 100%;
 }
 </style>

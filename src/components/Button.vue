@@ -1,34 +1,9 @@
 <template>
-  <a :class="{ button: asButton }" :href="url" :target="target" rel="noopener">
-    <slot></slot>
-  </a>
-</template> 
+  <button class="button" type="button"><slot /></button>
+</template>
 
 <script>
-export default {
-  props: {
-    url: {
-      type: String,
-      required: true,
-    },
-    newTab: {
-      type: Boolean,
-      default: false,
-    },
-    asButton: {
-      type: Boolean,
-    },
-  },
-  computed: {
-    target() {
-      if (this.newTab) {
-        return "_blank";
-      } else {
-        return "_self";
-      }
-    },
-  },
-};
+export default {};
 </script>
 
 <style scoped>
@@ -47,23 +22,10 @@ export default {
   font-family: Anton, Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   line-height: 26px;
-  text-decoration: none;
 }
 
-.button::before:active {
+.button:active {
   color: red;
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
 }
 
 .button:before {

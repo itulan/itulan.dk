@@ -5,7 +5,7 @@
     type="dark"
     variant="info"
   >
-    <RouterLink class="router-link" to="/">
+    <RouterLink class="router-link" to="/" tabindex="1">
       <span @click="closeMenu" class="router-link-home">
         <img
           src="../assets/img/common/navbar_logo2.png"
@@ -210,7 +210,22 @@ button {
   margin: 0 2rem;
   color: hsl(var(--brand-white));
   text-decoration: none;
+  /* display: inline-block; */
 }
+
+/* Implement mobile first */
+/* .router-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: red;
+  transition: width 0.3s;
+}
+
+.router-link:hover::after {
+  width: 100%;
+} */
 
 .router-link :not(.router-link-home) {
   font-size: 14px;

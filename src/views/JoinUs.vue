@@ -153,4 +153,69 @@ export default {
 .loader__dot:nth-child(3) {
   animation-delay: 500ms;
 }
+
+a.button,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-appearance: none;
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 2.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: Anton, Helvetica, Arial, sans-serif;
+  line-height: 26px;
+  letter-spacing: 2px;
+  background: hsl(var(--brand-secondary));
+  color: hsl(var(--brand-white));
+  overflow: hidden;
+  transition: background 0.2s ease-in, color 0.2s ease-in, border 0.2s ease-in;
+  border-radius: 0;
+  outline: none;
+  hyphens: auto;
+  z-index: 11;
+}
+
+a.button:not(:disabled):hover:before,
+button:not(:disabled):hover:before {
+  transform: scaleY(1);
+  transform-origin: center bottom;
+}
+
+button:disabled {
+  background-color: hsl(var(--brand-dark-gray));
+  color: hsl(var(--brand-gray-light));
+  cursor: not-allowed;
+}
+
+button.text-style:before {
+  display: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  color: hsl(var(--brand-black));
+  width: 100%;
+  padding: 12px;
+  border: 1px solid hsl(var(--brand-gray-light));
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="text"]:disabled,
+input[type="email"]:disabled,
+textarea:disabled {
+  opacity: 0.5;
+}
 </style>
