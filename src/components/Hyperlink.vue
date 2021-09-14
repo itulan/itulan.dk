@@ -32,6 +32,7 @@ export default {
 </script>
 
 <style scoped>
+/* https://codepen.io/leandrosimoes/pen/VqZxaG */
 .button {
   border: none;
   outline: none;
@@ -51,7 +52,6 @@ export default {
 }
 
 .button::before:active {
-  color: red;
   background: linear-gradient(
     45deg,
     #ff0000,
