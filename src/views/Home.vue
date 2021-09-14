@@ -22,7 +22,7 @@
         data-aos="fade-left"
         data-aos-delay="400"
         asButton
-        url="/partner"
+        url="/join"
         >Join the crew?</Hyperlink
       >
       <Hyperlink
