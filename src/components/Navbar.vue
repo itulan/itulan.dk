@@ -174,11 +174,11 @@ button {
 }
 
 .navbar-dark .navbar-toggler-icon {
-  color: var(--brand-white) !important;
+  color: hsl(var(--brand-white)) !important;
 }
 
 .navbar-toggler-icon {
-  color: var(--brand-white) !important;
+  color: hsl(var(--brand-white)) !important;
 }
 
 .bg-info {
@@ -186,7 +186,7 @@ button {
 }
 
 .open {
-  background-color: var(--brand-primary) !important;
+  background-color: hsl(var(--brand-primary)) !important;
   border-bottom: 4px solid white;
 }
 
@@ -208,7 +208,7 @@ button {
 
 .router-link {
   margin: 0 2rem;
-  color: var(--brand-white);
+  color: hsl(var(--brand-white));
   text-decoration: none;
 }
 
@@ -226,7 +226,7 @@ button {
 }
 
 .router-link-active span:not(.router-link-home) {
-  color: var(--brand-gray);
+  color: hsl(var(--brand-gray));
 }
 
 #link-tickets.desktop {
@@ -274,13 +274,13 @@ button {
     font-size: 2.5rem;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--brand-white);
+    -webkit-text-stroke-color: hsl(var(--brand-white));
     letter-spacing: 4px;
     text-transform: uppercase;
     display: block;
   }
   .router-link:hover :not(.router-link-home) {
-    color: var(--brand-white);
+    color: hsl(var(--brand-white));
     -webkit-text-stroke-width: initial;
     -webkit-text-stroke-color: initial;
   }

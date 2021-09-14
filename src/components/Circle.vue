@@ -44,7 +44,7 @@ export default {
 }
 
 .circle {
-  background-color: var(--brand-secondary);
+  background-color: hsl(var(--brand-secondary));
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ export default {
 }
 
 .circle-outline {
-  border: 4px solid var(--brand-white);
+  border: 4px solid hsl(var(--brand-white));
   padding: 1.5rem;
   border-radius: 50%;
   display: block;
@@ -88,18 +88,18 @@ export default {
 
 @keyframes border-pulsate {
   0% {
-    border-color: var(--brand-white);
-    outline-color: var(--brand-white);
+    border-color: hsl(var(--brand-white));
+    outline-color: hsl(var(--brand-white));
   }
 
   50% {
-    border-color: var(--brand-gray-transparent);
-    outline-color: var(--brand-gray-transparent);
+    border-color: hsla(0, 0%, 100%, 0.34);
+    outline-color: hsla(0, 0%, 100%, 0.34);
   }
 
   100% {
-    border-color: var(--brand-white);
-    outline-color: var(--brand-white);
+    border-color: hsl(var(--brand-white));
+    outline-color: hsl(var(--brand-white));
   }
 }
 </style>
