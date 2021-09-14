@@ -241,3 +241,7 @@ textarea:disabled {
 small {
   text-transform: uppercase;
 }
+
+.italic {
+  font-style: italic;
+}
