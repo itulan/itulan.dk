@@ -41,7 +41,7 @@ export default {
   },
   computed: {
     isPublic() {
-      return false; // TODO Set to proper announcement date when known
+      return true; // TODO Set to proper announcement date when known
     },
     tournaments() {
       let tournaments = this.$t("tournaments.tournamentCards.tournaments");
@@ -72,15 +72,10 @@ export default {
   background-color: hsl(var(--brand-dark-gray));
   height: 72px;
   width: 100%;
-  margin-bottom: 15px;
 }
 
 .accordion-wrapper {
   margin-top: 20px;
-}
-
-.tournaments-wrapper {
-  margin-bottom: 7rem;
 }
 
 .platform {
@@ -102,12 +97,6 @@ export default {
   }
   100% {
     transform: scale(1);
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .tournaments-wrapper {
-    margin-bottom: 3rem;
   }
 }
 </style>
