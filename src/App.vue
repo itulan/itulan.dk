@@ -3,9 +3,6 @@
     <Navbar></Navbar>
     <RouterView class="router-view" />
     <FooterCustom />
-    <!-- <cookie-law theme="dark-lime">
-      <div slot="message">{{ $t("common.cookieNotice") }}</div>
-    </cookie-law> -->
   </div>
 </template>
 
@@ -16,7 +13,6 @@ export default {
   components: {
     Navbar,
     FooterCustom,
-    // CookieLaw
   },
 };
 </script>
