@@ -51,7 +51,9 @@ export default {
 }
 
 /* https://codepen.io/althi/pen/eKdmaa */
-.button:hover {
+.button:hover,
+.button:focus {
+  color: hsl(var(--brand-primary));
   background-image: linear-gradient(
     to right,
     #e7484f,
