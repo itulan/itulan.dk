@@ -24,7 +24,7 @@
       aria-label="Toggle navigation"
       aria-controls="nav-collapse"
       aria-expanded="false"
-      v-bind:class="{ 'is-active': mobileNavOpen }"
+      :class="{ 'is-active': mobileNavOpen }"
       class="hamburger hamburger--collapse"
     >
       <span class="hamburger-box">
@@ -37,7 +37,7 @@
         <li
           v-for="route in routes"
           :key="route.name"
-          v-bind:class="{ desktop: !isMobile }"
+          :class="{ desktop: !isMobile }"
           :id="`link-${route.meta.id}`"
         >
           <RouterLink class="router-link" :to="route.path">
@@ -210,22 +210,7 @@ button {
   margin: 0 2rem;
   color: hsl(var(--brand-white));
   text-decoration: none;
-  /* display: inline-block; */
 }
-
-/* Implement mobile first */
-/* .router-link::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: red;
-  transition: width 0.3s;
-}
-
-.router-link:hover::after {
-  width: 100%;
-} */
 
 .router-link :not(.router-link-home) {
   font-size: 14px;

@@ -57,7 +57,7 @@
           ></textarea>
         </div>
         <div id="submit-button">
-          <button :disabled="isSubmitting" @click="submitForm">
+          <button :disabled="isSubmitting || !isValid" @click="submitForm">
             <span v-if="!isSubmitting">Submit</span>
             <span v-else>
               Submitting
@@ -95,6 +95,15 @@ export default {
       isSubmitting: false,
       res: null,
     };
+  },
+  computed: {
+    isValid() {
+      return (
+        this.form.name !== "" &&
+        this.form.emailAddress !== "" &&
+        this.form.motivation !== ""
+      );
+    },
   },
   methods: {
     async submitForm() {
@@ -154,9 +163,6 @@ export default {
   animation-delay: 500ms;
 }
 
-a.button,
-input[type="submit"],
-input[type="button"],
 button {
   -webkit-appearance: none;
   position: relative;
@@ -183,6 +189,34 @@ button {
   z-index: 11;
 }
 
+button:hover:not(:disabled),
+button:focus:not(:disabled) {
+  color: hsl(var(--brand-primary));
+  background-image: linear-gradient(
+    to right,
+    #e7484f,
+    #e7484f 16.65%,
+    #f68b1d 16.65%,
+    #f68b1d 33.3%,
+    #fced00 33.3%,
+    #fced00 49.95%,
+    #009e4f 49.95%,
+    #009e4f 66.6%,
+    #00aac3 66.6%,
+    #00aac3 83.25%,
+    #732982 83.25%,
+    #732982 100%,
+    #e7484f 100%
+  );
+  animation: slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+}
+
 a.button:not(:disabled):hover:before,
 button:not(:disabled):hover:before {
   transform: scaleY(1);
@@ -202,20 +236,27 @@ button.text-style:before {
 input[type="text"],
 input[type="email"],
 textarea {
-  color: hsl(var(--brand-black));
+  color: hsl(var(--brand-white));
   width: 100%;
   padding: 12px;
-  border: 1px solid hsl(var(--brand-gray-light));
+  border: 4px solid hsl(var(--brand-white));
   border-radius: 0px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background-color: hsl(var(--brand-primary));
 }
 
-input[type="text"]:disabled,
-input[type="email"]:disabled,
-textarea:disabled {
-  opacity: 0.5;
+input[type="text"]:focus-visible,
+input[type="email"]:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: hsl(var(--brand-secondary));
+}
+
+label::after {
+  content: "*";
+  color: hsl(10, 100%, 49%);
 }
 </style>
