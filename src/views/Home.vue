@@ -1,8 +1,9 @@
 <template>
   <header class="home header container">
     <h1 data-aos-once="true" data-aos="fade-right" data-aos-delay="100">
-      WE'VE RESPAWNED!
+      29-31 OCTOBER
     </h1>
+    <h1 class="hollow-text">FALL 2021</h1>
     <p data-aos-once="true" data-aos="fade-left" data-aos-delay="200">
       We're pleased to announce that ITU LAN is returning for the FALL 2021
       semester.
@@ -23,15 +24,7 @@
         data-aos-delay="400"
         asButton
         url="/join"
-        >Join the crew?</Hyperlink
-      >
-      <Hyperlink
-        data-aos-once="true"
-        data-aos="fade-right"
-        data-aos-delay="500"
-        asButton
-        url="/partner"
-        >Become partner</Hyperlink
+        >Buy ticket</Hyperlink
       >
     </div>
   </header>
