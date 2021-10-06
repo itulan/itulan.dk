@@ -58,7 +58,7 @@
           alt="ITU 3rd floor"
           loading="lazy"
         />
-        <img
+        <!-- <img
           width="100%"
           id="floor-2"
           src="../assets/img/tickets/floors/2_floor.png"
@@ -68,7 +68,7 @@
           data-aos-once="true"
           alt="ITU 2nd floor"
           loading="lazy"
-        />
+        /> -->
       </div>
     </div>
     <div class="flex-wrapper">
