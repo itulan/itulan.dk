@@ -30,7 +30,7 @@ const router = new Router({
       name: "buy ticket",
       component: Tickets,
       meta: {
-        title: "ITU LAN - Tickets",
+        title: "Tickets",
         id: "tickets"
       }
     },
@@ -39,7 +39,7 @@ const router = new Router({
     //   name: "news",
     //   component: News,
     //   meta: {
-    //     title: "ITU LAN - News",
+    //     title: "News",
     //     id: "news"
     //   }
     // },
@@ -48,7 +48,7 @@ const router = new Router({
       name: "tournaments",
       component: Tournaments,
       meta: {
-        title: "ITU LAN - Tournaments",
+        title: "Tournaments",
         id: "tournaments"
       }
     },
@@ -57,7 +57,7 @@ const router = new Router({
       name: "faq",
       component: Information,
       meta: {
-        title: "ITU LAN - Information",
+        title: "Information",
         id: "information"
       }
     },
@@ -66,7 +66,7 @@ const router = new Router({
       name: "join the crew",
       component: JoinUs,
       meta: {
-        title: "ITU LAN - Join the Crew",
+        title: "Join the Crew",
         id: "join"
       }
     },
@@ -75,7 +75,7 @@ const router = new Router({
       name: "partner with us",
       component: Partner,
       meta: {
-        title: "ITU LAN - Partner with us",
+        title: "Partner with us",
         id: "partner"
       }
     },
@@ -84,7 +84,7 @@ const router = new Router({
     //   name: "servers",
     //   component: Servers,
     //   meta: {
-    //     title: "ITU LAN - Servers",
+    //     title: "Servers",
     //     id: "server"
     //   }
     // },
@@ -92,7 +92,7 @@ const router = new Router({
       path: "*",
       component: NotFound,
       meta: {
-        title: "ITU LAN - 404"
+        title: "404"
       }
     }
   ]
