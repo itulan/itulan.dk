@@ -6,7 +6,6 @@
         data-aos="fade-left"
         data-aos-delay="400"
         data-aos-duration="1250"
-        message="Buy ticket"
         radius="180px"
         font-size="2rem"
         >{{ $t("tickets.title") }}</TextCircle

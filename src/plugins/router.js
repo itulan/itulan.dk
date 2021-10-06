@@ -4,7 +4,7 @@ import Home from "@/views/Home.vue";
 // import News from "@/views/News.vue";
 import Tournaments from "@/views/Tournaments.vue";
 import Information from "@/views/Information.vue";
-// import Tickets from "@/views/Tickets.vue";
+import Tickets from "@/views/Tickets.vue";
 import JoinUs from "@/views/JoinUs.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
@@ -23,6 +23,15 @@ const router = new Router({
       meta: {
         title: "ITU LAN",
         id: "home"
+      }
+    },
+    {
+      path: "/tickets",
+      name: "buy ticket",
+      component: Tickets,
+      meta: {
+        title: "ITU LAN - Tickets",
+        id: "tickets"
       }
     },
     // {
@@ -79,15 +88,6 @@ const router = new Router({
     //     id: "server"
     //   }
     // },
-    // {
-    //   path: "/tickets",
-    //   name: "buy ticket",
-    //   component: Tickets,
-    //   meta: {
-    //     title: "ITU LAN - Tickets",
-    //     id: "tickets"
-    //   }
-    // },
     {
       path: "*",
       component: NotFound,
@@ -112,10 +112,6 @@ router.beforeEach((to, from, next) => {
     .slice()
     .reverse()
     .find(r => r.meta && r.meta.metaTags);
-  // const previousNearestWithMeta = from.matched
-  //   .slice()
-  //   .reverse()
-  //   .find(r => r.meta && r.meta.metaTags);
 
   // If a route with a title was found, set the document (page) title to that value.
   if (nearestWithTitle) document.title = nearestWithTitle.meta.title;

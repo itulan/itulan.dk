@@ -1,10 +1,5 @@
 <template>
-  <BNavbar
-    v-bind:class="{ open: isMobile && mobileNavOpen }"
-    toggleable="lg"
-    type="dark"
-    variant="info"
-  >
+  <BNavbar v-bind:class="{ open: isMobile && mobileNavOpen }" toggleable="xl">
     <RouterLink class="router-link" to="/" tabindex="1">
       <span @click="closeMenu" class="router-link-home">
         <img
@@ -37,7 +32,7 @@
         <li
           v-for="route in routes"
           :key="route.name"
-          :class="{ desktop: !isMobile }"
+          :class="[isMobile ? 'mobile' : 'desktop']"
           :id="`link-${route.meta.id}`"
         >
           <RouterLink class="router-link" :to="route.path">
@@ -78,19 +73,6 @@
         </BNavItem>
         <BNavItem
           class="some-button"
-          href="https://www.instagram.com/itulan/"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            alt="Instagram logo"
-            src="../assets/img/common/socialmedia/insta_icon.svg"
-            height="25px"
-            loading="lazy"
-          />
-        </BNavItem>
-        <BNavItem
-          class="some-button"
           href="https://www.youtube.com/channel/UCa8UEVBGtOfykw6N9G6db8g"
           target="_blank"
           rel="noopener"
@@ -98,7 +80,7 @@
           <img
             alt="YouTube logo"
             src="../assets/img/common/socialmedia/youtube_icon.png"
-            height="20px"
+            height="18px"
             loading="lazy"
           />
         </BNavItem>
@@ -143,7 +125,7 @@ export default {
   },
   computed: {
     isMobile() {
-      return this.windowWidth < 992;
+      return this.windowWidth < 1200;
     },
     routes() {
       let allRoutes = this.$router.options.routes;
@@ -218,6 +200,29 @@ button {
 
 .router-link-text {
   text-transform: uppercase;
+  position: relative;
+}
+
+.desktop .router-link-text:after,
+.desktop .router-link-text:before {
+  transition: all 0.2s;
+}
+
+/* stroke */
+.desktop .router-link-text:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: hsl(var(--brand-white));
+  height: 2px;
+}
+.desktop .router-link-text:hover:after {
+  width: 100%;
 }
 
 .router-link-home {
@@ -229,31 +234,7 @@ button {
   color: hsl(var(--brand-gray));
 }
 
-#link-tickets.desktop {
-  margin-left: 80px;
-}
-
-#link-tickets.desktop::after {
-  content: "<";
-}
-
-#link-tickets.desktop::before {
-  content: ">";
-}
-
-@media only screen and (max-width: 1126px) {
-  .router-link {
-    margin: 0 1.5rem;
-  }
-}
-
-@media only screen and (max-width: 1030px) {
-  .router-link {
-    margin: 0 1.3rem;
-  }
-}
-
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1200px) {
   .some-buttons {
     flex-direction: initial;
     justify-content: center;

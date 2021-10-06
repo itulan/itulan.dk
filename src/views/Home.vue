@@ -1,41 +1,58 @@
 <template>
   <header class="home header container">
-    <h1 data-aos-once="true" data-aos="fade-right" data-aos-delay="100">
-      29-31 OCTOBER
-    </h1>
-    <h1 class="hollow-text">FALL 2021</h1>
-    <p data-aos-once="true" data-aos="fade-left" data-aos-delay="200">
-      We're pleased to announce that ITU LAN is returning for the FALL 2021
-      semester.
-    </p>
-    <h2
-      data-aos-once="true"
-      data-aos="fade-right"
-      data-aos-delay="300"
-      class="italic"
-    >
-      Stay tuned!
-    </h2>
-
-    <div class="button-container">
-      <Hyperlink
-        data-aos-once="true"
+    <div class="content">
+      <h1 data-aos-once="true" data-aos="fade-right" data-aos-delay="100">
+        29-31 OCTOBER
+      </h1>
+      <h1
         data-aos="fade-left"
-        data-aos-delay="400"
-        asButton
-        url="/join"
-        >Buy ticket</Hyperlink
+        data-aos-delay="150"
+        id="season"
+        class="hollow-text"
       >
+        FALL 2021
+      </h1>
+      <!-- <MainSponsor data-aos="fade-right" data-aos-delay="200" /> -->
+      <div class="button-container">
+        <Hyperlink
+          data-aos-once="true"
+          data-aos="fade-left"
+          data-aos-delay="250"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'tickets' })"
+          >Buy tickets</Hyperlink
+        >
+      </div>
+      <p data-aos-once="true" data-aos="fade-right" data-aos-delay="300">
+        The tickets are here! Grab your friends and secure your tickets before
+        it is too late. If you have any questions, please refer to our
+        <Hyperlink url="/faq">FAQ section</Hyperlink> or reach out to us on our
+        SoMe channels.
+      </p>
+      <p data-aos-once="true" data-aos="fade-left" data-aos-delay="350">
+        Tournamets will be announced soon ...
+      </p>
+      <h2
+        data-aos-once="true"
+        data-aos="fade-right"
+        data-aos-delay="700"
+        class="italic"
+      >
+        GO! GO! GO!
+      </h2>
     </div>
   </header>
 </template>
 
 <script>
-import Hyperlink from "@/components/Hyperlink.vue";
+import Hyperlink from "@/components/Hyperlink";
+// import MainSponsor from "@/components/MainSponsorLogo";
 export default {
   name: "Home",
   components: {
     Hyperlink,
+    // MainSponsor,
   },
 };
 </script>
@@ -61,15 +78,34 @@ export default {
   left: 0;
   height: 100vh;
   width: 100%;
+  background-image: url(../assets/img/home/home_background.jpg);
+  isolation: isolate;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.content {
+  padding-top: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: hsl(0, 0%, 100%);
-  background-image: url(../assets/img/home/home_background.jpg);
-  isolation: isolate;
-  object-fit: cover;
-  background-size: cover;
+}
+
+@media only screen and (max-width: 750px) {
+  .content {
+    padding-top: 4rem;
+  }
+
+  .header {
+    height: initial;
+    align-items: flex-end;
+  }
+}
+
+.content > * {
+  max-width: 800px;
 }
 
 .header::before {
@@ -93,5 +129,9 @@ export default {
   display: block;
   margin: 15px auto;
   width: 100%;
+}
+
+#season {
+  margin-top: 0;
 }
 </style>

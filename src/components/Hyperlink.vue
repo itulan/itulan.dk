@@ -1,5 +1,11 @@
 <template>
-  <a :class="{ button: asButton }" :href="url" :target="target" rel="noopener">
+  <a
+    :class="{ button: asButton, pulse: pulse }"
+    :href="url"
+    :target="target"
+    @click="handleClick"
+    rel="noopener"
+  >
     <slot></slot>
   </a>
 </template> 
@@ -9,7 +15,7 @@ export default {
   props: {
     url: {
       type: String,
-      required: true,
+      required: false,
     },
     newTab: {
       type: Boolean,
@@ -17,6 +23,19 @@ export default {
     },
     asButton: {
       type: Boolean,
+    },
+    pulse: {
+      type: Boolean,
+    },
+    onClick: {
+      type: Function,
+    },
+  },
+  methods: {
+    handleClick() {
+      if (this.onClick) {
+        this.onClick();
+      }
     },
   },
   computed: {
@@ -32,17 +51,20 @@ export default {
 </script>
 
 <style scoped>
+a {
+  cursor: pointer;
+}
+
 .button {
   border: none;
   outline: none;
   color: #fff;
   background: hsl(var(--brand-secondary));
-  cursor: pointer;
   position: relative;
   z-index: 0;
   display: inline-block;
   letter-spacing: 2px;
-  padding: 15px 2.5rem;
+  padding: 17px 2.5rem 15px;
   text-transform: uppercase;
   font-family: Anton, Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
@@ -76,6 +98,37 @@ export default {
 @keyframes slidebg {
   to {
     background-position: 20vw;
+  }
+}
+
+.pulse {
+  box-shadow: 0 0 0 hsl(var(--brand-secondary));
+  animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 hsl(var(--brand-secondary));
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 hsl(var(--brand-secondary));
+    box-shadow: 0 0 0 0 hsl(var(--brand-secondary));
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
   }
 }
 </style>
