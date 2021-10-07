@@ -7,16 +7,16 @@
     <Hyperlink newTab url="https://www.capgemini.com/dk-en/">
       <img
         alt="Capgemini logo"
-        id="logo"
+        class="logo primary"
         src="../assets/img/common/sponsor_logos/capgemini/Capgemini_white.png"
         loading="lazy"
       />
     </Hyperlink>
-    <div class="separator">x</div>
+    <div class="separator">partnered with</div>
     <Hyperlink newTab url="https://www.astralis.gg/">
       <img
         alt="Astralis logo"
-        id="logo"
+        class="logo secondary"
         src="../assets/img/common/sponsor_logos/astralis/Astralis-white.png"
         loading="lazy"
       />
@@ -34,19 +34,30 @@ export default {
 </script>
 
 <style>
-#logo {
-  width: 400px;
+.logo {
   z-index: 10;
 }
 
+.logo.primary {
+  width: 600px;
+}
+
+.logo.secondary {
+  width: 300px;
+}
+
 .separator {
-  font-weight: 800;
-  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 600px) {
-  #logo {
+  .logo.primary {
     width: 100%;
+  }
+
+  .logo.secondary {
+    width: 50%;
   }
 }
 </style>

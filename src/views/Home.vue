@@ -12,7 +12,7 @@
       >
         FALL 2021
       </h1>
-      <!-- <MainSponsor data-aos="fade-right" data-aos-delay="200" /> -->
+      <MainSponsor data-aos="fade-right" data-aos-delay="200" />
       <div class="button-container">
         <Hyperlink
           data-aos-once="true"
@@ -47,12 +47,12 @@
 
 <script>
 import Hyperlink from "@/components/Hyperlink";
-// import MainSponsor from "@/components/MainSponsorLogo";
+import MainSponsor from "@/components/MainSponsorLogo";
 export default {
   name: "Home",
   components: {
     Hyperlink,
-    // MainSponsor,
+    MainSponsor,
   },
 };
 </script>
