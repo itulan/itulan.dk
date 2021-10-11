@@ -47,7 +47,7 @@ export default {
             topic: "Where do I find information about tournaments? ",
             id: "tournaments",
             paragraphs: [
-                "For info or support please contact the tournament responsible, which can be seen on the tournament’s Toornament page, or by writing in the tournament's <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>Discord<a>-channel.",
+                "For info or support please contact the tournament responsible, which can be seen on the tournament’s Toornament page, or by writing in the tournament's <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>Discord</a>-channel.",
                 "Deadlines for sign-up for tournaments and events can be found at the Toornament-page for each tournament. See the <a href='/tournaments'>Tournament</a> page for more info.",
             ],
         },
@@ -87,7 +87,7 @@ export default {
             topic: "Did you say storage?",
             id: "storage",
             paragraphs: [
-                "Yes - there will be storage on both 2nd and 3rd floor in 2A12-14 and 3A12-14.",
+                "Yes - there will be storage on each floor in 2A12-14, 3A12-14, and 4A12-14",
                 "If you need to store or pickup your gear please contact the crew at 4A10, or write @keywarden on <a href='https://discord.gg/nSFXWQN' target='_blank' rel='noopener'>our Discord channel</a>.",
             ],
         },
