@@ -18,7 +18,9 @@ Vue.use(VueToast)
 
 Vue.config.productionTip = false;
 
-AOS.init();
+AOS.init({
+  once: true
+});
 
 new Vue({
   router,

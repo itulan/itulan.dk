@@ -41,7 +41,7 @@
           id="floor-4"
           src="../assets/img/tickets/floors/4_floor.png"
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="100"
           data-aos-anchor="#step-one"
           data-aos-once="true"
           alt="ITU 4th floor"
@@ -52,23 +52,23 @@
           id="floor-3"
           src="../assets/img/tickets/floors/3_floor.png"
           data-aos="fade-up"
-          data-aos-delay="1000"
+          data-aos-delay="200"
           data-aos-anchor="#step-one"
           data-aos-once="true"
           alt="ITU 3rd floor"
           loading="lazy"
         />
-        <!-- <img
+        <img
           width="100%"
           id="floor-2"
           src="../assets/img/tickets/floors/2_floor.png"
           data-aos="fade-up"
-          data-aos-delay="1700"
+          data-aos-delay="300"
           data-aos-anchor="#step-one"
           data-aos-once="true"
           alt="ITU 2nd floor"
           loading="lazy"
-        /> -->
+        />
       </div>
     </div>
     <div class="flex-wrapper">
