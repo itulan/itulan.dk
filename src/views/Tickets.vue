@@ -43,7 +43,6 @@
           data-aos="fade-up"
           data-aos-delay="100"
           data-aos-anchor="#step-one"
-          data-aos-once="true"
           alt="ITU 4th floor"
           loading="lazy"
         />
@@ -54,7 +53,6 @@
           data-aos="fade-up"
           data-aos-delay="200"
           data-aos-anchor="#step-one"
-          data-aos-once="true"
           alt="ITU 3rd floor"
           loading="lazy"
         />
@@ -65,7 +63,6 @@
           data-aos="fade-up"
           data-aos-delay="300"
           data-aos-anchor="#step-one"
-          data-aos-once="true"
           alt="ITU 2nd floor"
           loading="lazy"
         />

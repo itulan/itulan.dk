@@ -1,9 +1,7 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 data-aos-once="true" data-aos="fade-right" data-aos-delay="100">
-        29-31 OCTOBER
-      </h1>
+      <h1 data-aos="fade-right" data-aos-delay="100">29-31 OCTOBER</h1>
       <h1
         data-aos="fade-left"
         data-aos-delay="150"
@@ -15,7 +13,6 @@
       <MainSponsor data-aos="fade-right" data-aos-delay="200" />
       <div class="button-container">
         <Hyperlink
-          data-aos-once="true"
           data-aos="fade-left"
           data-aos-delay="250"
           asButton
@@ -24,21 +21,16 @@
           >Buy tickets</Hyperlink
         >
       </div>
-      <p data-aos-once="true" data-aos="fade-right" data-aos-delay="300">
+      <p data-aos="fade-right" data-aos-delay="300">
         The tickets are here! Grab your friends and secure your tickets before
         it is too late. If you have any questions, please refer to our
         <Hyperlink url="/faq">FAQ section</Hyperlink> or reach out to us on our
         SoMe channels.
       </p>
-      <p data-aos-once="true" data-aos="fade-left" data-aos-delay="350">
+      <p data-aos="fade-left" data-aos-delay="350">
         Tournamets will be announced soon ...
       </p>
-      <h2
-        data-aos-once="true"
-        data-aos="fade-right"
-        data-aos-delay="700"
-        class="italic"
-      >
+      <h2 data-aos="fade-right" data-aos-delay="700" class="italic">
         GO! GO! GO!
       </h2>
     </div>
