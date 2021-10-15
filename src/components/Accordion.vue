@@ -12,13 +12,17 @@
       <hr />
       <div>
         <p
-          v-if="isMobile || tournament.title === 'Escape Room'"
+          class="description"
+          v-if="
+            tournament.description &&
+            (isMobile || tournament.title === 'Escape Room')
+          "
           v-html="tournament.description"
         ></p>
         <iframe
           v-if="tournament.widgetUrl"
           width="100%"
-          height="400px"
+          height="640px"
           :src="tournament.widgetUrl"
           :title="'tournamet-wdiget-' + tournament.title"
         ></iframe>
@@ -57,6 +61,10 @@ export default {
 </script>
 
 <style scoped>
+.description {
+  text-align: left;
+}
+
 .tab-header {
   margin-bottom: 40px;
   display: flex;
