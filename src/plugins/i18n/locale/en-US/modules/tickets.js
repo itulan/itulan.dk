@@ -1,5 +1,5 @@
 export default {
-    title: "Buy Ticket",
+    title: "Buy Tickets",
     steps: {
         findSeat: {
             title: "Find seat",
@@ -8,9 +8,9 @@ export default {
                 "Choose your table and seat number during the booking process. The table number from your booking is final. Ignore any other table numbers than the ones posted on ITU LAN posters on the tables.",
         },
         buyTicket: {
-            title: "Buy Ticket",
+            title: "Buy Tickets",
             stepNumber: "2.",
-            text: "Buy your ticket here",
+            text: "Buy your tickets here",
         },
         checkin: {
             title: "Check-in",

@@ -27,7 +27,7 @@ const router = new Router({
     },
     {
       path: "/tickets",
-      name: "buy ticket",
+      name: "buy tickets",
       component: Tickets,
       meta: {
         title: "Tickets",
