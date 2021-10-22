@@ -14,7 +14,7 @@ export default {
         widgetUrl:
           "https://widget.toornament.com/tournaments/5060860175991955456/?_locale=en_US",
         platform: "PC",
-        description: "",
+        description: "The Rainbow Six: Siege tournament is the ultimate way to show off your tactical prowess, ability to control and assess the chaos, and most of all beating your peers. So assemble 5 of the greatest players you know and sign up for the Rainbow Six: Siege tournament and show everyone else who's boss. A maximum of 16 teams can enter. IMPORTANT! All members of a team needs a valid ITULAN ticket All members of a team needs to be at ITU when participating in a tournament.",
         logoPath: "",
       },
       {
@@ -30,8 +30,8 @@ export default {
         widgetUrl:
           "https://widget.toornament.com/tournaments/5048603289133793280/?_locale=en_US",
         platform: "PC",
-        description: "",
-        logoPath: "",
+        description: "The CS:GO tournament is the best way for you and your team to compete against other dedicated teams. You will have the time of your life beating those n00bs on the other teams. So gather four of your friends and sign up for the ultimate intense heartbreaking mindblowing competition, the ITU LAN CS:GO tournament! #GottaShootEmAll A maximum of 16 teams can enter. IMPORTANT! All members of a team needs a valid ITULAN ticket All members of a team needs to be at ITU when participating in a tournament",
+        logoPath: "capgemini/Capgemini_white.png",
       },
       {
         title: "Valorant",
@@ -39,7 +39,7 @@ export default {
           "https://widget.toornament.com/tournaments/5043373508534665216/?_locale=en_US",
         platform: "PC",
         description: "Valorant tournament in two stages (swiss & single elimination).",
-        logoPath: "",
+        logoPath: "capgemini/Capgemini_white.png",
       },
       {
         title: "Just Dance 2021",
