@@ -65,6 +65,14 @@ export default {
         description: "<p>Once again we are proud to announce the Rocket League Tournament for ITU LAN Fall'21. - We hope you've been training during the lockdown, because we are coming back with a vengeance!</p> <p>Just as the previous tournaments, it will have the format of 2v2 Soccar on PC.</p> <p>Choose your partner wisely and demolition, freestyle, and pinch-ball your way to victory.</p><p>The tournament will be open for a total of 16 participating teams, and will have the structure of an opening group stage followed by double-elimination play-offs. - Registration is on a first-come-first-served principle. Sign up early to secure your spot!</p> <p>The group stage will start on Saturday, 30th of October, 15:00 / 3:00 pm. The tournament is estimated to be contained within a time-frame of 3-4 hours.</p> <p>Remember to read the rules if you sign up!</p>",
         logoPath: "",
       },
+      {
+        title: "League of Legends 5v5",
+        widgetUrl:
+          "https://widget.toornament.com/tournaments/5026035705596960768/?_locale=en_US",
+        platform: "PC",
+        description: 'Now it is time for the League of Legends tournament at ITU-LAN!  The tournament will be a good old fashioned 5v5 matchup on the Summoners Rift! So gather your teams, and summon your strength and strategies, to compete against the enemy teams in the chase after becoming the ITU-LAN League of Legends champions.<br><br>Tournament format<br>4-7 teams: each team will play against every other team (round-robin). The first and second team then will play in a best-of-3 final.<br> 8-12 teams: each team will be assigned to one of 2 groups. The first two teams from each group will advance to a single elimination bracket, where all matches are best-of-3.<br> 13-16 teams: each team will be assigned to one of 4 groups. The first two teams from each group will advance to a single elimination bracket, where quarter- and semi-finals are best-of-1, the final is best-of-3.<br> All ties will be resolved with a best-of-1 tie-breaker game.',
+        logoPath: "",
+      },
     ],
   },
 }
