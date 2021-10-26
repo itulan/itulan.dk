@@ -77,7 +77,7 @@ export default {
 }
 
 .content {
-  padding-top: 8rem;
+  padding-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -90,6 +90,13 @@ export default {
     padding-top: 4rem;
   }
 
+  .header {
+    height: initial;
+    align-items: flex-end;
+  }
+}
+
+@media only screen and (max-height: 850px) {
   .header {
     height: initial;
     align-items: flex-end;

@@ -52,11 +52,11 @@ h3 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 h3 {
@@ -111,7 +111,7 @@ a:hover {
 
 .hollow-text {
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: hsl(var(--brand-white));
 }
 
