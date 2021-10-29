@@ -11,39 +11,18 @@
         FALL 2021
       </h1>
       <MainSponsor data-aos="fade-right" data-aos-delay="200" />
-      <div class="button-container">
-        <Hyperlink
-          data-aos="fade-left"
-          data-aos-delay="250"
-          asButton
-          pulse
-          :onClick="() => $router.push({ path: 'tickets' })"
-          >Buy tickets</Hyperlink
-        >
-      </div>
-      <p data-aos="fade-right" data-aos-delay="300">
-        The tickets are here! Grab your friends and secure your tickets before
-        it is too late. If you have any questions, please refer to our
-        <Hyperlink url="/faq">FAQ section</Hyperlink> or reach out to us on our
-        SoMe channels.
-      </p>
-      <p data-aos="fade-left" data-aos-delay="350">
-        Tournamets will be announced soon ...
-      </p>
-      <h2 data-aos="fade-right" data-aos-delay="700" class="italic">
-        GO! GO! GO!
-      </h2>
+      <h2 class="italic">Check in @ 4A10 FROM 16.00</h2>
     </div>
   </header>
 </template>
 
 <script>
-import Hyperlink from "@/components/Hyperlink";
+// import Hyperlink from "@/components/Hyperlink";
 import MainSponsor from "@/components/MainSponsorLogo";
 export default {
   name: "Home",
   components: {
-    Hyperlink,
+    // Hyperlink,
     MainSponsor,
   },
 };
@@ -74,6 +53,7 @@ export default {
   isolation: isolate;
   object-fit: cover;
   background-size: cover;
+  min-height: 100vh;
 }
 
 .content {
@@ -132,5 +112,8 @@ export default {
 
 #season {
   margin-top: 0;
+}
+h2 {
+  margin-top: 2rem;
 }
 </style>
