@@ -11,7 +11,6 @@
         FALL 2021
       </h1>
       <MainSponsor data-aos="fade-right" data-aos-delay="200" />
-      <h2 class="italic">Check in @ 4A10 FROM 16.00</h2>
     </div>
   </header>
 </template>
