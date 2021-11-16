@@ -1,33 +1,18 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 data-aos="fade-right" data-aos-delay="100">29-31 OCTOBER</h1>
-      <h1
-        data-aos="fade-left"
-        data-aos-delay="150"
-        id="season"
-        class="hollow-text"
-      >
-        FALL 2021
-      </h1>
-      <MainSponsor data-aos="fade-right" data-aos-delay="200" />
+      <h1 class="italic">ITU LAN</h1>
+      <h2 class="hollow-text">See you in 2022</h2>
+      <div id="emoji">🕹</div>
     </div>
   </header>
 </template>
 
 <script>
-// import Hyperlink from "@/components/Hyperlink";
-import MainSponsor from "@/components/MainSponsorLogo";
 export default {
   name: "Home",
-  components: {
-    // Hyperlink,
-    MainSponsor,
-  },
 };
 </script>
-
-
 
 <style scoped>
 * {
@@ -56,7 +41,7 @@ export default {
 }
 
 .content {
-  padding-top: 6rem;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,6 +98,11 @@ export default {
   margin-top: 0;
 }
 h2 {
+  margin-top: 2rem;
+}
+
+#emoji {
+  font-size: 8rem;
   margin-top: 2rem;
 }
 </style>
