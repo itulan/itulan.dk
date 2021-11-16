@@ -7,7 +7,7 @@
 This repository contains the source code for ITU LAN's different web services. The current services include:
 
 - The website: [itulan.dk](https://itulan.dk)
-- Mail forwarding service for applications - [source](https://github.com/svopper/itulan.dk/tree/master/functions)
+- Mail forwarding service for applications - [source](https://github.com/itulan/itulan.dk/tree/master/functions)
 
 ## ▶️ Getting Started
 
@@ -71,7 +71,7 @@ $ npm run deploy
 - **Kasper Olsen** - _Initial work_ - [GitHub](https://github.com/svopper) | [LinkedIn](https://www.linkedin.com/in/olsenkasper/)
 - **Simon Green** - _Maintenance_ - [GitHub](https://github.com/Duckapple)
 
-See also the list of [contributors](https://github.com/svopper/itulan.dk_mailservice/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/itulan/itulan.dk_mailservice/contributors) who participated in this project.
 
 ## 📝 License
 
