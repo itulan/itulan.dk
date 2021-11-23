@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Navbar></Navbar>
-    <RouterView class="router-view" />
+    <main>
+      <RouterView class="router-view" />
+    </main>
     <FooterCustom />
   </div>
 </template>
