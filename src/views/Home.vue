@@ -1,9 +1,16 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 class="italic">ITU LAN</h1>
-      <h2 class="hollow-text">See you in 2022</h2>
-      <div id="emoji">🕹</div>
+      <h1 data-aos="fade-right" data-aos-delay="100">8-10 APRIL</h1>
+      <h1
+        data-aos="fade-left"
+        data-aos-delay="150"
+        id="season"
+        class="hollow-text"
+      >
+        SPRING 2022
+      </h1>
+      <i>Stay tuned ...</i>
     </div>
   </header>
 </template>
