@@ -71,24 +71,10 @@
             loading="lazy"
           />
         </BNavItem>
-        <BNavItem
-          class="some-button"
-          href="https://www.youtube.com/channel/UCa8UEVBGtOfykw6N9G6db8g"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            alt="YouTube logo"
-            src="../assets/img/common/socialmedia/youtube_icon.png"
-            height="18px"
-            loading="lazy"
-          />
-        </BNavItem>
       </BNavbarNav>
     </BCollapse>
   </BNavbar>
 </template>
-
 
 <script>
 import { BNavbar, BCollapse, BNavbarNav, BNavItem } from "bootstrap-vue";
@@ -136,7 +122,6 @@ export default {
   },
 };
 </script>
-
 
 <style scoped>
 .navbar {
