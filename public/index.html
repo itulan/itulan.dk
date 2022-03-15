@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>ITU LAN</title>
+    <meta name="title" content="ITU LAN" />
+    <meta
+      name="description"
+      content="ITU LAN is a biannual LAN event hosted at the IT University of Copenhagen."
+    />
 
-<head>
-  <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>ITU LAN</title>
-  <meta name="title" content="ITU LAN" />
-  <meta name="description" content="ITU LAN is a biannual LAN event hosted at the IT University of Copenhagen." />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://itulan.dk/" />
+    <meta property="og:title" content="ITU LAN" />
+    <meta
+      property="og:description"
+      content="ITU LAN is an biannual LAN event hosted at the IT University of Copenhagen."
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://itulan.dk/web_thumbnail.jpeg" />
+    <meta property="og:logo" content="https://itulan.dk/logo.png" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://itulan.dk/" />
-  <meta property="og:title" content="ITU LAN" />
-  <meta property="og:description"
-    content="ITU LAN is an biannual LAN event hosted at the IT University of Copenhagen." />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:image" content="https://itulan.dk/web_thumbnail.jpeg" />
-  <meta property="og:logo" content="https://itulan.dk/logo.png" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@ITULAN_DK" />
+    <meta property="twitter:url" content="https://itulan.dk/" />
+    <meta property="twitter:title" content="ITU LAN" />
+    <meta
+      property="twitter:description"
+      content="ITU LAN is an biannual LAN event hosted at the IT University of Copenhagen."
+    />
+    <meta
+      property="twitter:image"
+      content="https://itulan.dk/web_thumbnail.jpeg"
+    />
+  </head>
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:site" content="@ITULAN_DK" />
-  <meta property="twitter:url" content="https://itulan.dk/" />
-  <meta property="twitter:title" content="ITU LAN" />
-  <meta property="twitter:description"
-    content="ITU LAN is an biannual LAN event hosted at the IT University of Copenhagen." />
-  <meta property="twitter:image" content="https://itulan.dk/web_thumbnail.jpeg" />
-</head>
-
-<body>
-  <noscript>
-    <strong>We're sorry but itulan.dk doesn't work properly without JavaScript
-      enabled. Please enable it to continue.</strong>
-  </noscript>
-  <div id="app"></div>
-</body>
-
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but itulan.dk doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/@ticketbutler/event-embedder@latest/dist/index.js"
+    ></script>
+  </body>
 </html>
