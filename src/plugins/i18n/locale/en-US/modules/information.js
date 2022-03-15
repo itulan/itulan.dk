@@ -6,7 +6,7 @@ export default {
             topic: "Where and when is the LAN?",
             id: "where",
             paragraphs: [
-                "ITU LAN Fall 2021 takes place from October 29th to October 31st at the IT University of Copenhagen."
+                "ITU LAN Spring 2022 takes place from April 8th to April 10th at the IT University of Copenhagen."
                 // "Stay tuned for announcement of the next LAN.",
             ],
         },
@@ -14,16 +14,16 @@ export default {
             topic: "How do I get in?",
             id: "getting-in",
             paragraphs: [
-                "You can get in through the various entrances in the building. We’ve coordinated with facilities management, that you can get in with either a valid student ID or with an ITU LAN ticket. Please have it ready upon entry.",
-                "You get your wristband to use for access at the organizer area (4A10 – 4th floor above Analog)",
+                "You can get in through the various entrances in the building. We've coordinated with facilities management, that you can get in with either a valid student ID or with an ITU LAN ticket. Please have it ready upon entry.",
+                "You get your wristband to use for access at the checkin area (1st floor).",
             ],
         },
         {
             topic: "Where can I park my car?",
             id: "parking",
             paragraphs: [
-                "There’s a parking lot on the east side of ITU. If you’re affiliated with ITU, you can get a parking permit at the information desk by the main entrance. You have to pay a deposit of 300 DKK for the permit and you should get it before arriving at LAN.",
-                "If you’re not affiliated with ITU, you can use the parking meter at the parking lot, or find another place to park. ITU LAN is not taking any responsibility for any parking charges.",
+                "There's a parking lot on the east side of ITU. If you're affiliated with ITU, you can get a parking permit at the information desk by the main entrance. You have to pay a deposit of 300 DKK for the permit and you should get it before arriving at LAN.",
+                "If you're not affiliated with ITU, you can use the parking meter at the parking lot, or find another place to park. ITU LAN is not taking any responsibility for any parking charges.",
             ],
         },
         {
@@ -32,8 +32,8 @@ export default {
             paragraphs: [
                 "Before LAN, the best way to contact us if you have any questions related to LAN is through our Facebook page, which you can find <a target='_blank' rel='noopener' href='https://www.facebook.com/itulan'>here<a>.",
                 "The ITU LAN Facebook page will also post status updates throughout the weekend, and we recommend that you follow it for your information needs.",
-                "During the LAN, the primary platform for contact is our Discord server – join it <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>here</a>! Here you can contact us directly, ask game- or event-specific questions, and get updates on the different tournaments.",
-                "If you need in-person help during the LAN, swing by the crew area at 4A10 (4th floor in the corner above Analog).",
+                "During the LAN, the primary platform for contact is our Discord server - join it <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>here</a>! Here you can contact us directly, ask game- or event-specific questions, and get updates on the different tournaments.",
+                "If you need in-person help during the LAN, swing by the checkin area (1st floor) or the crew area at 4A10 (4th floor in the corner above Analog).",
             ],
         },
         {
@@ -47,7 +47,7 @@ export default {
             topic: "Where do I find information about tournaments? ",
             id: "tournaments",
             paragraphs: [
-                "For info or support please contact the tournament responsible, which can be seen on the tournament’s Toornament page, or by writing in the tournament's <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>Discord</a>-channel.",
+                "For info or support please contact the tournament responsible, which can be seen on the tournament's Toornament page, or by writing in the tournament's <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>Discord</a>-channel.",
                 "Deadlines for sign-up for tournaments and events can be found at the Toornament-page for each tournament. See the <a href='/tournaments'>Tournament</a> page for more info.",
             ],
         },
@@ -88,7 +88,7 @@ export default {
             id: "storage",
             paragraphs: [
                 "Yes - there will be storage on each floor in 2A12-14, 3A12-14, and 4A12-14",
-                "If you need to store or pickup your gear please contact the crew at 4A10, or write @keywarden on <a href='https://discord.gg/nSFXWQN' target='_blank' rel='noopener'>our Discord channel</a>.",
+                "If you need to store or pickup your gear please contact the crew at the checkin area (1st floor) or at the 4A10, or write @keywarden on <a href='https://discord.gg/nSFXWQN' target='_blank' rel='noopener'>our Discord channel</a>.",
             ],
         },
     ],
