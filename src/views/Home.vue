@@ -10,14 +10,35 @@
       >
         SPRING 2022
       </h1>
-      <i>Stay tuned ...</i>
+      <div class="button-container">
+        <Hyperlink
+          data-aos="fade-left"
+          data-aos-delay="250"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'tickets' })"
+          >Buy tickets</Hyperlink
+        >
+        <Hyperlink
+          data-aos="fade-left"
+          data-aos-delay="350"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'tournaments' })"
+          >Tournaments</Hyperlink
+        >
+      </div>
     </div>
   </header>
 </template>
 
 <script>
+import Hyperlink from "@/components/Hyperlink";
 export default {
   name: "Home",
+  components: {
+    Hyperlink,
+  },
 };
 </script>
 

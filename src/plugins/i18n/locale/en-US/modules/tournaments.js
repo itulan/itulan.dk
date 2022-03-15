@@ -10,67 +10,59 @@ export default {
     platformLabel: "Platform: ",
     tournaments: [
       {
-        title: "Rainbow Six: Siege",
+        title: "Randourment",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/5060860175991955456/?_locale=en_US",
+          "https://widget.toornament.com/tournaments/5474694281440600064/?_locale=en_US",
         platform: "PC",
-        description: "The Rainbow Six: Siege tournament is the ultimate way to show off your tactical prowess, ability to control and assess the chaos, and most of all beating your peers. So assemble 5 of the greatest players you know and sign up for the Rainbow Six: Siege tournament and show everyone else who's boss. A maximum of 16 teams can enter. IMPORTANT! All members of a team needs a valid ITULAN ticket All members of a team needs to be at ITU when participating in a tournament.",
+        description: "Prepare yourself for our next customized expereience - Randourment!! A tournament where you not only get to test out your skills in one diciplin, but several diciplins ranging from gaming to non-gaming contests! The way Randourment works is that the diciplins you will compete in is going to be revealed throughout the friday, where you guys have time to download and prepare the games for saturdays games. During saturday we will go throuh each diciplin where you guys can prove your worth in each of them. Wanna show that you are super duper awesome? then join the Randourment and make your opponents seems like noobs! And proove you can be the best at beeing random!",
         logoPath: "",
       },
       {
-        title: "Warcraft 3 - Warlock",
+        title: "Mario Kart 8 Deluxe",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/5060789386240106496/?_locale=en_US",
-        platform: "PC",
-        description: "<p>\"Warlock, or Warlock Brawl, is a game concept that has had incarnations spanning multiple platforms. Its most well known is the Warcraft III map, a mod for the 2003 Blizzard game.\" - Warlockbrawl.com.</p><p>It's time for the third ever ITU LAN hosted 'original' battle royale!</p> <p>In Warlock, up to 12 spell-slingers duke it out in an ever-shrinking arena, expanding their repertoire of spells with each round.</p>",
-        logoPath: "",
-      },
-      {
-        title: "CS:GO",
-        widgetUrl:
-          "https://widget.toornament.com/tournaments/5048603289133793280/?_locale=en_US",
-        platform: "PC",
-        description: "The CS:GO tournament is the best way for you and your team to compete against other dedicated teams. You will have the time of your life beating those n00bs on the other teams. So gather four of your friends and sign up for the ultimate intense heartbreaking mindblowing competition, the ITU LAN CS:GO tournament! #GottaShootEmAll A maximum of 16 teams can enter. IMPORTANT! All members of a team needs a valid ITULAN ticket All members of a team needs to be at ITU when participating in a tournament",
-        logoPath: "capgemini/Capgemini_white.png",
-      },
-      {
-        title: "Valorant",
-        widgetUrl:
-          "https://widget.toornament.com/tournaments/5043373508534665216/?_locale=en_US",
-        platform: "PC",
-        description: "Valorant tournament in two stages (swiss & single elimination).",
-        logoPath: "capgemini/Capgemini_white.png",
-      },
-      {
-        title: "Just Dance 2021",
-        widgetUrl:
-          "https://widget.toornament.com/tournaments/5037085980013715456/?_locale=en_US",
+          "https://widget.toornament.com/tournaments/5472694329367420928/?_locale=en_US",
         platform: "Nintendo Switch",
-        description: "<p>Do you like to dance?<br>Do you like to have fun??<br>Do you like to win awesome prizes???<br></p><p>If you can answer \"yes\" to all the questions above, then you need to join ITU LAN's JUST DANCE 2021 TOURNAMENT! You don't need any previous dance experience. Come as you are :-)</p><p>The tournament starts at 13:00 the 30/10/2021. Place is to be announced. If you have any questions, contact us :D</p>",
+        description: "TBA",
         logoPath: "",
       },
       {
-        title: "Doubles Super Smash Bros: Ultimate Tournament",
+        title: "Super Smash Bros",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/5026078647888166912/?_locale=en_US",
+          "https://widget.toornament.com/tournaments/5472690415041945600/?_locale=en_US",
         platform: "Nintendo Switch",
-        description: "<p>This Super Smash Bros. Ultimate Doubles tournament is a big event with up to 16 teams battling it out for the Ultimate glory!</p> <p>Join us in the Console Corner on the 1st floor for this Ultimate tournament, come spectate or participate in the event as a team for 16 teams will (hopefully) battle it out for the prizes with the finals being held in an Auditorium for the Ultimate finisher.</p> <p>The stage list will be the standard tournament legal stages and will be reiterated at the start of the event.</p>",
+        description: "Super Smash Bros are returning for this years LAN, and again we're hosting a tournament!",
+        logoPath: "",
+      },
+      {
+        title: "Tekken 7",
+        widgetUrl:
+          "https://widget.toornament.com/tournaments/5472666588207128576/?_locale=en_US",
+        platform: "Nintendo Switch",
+        description: "TBA",
+        logoPath: "",
+      },
+      {
+        title: "Europa Universalis IV",
+        widgetUrl:
+          "https://widget.toornament.com/tournaments/5472565344494919680/?_locale=en_US",
+        platform: "PC",
+        description: "TBA",
+        logoPath: "",
+      },
+      {
+        title: "Just Dance 2022",
+        widgetUrl:
+          "https://widget.toornament.com/tournaments/5472537729029554176/?_locale=en_US",
+        platform: "Nintendo Switch",
+        description: "Do you like to dance? Do you like to have fun?? Do you like to win awesome prizes??? If you can answer \"yes\" to all the questions above, then you need to join ITU LAN's JUST DANCE 2022 TOURNAMENT! You don't need any previous dance experience. Come as you are :-)",
         logoPath: "",
       },
       {
         title: "Rocket League 2v2",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/4959427375559843840/?_locale=en_US",
+          "https://widget.toornament.com/tournaments/5472520437347909632/?_locale=en_US",
         platform: "PC",
-        description: "<p>Once again we are proud to announce the Rocket League Tournament for ITU LAN Fall'21. - We hope you've been training during the lockdown, because we are coming back with a vengeance!</p> <p>Just as the previous tournaments, it will have the format of 2v2 Soccar on PC.</p> <p>Choose your partner wisely and demolition, freestyle, and pinch-ball your way to victory.</p><p>The tournament will be open for a total of 16 participating teams, and will have the structure of an opening group stage followed by double-elimination play-offs. - Registration is on a first-come-first-served principle. Sign up early to secure your spot!</p> <p>The group stage will start on Saturday, 30th of October, 15:00 / 3:00 pm. The tournament is estimated to be contained within a time-frame of 3-4 hours.</p> <p>Remember to read the rules if you sign up!</p>",
-        logoPath: "",
-      },
-      {
-        title: "League of Legends 5v5",
-        widgetUrl:
-          "https://widget.toornament.com/tournaments/5026035705596960768/?_locale=en_US",
-        platform: "PC",
-        description: 'Now it is time for the League of Legends tournament at ITU-LAN!  The tournament will be a good old fashioned 5v5 matchup on the Summoners Rift! So gather your teams, and summon your strength and strategies, to compete against the enemy teams in the chase after becoming the ITU-LAN League of Legends champions.<br><br>Tournament format<br>4-7 teams: each team will play against every other team (round-robin). The first and second team then will play in a best-of-3 final.<br> 8-12 teams: each team will be assigned to one of 2 groups. The first two teams from each group will advance to a single elimination bracket, where all matches are best-of-3.<br> 13-16 teams: each team will be assigned to one of 4 groups. The first two teams from each group will advance to a single elimination bracket, where quarter- and semi-finals are best-of-1, the final is best-of-3.<br> All ties will be resolved with a best-of-1 tie-breaker game.',
+        description: "Once again we are proud to announce the Rocket League Tournament for ITU LAN Spring'22. Just as the previous tournaments, it will have the format of 2v2 Soccar on PC. Choose your partner wisely and demolition, freestyle, and pinch-ball your way to victory.",
         logoPath: "",
       },
     ],

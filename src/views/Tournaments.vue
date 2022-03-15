@@ -39,9 +39,9 @@ export default {
   mounted() {
     this.test = Boolean(this.$route.query.test);
   },
-  computed: {
+  computed: { 
     isPublic() {
-      return false; // TODO Set to proper announcement date when known
+      return true; // TODO Set to proper announcement date when known
     },
     tournaments() {
       let tournaments = this.$t("tournaments.tournamentCards.tournaments");
