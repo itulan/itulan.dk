@@ -8,7 +8,7 @@
         id="season"
         class="hollow-text"
       >
-        SPRING 2022
+        .SPRING 2022.
       </h1>
       <div class="button-container">
         <Hyperlink
