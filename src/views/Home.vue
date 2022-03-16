@@ -120,7 +120,7 @@ export default {
   flex-direction: row;
 }
 
-@media only screen and (max-height: 600px) {
+@media only screen and (max-width: 600px) {
   .button-container {
     flex-direction: column;
   }
