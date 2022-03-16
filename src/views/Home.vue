@@ -10,6 +10,7 @@
       >
         SPRING 2022
       </h1>
+      <Sponsors></Sponsors>
       <div class="button-container">
         <Hyperlink
           data-aos="fade-left"
@@ -34,10 +35,12 @@
 
 <script>
 import Hyperlink from "@/components/Hyperlink";
+import Sponsors from "@/components/Sponsors";
 export default {
   name: "Home",
   components: {
     Hyperlink,
+    Sponsors,
   },
 };
 </script>
@@ -113,6 +116,14 @@ export default {
 
 .button-container {
   margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-height: 600px) {
+  .button-container {
+    flex-direction: column;
+  }
 }
 
 .button-container > button,
@@ -120,6 +131,7 @@ export default {
   display: block;
   margin: 15px auto;
   width: 100%;
+  margin: 1rem;
 }
 
 #season {
