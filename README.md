@@ -45,7 +45,7 @@ Build files will be placed in `./dist`.
 $ npm run build
 ```
 
-To serve static build files, I recommend using [serve](https://github.com/vercel/serve#readme).
+To check that everything is ok, serve static build files using [serve](https://github.com/vercel/serve#readme) is recommended.
 
 ```bash
 $ serve dist
