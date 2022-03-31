@@ -1,6 +1,5 @@
 # 🕹 ITU LAN Services
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)
 
 > ITU LAN is a student driven organization at the [IT University of Copenhagen](https://en.itu.dk/). ITU LAN is responsible for organizing and hosting the biannual LAN event at the IT University.
 
@@ -15,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### 🧰 Prerequisites
 
-The user should have installed the following:
+You should have installed the following:
 
 - [Node.js](https://nodejs.org/en/)
 - [Vue CLI](https://cli.vuejs.org/)
