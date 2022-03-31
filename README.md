@@ -69,9 +69,8 @@ $ npm run deploy
 ## 🖋 Authors
 
 - **Kasper Olsen** - _Initial work_ - [GitHub](https://github.com/svopper) | [LinkedIn](https://www.linkedin.com/in/olsenkasper/)
-- **Simon Green** - _Maintenance_ - [GitHub](https://github.com/Duckapple)
 
-See also the list of [contributors](https://github.com/itulan/itulan.dk_mailservice/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/itulan/itulan.dk/graphs/contributors) who participated in this project.
 
 ## 📝 License
 
