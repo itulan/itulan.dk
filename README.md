@@ -1,4 +1,5 @@
 # 🕹 ITU LAN Services
+[![Deploy to Firebase Hosting](https://github.com/itulan/itulan.dk/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/itulan/itulan.dk/actions/workflows/firebase-hosting-merge.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > ITU LAN is a student driven organization at the [IT University of Copenhagen](https://en.itu.dk/). ITU LAN is responsible for organizing and hosting the biannual LAN event at the IT University.
