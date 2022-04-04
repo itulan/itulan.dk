@@ -65,12 +65,12 @@ export default {
         description: "Once again we are proud to announce the Rocket League Tournament for ITU LAN Spring'22. Just as the previous tournaments, it will have the format of 2v2 Soccar on PC. Choose your partner wisely and demolition, freestyle, and pinch-ball your way to victory.",
         logoPath: "",
       },
-      {
-        title: "Escape Room",
-        platform: "IRL",
-        description: "Escape Room returns to ITU LAN! In collaboration with Connect, we have arranged a killer Esacape Room experience. Sign up <a href='#'>here</a> ASAP - few spots available! ",
-        logoPath: "",
-      },
+      // {
+      //   title: "Escape Room",
+      //   platform: "IRL",
+      //   description: "Escape Room returns to ITU LAN! In collaboration with Connect, we have arranged a killer Esacape Room experience. Sign up <a href='#'>here</a> ASAP - few spots available! ",
+      //   logoPath: "",
+      // },
     ],
   },
 }
