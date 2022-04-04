@@ -7,7 +7,7 @@
 This repository contains the source code for ITU LAN's different web services. The current services include:
 
 - The website: [itulan.dk](https://itulan.dk)
-- Mail forwarding service for applications - [source](https://github.com/itulan/itulan.dk/tree/master/functions)
+- Mail forwarding service for applications - [source](https://github.com/itulan/itulan.dk/tree/main/functions)
 
 ## ▶️ Getting Started
 
@@ -55,7 +55,7 @@ $ serve dist
 
 Deployment can be done in two different ways.
 
-1. Push code to master and GitHub Actions will build and deploy the code to Google Firebase.
+1. Push code to main and GitHub Actions will build and deploy the code to Google Firebase.
 2. Deploy to Google Firebase by running the following command:
 
 ```bash
