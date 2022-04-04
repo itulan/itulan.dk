@@ -68,7 +68,7 @@ export default {
       {
         title: "Escape Room",
         platform: "IRL",
-        description: "Escape Room will return for ITU LAN Spring 22! Invite your friends (4-6 people per group) for the heist of your lives! A prestigious private collection is being shown off at ITU, but a tip has informed you that by the end of night everything will be sold off. Can you and your team steal, get away with and save the most beautiful painting of them all? Sign up <a href='https://doodle.com/meeting/participate/id/NbWZ0Ega/vote'>here</a> ASAP - few spots available!",
+        description: "Escape Room will return for ITU LAN Spring 22! Invite your friends (4-6 people per group) for the heist of your lives! A prestigious private collection is being shown off at ITU, but a tip has informed you that by the end of night everything will be sold off. Can you and your team steal, get away with and save the most beautiful painting of them all? Sign up <a target=\"_blank\" href='https://doodle.com/meeting/participate/id/NbWZ0Ega/vote'>here</a> ASAP - few spots available!",
         logoPath: "",
       },
     ],
