@@ -10,6 +10,7 @@
       >
         SPRING 2022
       </h1>
+      <small>Check-in opens 10 APR 16.00.</small>
       <Sponsors></Sponsors>
       <div class="button-container">
         <Hyperlink

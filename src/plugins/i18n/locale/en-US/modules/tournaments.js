@@ -1,7 +1,7 @@
 export default {
   title: "Tournaments",
   description:
-    "ITU LAN is hosting several tournaments during the weekend, and here you can see an overview over the tournaments and event. Are you up for the challenge?",
+    "ITU LAN is hosting several tournaments and events during the weekend, and here you can see an overview over the tournaments and event. Are you up for the challenge?",
   notPublic: "Tournaments to be announced...",
   clickAndRegister: "Click and register",
   by: "powered by",
@@ -63,6 +63,12 @@ export default {
           "https://widget.toornament.com/tournaments/5472520437347909632/?_locale=en_US",
         platform: "PC",
         description: "Once again we are proud to announce the Rocket League Tournament for ITU LAN Spring'22. Just as the previous tournaments, it will have the format of 2v2 Soccar on PC. Choose your partner wisely and demolition, freestyle, and pinch-ball your way to victory.",
+        logoPath: "",
+      },
+      {
+        title: "Escape Room",
+        platform: "IRL",
+        description: "Escape Room returns to ITU LAN! In collaboration with Connect, we have arranged a killer Esacape Room experience. Sign up <a href='#'>here</a> ASAP - few spots available! ",
         logoPath: "",
       },
     ],
