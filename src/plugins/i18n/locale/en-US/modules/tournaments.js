@@ -71,6 +71,14 @@ export default {
         description: "Escape Room will return for ITU LAN Spring 22! Invite your friends (4-6 people per group) for the heist of your lives! A prestigious private collection is being shown off at ITU, but a tip has informed you that by the end of night everything will be sold off. Can you and your team steal, get away with and save the most beautiful painting of them all? Sign up <a target=\"_blank\" href='https://doodle.com/meeting/participate/id/NbWZ0Ega/vote'>here</a> ASAP - few spots available!",
         logoPath: "",
       },
+      {
+        title: "Counter Strike: Global Offensive",
+        widgetUrl:
+          "https://widget.toornament.com/tournaments/5565166619507105792/?_locale=en_US",
+        platform: "PC",
+        description: "The CS:GO tournament is the best way for you and your team to compete against other dedicated teams. You will have the time of your life beating those n00bs on the other teams. So gather four of your friends and sign up for the ultimate intense heartbreaking mindblowing competition, the ITU LAN CS:GO tournament! #GottaShootEmAll",
+        logoPath: "",
+      },
     ],
   },
 }
