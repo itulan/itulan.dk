@@ -1,5 +1,5 @@
 <template>
-  <div id="schedule">
+  <div id="schedule" style="max-width: 1200px">
       <h1 class="title" data-aos="fade-up">Schedule</h1>
       <schedule></schedule>
   </div>
