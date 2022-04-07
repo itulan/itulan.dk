@@ -14,7 +14,7 @@
       <Sponsors></Sponsors>
       <div class="button-container">
         <Hyperlink
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
@@ -22,7 +22,7 @@
           >Buy tickets</Hyperlink
         >
         <Hyperlink
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-delay="350"
           asButton
           pulse
@@ -30,7 +30,7 @@
           >Tournaments</Hyperlink
         >
         <Hyperlink
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-delay="450"
           asButton
           pulse
@@ -139,7 +139,6 @@ export default {
 .button-container > a {
   display: block;
   margin: 15px auto;
-  /* width: 100%; */
   margin: 1rem;
 }
 
