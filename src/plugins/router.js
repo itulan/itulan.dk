@@ -8,6 +8,7 @@ import Tickets from "@/views/Tickets.vue";
 import JoinUs from "@/views/JoinUs.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
+import Schedule from "@/views/Schedule.vue";
 // import Servers from "@/views/Servers.vue";
 
 Vue.use(Router);
@@ -32,6 +33,15 @@ const router = new Router({
       meta: {
         title: "Tickets",
         id: "tickets"
+      }
+    },
+    {
+      path: "/schedule",
+      name: "schedule",
+      component: Schedule,
+      meta: {
+        title: "Schedule",
+        id: "Schedule"
       }
     },
     // {

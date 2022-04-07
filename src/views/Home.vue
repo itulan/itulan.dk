@@ -29,6 +29,14 @@
           :onClick="() => $router.push({ path: 'tournaments' })"
           >Tournaments</Hyperlink
         >
+        <Hyperlink
+          data-aos="fade-left"
+          data-aos-delay="450"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'schedule' })"
+          >Schedule</Hyperlink
+        >
       </div>
     </div>
   </header>
@@ -131,7 +139,7 @@ export default {
 .button-container > a {
   display: block;
   margin: 15px auto;
-  width: 100%;
+  /* width: 100%; */
   margin: 1rem;
 }
 
@@ -145,5 +153,5 @@ h2 {
 #emoji {
   font-size: 8rem;
   margin-top: 2rem;
-}
+} 
 </style>

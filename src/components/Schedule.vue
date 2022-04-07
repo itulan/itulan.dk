@@ -10,17 +10,12 @@
           <span>Check-in</span>
         </div>
         <div>
-          <span class="time">18.00</span>
-          <span>CS:GO</span>
-          <small>by EPICO NextGen</small>
+          <span class="time">19.00</span>
+          <span>Europa Universalis IV</span>
         </div>
         <div>
           <span class="time">20.00</span>
-          <span>Warcraft 3 Warlock</span>
-        </div>
-        <div>
-          <span class="time">22.00</span>
-          <span>Hearthstone</span>
+          <span>Tekken 7</span>
         </div>
       </div>
     </div>
@@ -31,45 +26,35 @@
       <div class="flex schedule">
         <div>
           <span class="time">10.00</span>
-          <span>Escape Room + MTG Draft</span>
+          <span>Escape Room</span>
         </div>
         <div>
-          <span class="time">11.00</span>
-          <span>Overwatch</span>
-          <small>by Milestone</small>
+          <span class="time">13.00</span>
+          <span>Just Dance 2022</span>
         </div>
         <div>
-          <span class="time">12.00</span>
-          <span>CS:GO Danger Zone</span>
-          <small>by Sennheiser</small>
+          <span class="time">14.00</span>
+          <span>Randourment</span>
         </div>
         <div>
           <span class="time">15.00</span>
           <span>Rocket League</span>
-          <small>by IDA</small>
         </div>
         <div>
           <span class="time">16.00</span>
-          <span>WOW: Modem Run</span>
-        </div>
-        <div>
-          <span class="time">17.00</span>
           <span>Mario Kart 8</span>
-          <small>by KMD</small>
-        </div>
-        <div>
-          <span class="time">18.00</span>
-          <span>Hearthstone</span>
         </div>
         <div>
           <span class="time">19.00</span>
-          <span>Smash Bros. Ultimate</span>
-          <small>by KMD</small>
+          <span>Europa Universalis IV</span>
+        </div>
+        <div>
+          <span class="time">20.00</span>
+          <span>Smash Bros</span>
         </div>
         <div>
           <span class="time">21.00</span>
-          <span>CS:GO Finals</span>
-          <small>by EPICO NextGen</small>
+          <span>Sponsor quiz</span>
         </div>
       </div>
     </div>

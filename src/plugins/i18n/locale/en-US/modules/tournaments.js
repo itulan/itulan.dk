@@ -22,7 +22,7 @@ export default {
         widgetUrl:
           "https://widget.toornament.com/tournaments/5472694329367420928/?_locale=en_US",
         platform: "Nintendo Switch",
-        description: "TBA",
+        description: "Once again, we start our engines for another Mario Kart tournament! The game is the same as last time: Mario Kart 8 Deluxe, random stage cups, all items! Come along, blue shell your way to the top and claim victory! (Disclaimer: We cannot guarantee that your victory will not cost a friendship or two, this is Mario Kart, after all)",
         logoPath: "",
       },
       {
@@ -37,8 +37,8 @@ export default {
         title: "Tekken 7",
         widgetUrl:
           "https://widget.toornament.com/tournaments/5472666588207128576/?_locale=en_US",
-        platform: "Nintendo Switch",
-        description: "TBA",
+        platform: "PC",
+        description: "ITU LAN is calling fighters of all levels for the Tekken 7 tournament! Will you rise to the challenge in this 1v1 tournament and claim the title of champion? on friday the 8th, at 20:00 we will find our champion!",
         logoPath: "",
       },
       {
@@ -46,7 +46,7 @@ export default {
         widgetUrl:
           "https://widget.toornament.com/tournaments/5472565344494919680/?_locale=en_US",
         platform: "PC",
-        description: "TBA",
+        description: "Are you looking to scratch your strategy itch? Well then luckily for you, ITU LAN is hosting an EU4 game as part of this semesters event. The game will be played over the course of two 4-hour sessions: one on Friday, and one on Saturday. Both session last from 7pm until 11pm. Countries are handed out on a first come, first served-basis, and you can play as any European or Mediterranean country below 150 development. Alliances are allowed, so feel free to bring a friend, as is multiple people playing as one country. Just try to keep things interesting.",
         logoPath: "",
       },
       {
