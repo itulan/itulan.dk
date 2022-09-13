@@ -1,0 +1,41 @@
+<header class="home header container">
+    <div class="content">
+      <h1 data-aos="fade-right" data-aos-delay="100">8-10 APRIL</h1>
+      <h1
+        data-aos="fade-left"
+        data-aos-delay="150"
+        id="season"
+        class="hollow-text"
+      >
+        SPRING 2022
+      </h1>
+      <small>Check-in opens 8 APR 16.00.</small>
+      <Sponsors></Sponsors>
+      <div class="button-container">
+        <Hyperlink
+          data-aos="fade-down"
+          data-aos-delay="250"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'tickets' })"
+          >Buy tickets</Hyperlink
+        >
+        <Hyperlink
+          data-aos="fade-down"
+          data-aos-delay="350"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'tournaments' })"
+          >Tournaments</Hyperlink
+        >
+        <Hyperlink
+          data-aos="fade-down"
+          data-aos-delay="450"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'schedule' })"
+          >Schedule</Hyperlink
+        >
+      </div>
+    </div>
+  </header>
