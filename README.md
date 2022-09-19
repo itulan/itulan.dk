@@ -2,12 +2,12 @@
 [![Deploy to Firebase Hosting](https://github.com/itulan/itulan.dk/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/itulan/itulan.dk/actions/workflows/firebase-hosting-merge.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> ITU LAN is a student driven organization at the [IT University of Copenhagen](https://en.itu.dk/). ITU LAN is responsible for organizing and hosting the biannual LAN event at the IT University.
+> ITU LAN is a student driven organization at the [IT University of Copenhagen](https://en.itu.dk/). ITU LAN is responsible for organizing and hosting the biannual LAN event at the IT University of Copenhagen.
 
 This repository contains the source code for ITU LAN's different web services. The current services include:
 
 - The website: [itulan.dk](https://itulan.dk)
-- Mail forwarding service for applications - [source](https://github.com/itulan/itulan.dk/tree/main/functions)
+- Mail forwarding service for applications - [source](https://github.com/itulan/itulan.dk/tree/main/functions) (DEPRECATED)
 
 ## ▶️ Getting Started
 
@@ -19,7 +19,7 @@ You should have installed the following:
 
 - [Node.js](https://nodejs.org/en/)
 - [Vue CLI](https://cli.vuejs.org/)
-- [Firebase CLI](https://firebase.google.com/docs/cli)
+- [Firebase CLI](https://firebase.google.com/docs/cli) (Only required if deploying from local machine.)
 
 ## Setup
 
@@ -45,7 +45,7 @@ Build files will be placed in `./dist`.
 $ npm run build
 ```
 
-To check that everything is ok, serve static build files using [serve](https://github.com/vercel/serve#readme) is recommended.
+To check that everything is ok after `npm build`, serve static files using [serve](https://github.com/vercel/serve#readme) is recommended.
 
 ```bash
 $ serve dist
