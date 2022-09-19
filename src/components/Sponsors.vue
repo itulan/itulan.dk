@@ -9,13 +9,13 @@
         <img
           alt="Epico NextGen logo"
           class="logo primary"
-          src="../assets/img/common/sponsor_logos/epico/epico.svg"
+          src="../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-BW.png"
           loading="lazy"
         />
       </Hyperlink>
-      <div class="minor-sponsors">
+      <!-- <div class="minor-sponsors">
         <img
-          src="../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-1-logo-black-and-white.png"
+          src="../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-BW.png"
           alt="Novo Nordisk logo"
         />
         <img
@@ -29,7 +29,7 @@
             alt="Accenture logo"
           />
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -62,7 +62,7 @@ export default {
 }
 
 .logo.primary {
-  width: 600px;
+  width: 200px;
 }
 
 .minor-sponsors img {
@@ -74,9 +74,9 @@ export default {
   font-style: italic;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   .logo.primary {
-    width: 100%;
+    width: 60%;
   }
 
   .logo.secondary {

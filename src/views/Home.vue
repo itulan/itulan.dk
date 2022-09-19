@@ -1,23 +1,26 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 data-aos="fade-right" data-aos-delay="100">FALL 2022</h1>
+      <h1 data-aos="fade-right" data-aos-delay="100">4-6 November</h1>
       <h1
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
         class="hollow-text"
       >
-        Stay tuned
+        FALL 2022
       </h1>
+      <Sponsors data-aos="fade-right" data-aos-delay="200" />
     </div>
   </header>
 </template>
 
 <script>
+import Sponsors from "@/components/Sponsors.vue";
 export default {
   name: "Home",
   components: {
+    Sponsors
   },
 };
 </script>
