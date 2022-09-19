@@ -5,7 +5,7 @@
     </span>
     <br />
     <div class="sponsors">
-      <Hyperlink newTab url="https://epiconextgen.dk/">
+      <Hyperlink newTab url="https://www.novonordisk.dk/">
         <img
           alt="Epico NextGen logo"
           class="logo primary"
