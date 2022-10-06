@@ -6,7 +6,7 @@ export default {
             topic: "Where and when is the LAN?",
             id: "where",
             paragraphs: [
-                "ITU LAN Spring 2022 takes place from April 8th to April 10th at the IT University of Copenhagen."
+                "ITU LAN FALL 2022 takes place from November 4th to November 6th at the IT University of Copenhagen."
                 // "Stay tuned for announcement of the next LAN.",
             ],
         },
