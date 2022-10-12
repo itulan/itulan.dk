@@ -7,7 +7,6 @@
 This repository contains the source code for ITU LAN's different web services. The current services include:
 
 - The website: [itulan.dk](https://itulan.dk)
-- Mail forwarding service for applications - [source](https://github.com/itulan/itulan.dk/tree/main/functions) (DEPRECATED)
 
 ## ▶️ Getting Started
 
