@@ -5,7 +5,6 @@ import Home from "@/views/Home.vue";
 // import Tournaments from "@/views/Tournaments.vue";
 import Information from "@/views/Information.vue";
 import Tickets from "@/views/Tickets.vue";
-import JoinUs from "@/views/JoinUs.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
 // import Schedule from "@/views/Schedule.vue";
@@ -69,15 +68,6 @@ const router = new Router({
       meta: {
         title: "Information",
         id: "information"
-      }
-    },
-    {
-      path: "/join",
-      name: "join the crew",
-      component: JoinUs,
-      meta: {
-        title: "Join the Crew",
-        id: "join"
       }
     },
     {
