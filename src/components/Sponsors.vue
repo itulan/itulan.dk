@@ -9,12 +9,11 @@
         <img
           alt="Epico NextGen logo"
           class="logo primary"
-          src="../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-BW.png" 
+          src="../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-innovationHub_BW.png" 
           loading="lazy"
         />
       </Hyperlink>
-      <!--        "../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-innovationHub_BW"   ( sponser img path for new logo) 
-        <div class="minor-sponsors">
+      <!--<div class="minor-sponsors">
         <img
           src="../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-BW.png"
           alt="Novo Nordisk logo"
