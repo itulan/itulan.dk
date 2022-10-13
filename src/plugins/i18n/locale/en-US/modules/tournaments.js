@@ -83,7 +83,7 @@ export default {
       {
         title: "Counter Strike: Global Offensive",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/6081254709717803008/?_locale=en_US",
+          "https://widget.toornament.com/tournaments/6107881756661669888/?_locale=en_US",
         platform: "PC",
         description: "The CS:GO tournament is the best way for you and your team to compete against other dedicated teams. You will have the time of your life beating those n00bs on the other teams. So gather four of your friends and sign up for the ultimate intense heartbreaking mindblowing competition, the ITU LAN CS:GO tournament! #GottaShootEmAll",
         logoPath: "",
