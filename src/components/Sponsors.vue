@@ -13,23 +13,23 @@
           loading="lazy"
         />
       </Hyperlink>
-      <!--<div class="minor-sponsors">
+      <div class="minor-sponsors">
         <img
-          src="../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-BW.png"
-          alt="Novo Nordisk logo"
+          src="../assets/img/common/sponsor_logos/ida/IDA_white.png"
+          alt="IDA logo"
         />
-        <img
+        <!-- <img
           src="../assets/img/common/sponsor_logos/kmd/KMD_WHITE.png"
-          alt="KMD logo"
+          alt="KMD logo" 
         />
         <div>
           <img
             style="margin-bottom: 2rem"
             src="../assets/img/common/sponsor_logos/accenture/AccentureLogo.png"
-            alt="Accenture logo"
+            alt="Accenture logo"  
           />
-        </div>
-      </div> -->
+        </div>  -->
+      </div>
     </div>
   </div>
 </template>
