@@ -22,7 +22,7 @@ export default {
       title: " Guilty gear",
       widgetUrl: 
       "https://widget.toornament.com/tournaments/6110547244282544128/",
-      platform: "Console",
+      platform: " Console ",
       description:" ",
       logoPath: "",
       },
@@ -46,7 +46,7 @@ export default {
         title: "Splatoon",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6112139226468483072/?_locale=en_US",
-        platform: "Splatoon",
+        platform: "Nintendo Switch",
         description: "Welcome to the ITULAN Splatfest! In this colorful tournament there will be ink shed in this competitive squid game. The tournament will start the 5th November, 16:00 at Console Corner (1st Floor).",
         logoPath: "",
       },
@@ -98,7 +98,7 @@ export default {
       },
       {
         title: "Magic the gathering ",
-        widgetUrl: "https://widget.toornament.com/tournaments/",
+        widgetUrl: "https://widget.toornament.com/tournaments/6131099270473220096?_locale=en_US",
         platform: " Table top",
         logoPath: "",
       },
