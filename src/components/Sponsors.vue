@@ -18,11 +18,11 @@
           src="../assets/img/common/sponsor_logos/ida/IDA_white.png"
           alt="IDA logo"
         />
-        <!-- <img
+        <img
           src="../assets/img/common/sponsor_logos/kmd/KMD_WHITE.png"
           alt="KMD logo" 
         />
-        <div>
+        <!-- <div>
           <img
             style="margin-bottom: 2rem"
             src="../assets/img/common/sponsor_logos/accenture/AccentureLogo.png"
