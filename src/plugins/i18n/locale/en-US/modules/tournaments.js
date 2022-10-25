@@ -69,7 +69,7 @@ export default {
       {
         title: "Rocket League 2v2",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/6081220856220180480/?_locale=en_US",
+          "https://widget.toornament.com/tournaments/6154051670474964992/?_locale=en_US",
         platform: "PC",
         description: "Once again we are proud to announce the Rocket League Tournament for ITU LAN Spring'22. Just as the previous tournaments, it will have the format of 2v2 Soccar on PC. Choose your partner wisely and demolition, freestyle, and pinch-ball your way to victory.",
         logoPath: "",
