@@ -26,7 +26,7 @@
         <h3>{{ $t("tickets.steps.checkin.title") }}</h3>
       </span>
     </div>
-
+    <small style="display:block; margin-bottom: 2rem;" ><i><strong>Sleeping is not allowed at ITU.</strong></i></small>
     <div id="step-one" data-aos="fade-up" data-aos-delay="200">
       <span class="step-header">
         <h3 class="hollow-text">
