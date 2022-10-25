@@ -3,6 +3,13 @@ export default {
     disclaimer: "N.B.: The information on this page are subject to change.",
     subjects: [
         {
+            topic: "Can I sleep at ITU?",
+            id: "sleep",
+            paragraphs: [
+                "There is no sleeping accommodations at ITU LAN. This is because of a strict fire code set for the building. We recommend going home and sleep there. We provide free storage for your gear in the meantime.",
+            ],
+        },
+        {
             topic: "Where and when is the LAN?",
             id: "where",
             paragraphs: [
@@ -74,13 +81,6 @@ export default {
                 "Yes - ScrollBar is open Friday 15.00-02.00 and is well-stocked with beers, soda, drinks, RedBull, etc. at student-friendly prices.",
                 "Please note that alcoholic beverages can only be enjoyed in the ScrollBar area, and you have to be 18 years of age to buy them.",
                 "Please drink responsibly.",
-            ],
-        },
-        {
-            topic: "Can I sleep at ITU?",
-            id: "sleep",
-            paragraphs: [
-                "There is no sleeping accommodations at ITU LAN. This is because of a strict fire code set for the building. We recommend going home and sleep there. We provide free storage for your gear in the meantime.",
             ],
         },
         {
