@@ -14,7 +14,7 @@ export default {
       widgetUrl: 
       " https://widget.toornament.com/tournaments/6081254709717803008/ ",
       platform: " PC ",
-      description:"We're finally back with a League of Legends tournament for the ITU LAN F'22! Gather your 5 player team, and get ready to bask in the glory reflected in the salty tears of your opponents. The tournament will be open for up to 12 teams, which must be present physically at ITU LAN F'22 with valid tickets. First stage of the tournament is scheduled to begin at 14:00 / 2PM on Saturday, November 5th. Check-in at 13:00 / 1PM, after which we settle on the final tournament structure, based on the amount of teams present. Registration is on a first-come-first-served principle. - Sign up early to secure your spot! - Remember to read the rules if you sign up! https://play.toornament.com/en_US/tournaments/6081254709717803008/rules ",
+      description:"We're finally back with a League of Legends tournament for the ITU LAN F'22! Gather your 5 player team, and get ready to bask in the glory reflected in the salty tears of your opponents. The tournament will be open for up to 12 teams, which must be present physically at ITU LAN F'22 with valid tickets. First stage of the tournament is scheduled to begin at 15:00 / 4PM on Saturday, November 5th. Check-in at 14:00 / 2PM, after which we settle on the final tournament structure, based on the amount of teams present. Registration is on a first-come-first-served principle. - Sign up early to secure your spot! - Remember to read the rules if you sign up! https://play.toornament.com/en_US/tournaments/6081254709717803008/rules ",
       logoPath: ""
       },
 
@@ -23,7 +23,7 @@ export default {
       widgetUrl: 
       "https://widget.toornament.com/tournaments/6110547244282544128/",
       platform: " Console ",
-      description:" ",
+      description:" *Mankind knew that they cannot change society. So, instead of reflecting on themselves, they blamed the beasts. HEAVEN or HELLL !Join us for some Guilty Gear Strive !",
       logoPath: "",
       },
       {
@@ -77,7 +77,7 @@ export default {
       {
         title: "Escape Room",
         platform: "IRL",
-        description: " - not Done",
+        description: " - Signups comming soon",
         logoPath: "",
       },
       {
@@ -100,6 +100,7 @@ export default {
         title: "Magic the gathering ",
         widgetUrl: "https://widget.toornament.com/tournaments/6131099270473220096?_locale=en_US",
         platform: " Table top",
+        description: " Draft starts Saturday 5th of Nov at 12:00 sharp, so please come in good time at least 10-15min before for attendance call. Players will be distributed into 4 groups of 6 players. The structure of the tournament will be double round robin within each pod, meaning a total of 10 matches per player. This is a PHANTOM Draft. Cards used to make your decks during the draft ARE NOT KEPT afterwards. Please return any card and/or basic lands you may have borrowed during the draft :) You may of course keep any prizes you earn in the tournament. We encourage you to bring your own basic lands and card sleeves ",
         logoPath: "",
       },
       // {
