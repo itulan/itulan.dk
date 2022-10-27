@@ -15,8 +15,10 @@
       </Hyperlink>
       <div class="minor-sponsors">
         <img
-          src="../assets/img/common/sponsor_logos/ida/IDA_white.png"
+          src="../assets/img/common/sponsor_logos/ida/IDA_white.png" 
           alt="IDA logo"
+          style="padding-bottom:13px"
+          
         />
         <img
           src="../assets/img/common/sponsor_logos/kmd/KMD_WHITE.png"
