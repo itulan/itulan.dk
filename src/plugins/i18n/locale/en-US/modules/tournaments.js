@@ -10,7 +10,7 @@ export default {
     platformLabel: "Platform: ",
     tournaments: [
       {
-      title: "League of legends",
+      title: "League of legends 14:00 Sat",
       widgetUrl: 
       " https://widget.toornament.com/tournaments/6081254709717803008/ ",
       platform: " PC ",
@@ -19,7 +19,7 @@ export default {
       },
 
       {
-      title: " Guilty gear",
+      title: " Guilty gear 17:00 Fri",
       widgetUrl: 
       "https://widget.toornament.com/tournaments/6110547244282544128/",
       platform: " Console ",
@@ -27,7 +27,7 @@ export default {
       logoPath: "",
       },
       {
-        title: "Mario Kart 8 Deluxe",
+        title: "Mario Kart 8 Deluxe 12:00 Sat",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6108319740569935872/",
         platform: "Nintendo Switch",
@@ -35,7 +35,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Super Smash Bros",
+        title: "Super Smash Bros 20:00 Sat",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6112106790036668416/",
         platform: "Nintendo Switch",
@@ -43,7 +43,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Splatoon",
+        title: "Splatoon 16:00 Sat",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6112139226468483072/?_locale=en_US",
         platform: "Nintendo Switch",
@@ -51,7 +51,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Europa Universalis IV",
+        title: "Europa Universalis IV 19:00 Fri+Sat",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6092791349581209600/",
         platform: "PC",
@@ -59,7 +59,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Just Dance 2022",
+        title: "Just Dance 2022 20:00 Fri",
         widgetUrl:
           " https://widget.toornament.com/tournaments/6080800903633051648/?_locale=en_US",
         platform: "Nintendo Switch",
@@ -67,7 +67,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Rocket League 2v2",
+        title: "Rocket League 2v2 15:00 Sat",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6154051670474964992/?_locale=en_US",
         platform: "PC",
@@ -75,13 +75,13 @@ export default {
         logoPath: "",
       },
       {
-        title: "Escape Room",
+        title: "Escape Room Sat",
         platform: "IRL",
         description: " - Signups comming soon",
         logoPath: "",
       },
       {
-        title: "Counter Strike: Global Offensive",
+        title: "Counter Strike: Global Offensive 17:00 Fri",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6107881756661669888/?_locale=en_US",
         platform: "PC",
@@ -89,7 +89,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Valorant",
+        title: "Valorant 14:00 Sat",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6093003091998597120/?_locale=en_US",
         platform: "PC",
@@ -97,7 +97,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Magic the gathering ",
+        title: "Magic the gathering 12.00 Sat",
         widgetUrl: "https://widget.toornament.com/tournaments/6131099270473220096?_locale=en_US",
         platform: " Table top",
         description: " Draft starts Saturday 5th of Nov at 12:00 sharp, so please come in good time at least 10-15min before for attendance call. Players will be distributed into 4 groups of 6 players. The structure of the tournament will be double round robin within each pod, meaning a total of 10 matches per player. This is a PHANTOM Draft. Cards used to make your decks during the draft ARE NOT KEPT afterwards. Please return any card and/or basic lands you may have borrowed during the draft :) You may of course keep any prizes you earn in the tournament. We encourage you to bring your own basic lands and card sleeves ",
