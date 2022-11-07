@@ -78,8 +78,8 @@ export default {
         title: "Escape Room Sat",
         widgetUrl:"https://www.youtube.com/watch?v=kJJFf2gMtgs",
         platform: "IRL",
-        description: " The news shakes up your otherwise quiet town: Richard Pearson, the eccentric millionaire has passed away. However, no one is mourning, you are rather excited: his old arcade is now open for everyone to solve the puzzles he designed in order to find his heir. Buy your LAN ticket, sign up on the link below and see if you got what it takes.Grab a group of 4-6 people for the ITU Escape Room! Returning yet again for this semesters LAN! Hosted from 5a12-14 NOTE: A valid ITU LAN ticket is required for entry! (Seat or Roaming Tickets both apply) ONLY BOOK ONE SLOT! If you need to contact us during the event we are in the LAN discord or you can approach us on-site on the 5th floor SIGN-UP link: https://calendly.com/ituconnect/escape-room-fall2022",
-        logoPath: ""
+        description: "The news shakes up your otherwise quiet town: Richard Pearson, the eccentric millionaire has passed away. However, no one is mourning, you are rather excited: his old arcade is now open for everyone to solve the puzzles he designed in order to find his heir. Buy your LAN ticket, sign up on the link below and see if you got what it takes.Grab a group of 4-6 people for the ITU Escape Room! Returning yet again for this semesters LAN! Hosted from 5a12-14! NOTE: A valid ITU LAN ticket is required for entry! (Seat or Roaming Tickets both apply!) ONLY BOOK ONE SLOT! If you need to contact us during the event we are in the LAN discord or you can approach us on-site on the 5th floor! SIGN-UP <a target='_blank' href='https://calendly.com/ituconnect/escape-room-fall2022'>HERE</a>!",
+        logoPath: "",
       },
       {
         title: "Counter Strike: Global Offensive 17:00 Fri",

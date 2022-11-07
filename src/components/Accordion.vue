@@ -15,7 +15,7 @@
           class="description"
           v-if="
             tournament.description &&
-            (isMobile || tournament.title === 'Escape Room')
+            (isMobile || tournament.title.startsWith('Escape Room'))
           "
           v-html="tournament.description"
         ></p>
