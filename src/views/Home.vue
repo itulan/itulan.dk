@@ -1,7 +1,7 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 data-aos="fade-right" data-aos-delay="100"> To Be Anounced </h1>  
+      <h1 data-aos="fade-right" data-aos-delay="100"> 31 March - 02 April</h1>  
       <h1
         data-aos="fade-left"
         data-aos-delay="150"
