@@ -1,5 +1,5 @@
 export default {
-    ticketUrl: "https://itulan.safeticket.dk/itulanspring20",
+    ticketUrl: "https://itulan-1.ticketbutler.io/en/e/itu-lan-spring-2023",
     socialMedia: {
       discord: {
         url: "https://discord.gg/nSFXWQN",

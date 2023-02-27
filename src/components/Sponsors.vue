@@ -20,10 +20,10 @@
           style="padding-bottom:13px"
           
         />
-        <img
+        <!-- <img
           src="../assets/img/common/sponsor_logos/kmd/KMD_WHITE.png"
           alt="KMD logo" 
-        />
+        /> -->
         <!-- <div>
           <img
             style="margin-bottom: 2rem"

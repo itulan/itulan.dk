@@ -10,8 +10,8 @@
       >
         Spring 2023
       </h1>
-      <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" /> -->
-      <!-- <div class="button-container">
+      <Sponsors data-aos="fade-right" data-aos-delay="200" />
+      <div class="button-container">
         <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
@@ -19,7 +19,7 @@
           pulse
           :onClick="() => $router.push({ path: 'tickets' })"
           >Buy tickets</Hyperlink
-        > -->
+        >
         <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
@@ -35,20 +35,20 @@
           pulse
           :onClick="() => $router.push({ path: 'schedule' })"
           >Schedule</Hyperlink
-        >
-      </div> --> 
+        > -->
+      </div> 
     </div>
   </header>
 </template>
 
 <script>
-// import Sponsors from "@/components/Sponsors.vue";
-// import Hyperlink from "@/components/Hyperlink.vue"
+import Sponsors from "@/components/Sponsors.vue";
+import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
-    //Sponsors,
-    // Hyperlink
+    Sponsors,
+    Hyperlink
   },
 };
 </script>

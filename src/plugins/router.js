@@ -1,15 +1,15 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/views/Home.vue";
-// import News from "@/views/News.vue";
+import News from "@/views/News.vue";
 //import Tournaments from "@/views/Tournaments.vue";
 import Information from "@/views/Information.vue";
-//import Tickets from "@/views/Tickets.vue";
+import Tickets from "@/views/Tickets.vue";
 //import JoinUs from "@/views/JoinUs.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
-// import Schedule from "@/views/Schedule.vue";
-// import Servers from "@/views/Servers.vue";
+//import Schedule from "@/views/Schedule.vue";
+//import Servers from "@/views/Servers.vue";
 
 Vue.use(Router);
 
@@ -26,15 +26,15 @@ const router = new Router({
         id: "home"
       }
     },
-    // {
-    //   path: "/tickets",
-    //   name: "buy tickets",
-    //   component: Tickets,
-    //   meta: {
-    //     title: "Tickets",
-    //     id: "tickets"
-    //   }
-    // },
+    {
+      path: "/tickets",
+      name: "buy tickets",
+      component: Tickets,
+      meta: {
+        title: "Tickets",
+        id: "tickets"
+      }
+    },
     // {
     //   path: "/schedule",
     //   name: "schedule",
@@ -44,15 +44,15 @@ const router = new Router({
     //     id: "Schedule"
     //   }
     // },
-    // {
-    //   path: "/news",
-    //   name: "news",
-    //   component: News,
-    //   meta: {
-    //     title: "News",
-    //     id: "news"
-    //   }
-    // },
+    {
+      path: "/news",
+      name: "news",
+      component: News,
+      meta: {
+        title: "News",
+        id: "news"
+      }
+    },
     // {
     //   path: "/tournaments",
     //   name: "tournaments",
