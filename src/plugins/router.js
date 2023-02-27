@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/views/Home.vue";
-import News from "@/views/News.vue";
+//import News from "@/views/News.vue";
 //import Tournaments from "@/views/Tournaments.vue";
 import Information from "@/views/Information.vue";
 import Tickets from "@/views/Tickets.vue";
@@ -44,15 +44,15 @@ const router = new Router({
     //     id: "Schedule"
     //   }
     // },
-    {
-      path: "/news",
-      name: "news",
-      component: News,
-      meta: {
-        title: "News",
-        id: "news"
-      }
-    },
+    // {
+    //   path: "/news",
+    //   name: "news",
+    //   component: News,
+    //   meta: {
+    //     title: "News",
+    //     id: "news"
+    //   }
+    // },
     // {
     //   path: "/tournaments",
     //   name: "tournaments",
