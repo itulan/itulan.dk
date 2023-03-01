@@ -37,10 +37,9 @@ export default {
             topic: "How do I contact the crew?",
             id: "contact",
             paragraphs: [
-                "Before LAN, the best way to contact us if you have any questions related to LAN is through our Facebook page, which you can find <a target='_blank' rel='noopener' href='https://www.facebook.com/itulan'>here<a>.",
-                "The ITU LAN Facebook page will also post status updates throughout the weekend, and we recommend that you follow it for your information needs.",
+                "Before LAN, the best way to contact us if you have any questions related to LAN is through our Discord page, which you can find <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>here<a>.",        
                 "During the LAN, the primary platform for contact is our Discord server - join it <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>here</a>! Here you can contact us directly, ask game- or event-specific questions, and get updates on the different tournaments.",
-                "If you need in-person help during the LAN, swing by the checkin area (1st floor) or the crew area at 4A10 (4th floor in the corner above Analog).",
+                "If you need in-person help during the LAN, swing by the checkin area on the 1st floor or the crew area located at the checkin area, most crew members are wearing blue tshirt with ITU-lan print.",
             ],
         },
         {
