@@ -10,20 +10,19 @@
           <span>Check-in</span>
         </div>
         <div>
+          <span class="time">16.00</span>
+          <span>Magic the Gathering</span>
+          <small>~6 hours</small>
+        </div>
+        <div>
+          <span class="time">17.00</span>
+          <span>Mario Kart</span>
+          <small>~4 hours</small>
+        </div>
+        <div>
           <span class="time">19.00</span>
           <span>Europa Universalis IV</span>
           <small>~4 hours</small>
-        </div>
-        <div>
-          <span class="time">19.00</span>
-          <span>CS:GO</span>
-          <small>~4 hours</small>
-        </div>
-        <div>
-          <span class="time">20.00</span>
-          <span>Tekken 7</span>
-          <small>~3 hours</small>
-
         </div>
       </div>
     </div>
@@ -32,29 +31,19 @@
         <h3 class="weekday">Saturday</h3>
       </div>
       <div class="flex schedule">
-        <div>
+        <!-- <div>
           <span class="time">10.00</span>
           <span>Escape Room</span>
           <small>~14 hours</small>
-        </div>
+        </div> -->
         <div>
-          <span class="time">13.00</span>
-          <span>Just Dance 2022</span>
-          <small>~3 hours</small>
-        </div>
-        <div>
-          <span class="time">14.00</span>
-          <span>Randourment</span>
-          <small>~1 hour</small>
-        </div>
-        <div>
-          <span class="time">15.00</span>
-          <span>Rocket League</span>
-          <small>~4 hours</small>
+          <span class="time">12.00</span>
+          <span>League of Legends</span>
+          <small>~7 hours</small>
         </div>
         <div>
           <span class="time">16.00</span>
-          <span>Mario Kart 8</span>
+          <span>Just Dance 2022</span>
           <small>~3 hours</small>
         </div>
         <div>
@@ -66,11 +55,6 @@
           <span class="time">20.00</span>
           <span>Smash Bros</span>
           <small>~3 hours</small>
-        </div>
-        <div>
-          <span class="time">21.00</span>
-          <span>Sponsor quiz</span>
-          <small>~1 hour</small>
         </div>
       </div>
     </div>

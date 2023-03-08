@@ -140,14 +140,12 @@ export default {
   margin: 15px auto;
   margin: 1rem;
 }
-
 #season {
   margin-top: 0;
 }
 h2 {
   margin-top: 2rem;
 }
-
 #emoji {
   font-size: 8rem;
   margin-top: 2rem;
