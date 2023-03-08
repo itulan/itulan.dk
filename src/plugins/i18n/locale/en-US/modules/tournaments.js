@@ -59,10 +59,9 @@ export default {
       //   logoPath: "",
       // },
       {
-        title: "Valorant 14:00 Sat",
-        widgetUrl:
-          "https://widget.toornament.com/tournaments/6093003091998597120/",
-        platform: "PC",
+        title: "Valorant -- -- ",
+        //widgetUrl:"https://widget.toornament.com/tournaments/6093003091998597120/",
+        platform: "TBA",
         description: "The Valorant tournament is gonna be a single elimination tournament. If you do not have a full team/are participating solo, feel free to message in the 'Lookingforgroup' channel on the official ITU LAN Discord server. Alternatively, you can message me directly on Discord (TriaTheSpartanGR#9320) so I can help you find teammates!",
         logoPath: "",
       },
