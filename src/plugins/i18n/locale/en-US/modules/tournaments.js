@@ -73,7 +73,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Novo VR Fruit Ninja",
+        title: "Novo VR Fruit Ninja 17.00",
         // widgetUrl: "https://widget.toornament.com/tournaments/6545164054309625856/",
         platform: " Sponser set up",
         description: " ",
