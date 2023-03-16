@@ -10,7 +10,7 @@
           <span>Check-in</span>
         </div>
         <div>
-          <span class="time">16.00</span>
+          <span class="time">17.00</span>
           <span>Magic the Gathering</span>
           <small>~6 hours</small>
         </div>
@@ -20,8 +20,23 @@
           <small>~4 hours</small>
         </div>
         <div>
+          <span class="time">17.00</span>
+          <span>Novo Fruit Ninja </span>
+          <small>~3 hours</small>
+        </div>
+        <div>
+          <span class="time">21.00</span>
+          <span>Novo Foosball </span>
+          <small>~2 hours</small>
+        </div>
+        <div>
           <span class="time">19.00</span>
-          <span>Europa Universalis IV</span>
+          <span>Victoria 3</span>
+          <small>~4 hours</small>
+        </div>
+        <div>
+          <span class="time">20.00</span>
+          <span>Valorant </span>
           <small>~4 hours</small>
         </div>
       </div>
@@ -39,18 +54,24 @@
         <div>
           <span class="time">12.00</span>
           <span>League of Legends</span>
-          <small>~7 hours</small>
+          <small>~8 hours</small>
         </div>
         <div>
-          <span class="time">16.00</span>
+          <span class="time">12.00</span>
+          <span>Redbull Doodle art competition</span>
+          <small>~4 hours</small>
+        </div>
+        <div>
+          <span class="time">15.00</span>
           <span>Just Dance 2022</span>
-          <small>~3 hours</small>
+          <small>~2 hours</small>
         </div>
         <div>
           <span class="time">19.00</span>
-          <span>Europa Universalis IV</span>
+          <span>Victoria 3</span>
           <small>~4 hours</small>
         </div>
+        
         <div>
           <span class="time">20.00</span>
           <span>Smash Bros</span>

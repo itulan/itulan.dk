@@ -10,7 +10,7 @@ export default {
     platformLabel: "Platform: ",
     tournaments: [
       {
-      title: "League of legends 14:00 Sat",
+      title: "League of legends 12:00 Sat",
       widgetUrl: 
       " https://widget.toornament.com/tournaments/6545134842597015552/ ",
       platform: " PC ",
@@ -20,24 +20,24 @@ export default {
 
       
       {
-        title: "Mario Kart 8 Deluxe 12:00 Sat",
+        title: "Mario Kart 8 Deluxe 17:00 Fri",
         widgetUrl:
           "https://widget.toornament.com/tournaments/6527856000850731008/",
         platform: "Nintendo Switch",
         description: "Once again, we start our engines for another Mario Kart tournament! The game is the same as last time: Mario Kart 8 Deluxe, random stage cups, all items! Come along, blue shell your way to the top and claim victory! (Disclaimer: We cannot guarantee that your victory will not cost a friendship or two, this is Mario Kart, after all)",
         logoPath: "",
       },
-      // {
-      //   title: "Super Smash Bros 20:00 Sat",
-      //   widgetUrl:"https://widget.toornament.com/tournaments/6112106790036668416/",
-      //   platform: "Nintendo Switch",
-      //   description: "Super Smash Bros are returning for this years LAN, and again we're hosting a tournament! Smash Bros will happen 5th November 14:00, at the Console Corner (1. floor) (Please note: Gamecube adapters and controllers will not be supplied; if you want to use that for the tournament, please bring your own",
-      //   logoPath: "",
-      // },
+      {
+        title: "Super Smash Bros 20:00 Sat",
+        widgetUrl:"https://widget.toornament.com/tournaments/6112106790036668416/",
+        platform: "Nintendo Switch",
+        description: "Super Smash Bros are returning for this years LAN, and again we're hosting a tournament! Smash Bros will happen 5th November 14:00, at the Console Corner (1. floor) (Please note: Gamecube adapters and controllers will not be supplied; if you want to use that for the tournament, please bring your own",
+        logoPath: "",
+      },
       {
         title: "Victoria 3 19:00 Fri+Sat",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/6545189448331485184/",
+          "https://widget.toornament.com/tournaments/6551353359086403584/",
         platform: "PC",
         description: "Are you looking to scratch your strategy itch? Well then luckily for you, ITU LAN is hosting an EU4 game as part of this semesters event. The game will be played over the course of two 4-hour sessions: one on Friday, and one on Saturday. Both session last from 7pm until 11pm. Countries are handed out on a first come, first served-basis, and you can play as any European or Mediterranean country below 150 development. Alliances are allowed, so feel free to bring a friend, as is multiple people playing as one country. Just try to keep things interesting.",
         logoPath: "",
@@ -59,70 +59,45 @@ export default {
       //   logoPath: "",
       // },
       {
-        title: "Valorant -- -- ",
+        title: "Valorant 20.00  ",
         //widgetUrl:"https://widget.toornament.com/tournaments/6093003091998597120/",
         platform: "TBA",
         description: "The Valorant tournament is gonna be a single elimination tournament. If you do not have a full team/are participating solo, feel free to message in the 'Lookingforgroup' channel on the official ITU LAN Discord server. Alternatively, you can message me directly on Discord (TriaTheSpartanGR#9320) so I can help you find teammates!",
         logoPath: "",
       },
       {
-        title: "Magic the gathering 12.00 Sat",
+        title: "Magic the gathering 17.00 Fri",
         widgetUrl: "https://widget.toornament.com/tournaments/6545164054309625856/",
         platform: " Table top",
         description: " Draft starts Saturday 5th of Nov at 12:00 sharp, so please come in good time at least 10-15min before for attendance call. Players will be distributed into 4 groups of 6 players. The structure of the tournament will be double round robin within each pod, meaning a total of 10 matches per player. This is a PHANTOM Draft. Cards used to make your decks during the draft ARE NOT KEPT afterwards. Please return any card and/or basic lands you may have borrowed during the draft :) You may of course keep any prizes you earn in the tournament. We encourage you to bring your own basic lands and card sleeves ",
         logoPath: "",
       },
-      // {
-      //   title: "VR Fruitninja",
-      //   widgetUrl: "",
-      //   platform: " VR ",
-      //   description: "Come meet our sponsers and try out VR Fruitninja ",
-      //   logoPath: "",
-      // },
-      // {
-      //   title: "Foosball",
-      //   widgetUrl: "",
-      //   platform: "Foosball tables",
-      //   description: "",
-      //   logoPath: "",
-      // },
+      {
+        title: "Novo VR Fruit Ninja",
+        // widgetUrl: "https://widget.toornament.com/tournaments/6545164054309625856/",
+        platform: " Sponser set up",
+        description: " ",
+        logoPath: "",
+      },
+      {
+        title: "Redbull Doodle art competition 12.00 Sat",
+        // widgetUrl: "https://widget.toornament.com/tournaments/6545164054309625856/",
+        platform: " Sponser set up",
+        description: " ",
+        logoPath: "",
+      },
+    
+      {
+        title: "Novo Foosball 21.00",
+        widgetUrl: "",
+        platform: "Foosball tables",
+        description: " Sponser set up",
+        logoPath: "",
+      },
       // {
       //   title: "",
       //   widgetUrl: "",
       //   platform: " ",
-      //   logoPath: "",
-      // },
-
-      //{
-      // title: " Guilty gear 17:00 Fri",
-      // widgetUrl: 
-      // "https://widget.toornament.com/tournaments/6110547244282544128/",
-      // platform: " Console ",
-      // description:" *Mankind knew that they cannot change society. So, instead of reflecting on themselves, they blamed the beasts. HEAVEN or HELLL !Join us for some Guilty Gear Strive !",
-      // logoPath: "",
-      // },
-      // {
-      //   title: "Counter Strike: Global Offensive 17:00 Fri",
-      //   widgetUrl:
-      //     "https://widget.toornament.com/tournaments/6107881756661669888/?_locale=en_US",
-      //   platform: "PC",
-      //   description: "The CS:GO tournament is the best way for you and your team to compete against other dedicated teams. You will have the time of your life beating those n00bs on the other teams. So gather four of your friends and sign up for the ultimate intense heartbreaking mindblowing competition, the ITU LAN CS:GO tournament! #GottaShootEmAll",
-      //   logoPath: "",
-      // },
-      // {
-      //   title: "Splatoon 16:00 Sat",
-      //   widgetUrl:
-      //     "https://widget.toornament.com/tournaments/6112139226468483072/?_locale=en_US",
-      //   platform: "Nintendo Switch",
-      //   description: "Welcome to the ITULAN Splatfest! In this colorful tournament there will be ink shed in this competitive squid game. The tournament will start the 5th November, 16:00 at Console Corner (1st Floor).",
-      //   logoPath: "",
-      // },
-      // {
-      //   title: "Rocket League 2v2 15:00 Sat",
-      //   widgetUrl:
-      //     "https://widget.toornament.com/tournaments/6154051670474964992/?_locale=en_US",
-      //   platform: "PC",
-      //   description: "Once again we are proud to announce the Rocket League Tournament for ITU LAN Spring'22. Just as the previous tournaments, it will have the format of 2v2 Soccar on PC. Choose your partner wisely and demolition, freestyle, and pinch-ball your way to victory.",
       //   logoPath: "",
       // },
     ],
