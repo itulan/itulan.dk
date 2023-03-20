@@ -29,7 +29,7 @@ export default {
       },
       {
         title: "Super Smash Bros 20:00 Sat",
-        widgetUrl:"https://widget.toornament.com/tournaments/6112106790036668416/",
+        widgetUrl:"https://widget.toornament.com/tournaments/6551353359086403584/",
         platform: "Nintendo Switch",
         description: "Super Smash Bros are returning for this years LAN, and again we're hosting a tournament! Smash Bros will happen 5th November 14:00, at the Console Corner (1. floor) (Please note: Gamecube adapters and controllers will not be supplied; if you want to use that for the tournament, please bring your own",
         logoPath: "",
@@ -37,7 +37,7 @@ export default {
       {
         title: "Victoria 3 19:00 Fri+Sat",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/6551353359086403584/",
+          "https://widget.toornament.com/tournaments/6545189448331485184/",
         platform: "PC",
         description: "Are you looking to scratch your strategy itch? Well then luckily for you, ITU LAN is hosting an EU4 game as part of this semesters event. The game will be played over the course of two 4-hour sessions: one on Friday, and one on Saturday. Both session last from 7pm until 11pm. Countries are handed out on a first come, first served-basis, and you can play as any European or Mediterranean country below 150 development. Alliances are allowed, so feel free to bring a friend, as is multiple people playing as one country. Just try to keep things interesting.",
         logoPath: "",
