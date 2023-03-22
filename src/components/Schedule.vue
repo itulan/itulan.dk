@@ -25,11 +25,6 @@
           <small>~3 hours</small>
         </div>
         <div>
-          <span class="time">21.00</span>
-          <span>Novo Foosball </span>
-          <small>~2 hours</small>
-        </div>
-        <div>
           <span class="time">19.00</span>
           <span>Victoria 3</span>
           <small>~4 hours</small>
@@ -38,6 +33,11 @@
           <span class="time">20.00</span>
           <span>Valorant </span>
           <small>~4 hours</small>
+        </div>
+        <div>
+          <span class="time">21.00</span>
+          <span>Novo Foosball </span>
+          <small>~2 hours</small>
         </div>
       </div>
     </div>

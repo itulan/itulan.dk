@@ -43,7 +43,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Just Dance 2022 20:00 Fri",
+        title: "Just Dance 2022 14:00 Sat",
         widgetUrl:
           " https://widget.toornament.com/tournaments/6544576613659656192/",
         platform: "Nintendo Switch",
