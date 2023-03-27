@@ -49,13 +49,13 @@ export default {
         logoPath: "",
       },
       
-      // {
-      //   title: "Escape Room Sat",
-      //   widgetUrl:"https://www.youtube.com/watch?v=kJJFf2gMtgs",
-      //   platform: "IRL",
-      //   description: "The news shakes up your otherwise quiet town: Richard Pearson, the eccentric millionaire has passed away. However, no one is mourning, you are rather excited: his old arcade is now open for everyone to solve the puzzles he designed in order to find his heir. Buy your LAN ticket, sign up on the link below and see if you got what it takes.Grab a group of 4-6 people for the ITU Escape Room! Returning yet again for this semesters LAN! Hosted from 5a12-14! NOTE: A valid ITU LAN ticket is required for entry! (Seat or Roaming Tickets both apply!) ONLY BOOK ONE SLOT! If you need to contact us during the event we are in the LAN discord or you can approach us on-site on the 5th floor! SIGN-UP <a target='_blank' href='https://calendly.com/ituconnect/escape-room-fall2022'>HERE</a>!",
-      //   logoPath: "",
-      // },
+      {
+        title: "Escape Room Sat",
+        widgetUrl:"https://www.youtube.com/watch?v=TVOf83MzK3A ",
+        platform: "IRL",
+        description: "Esteemed studentYou and your group of fellow students (4-6 people) are cordially invited to ITU LAN's escape room. Show off your puzzle-solving skills and ingenuity to become a worthy member of the secret society STRATAGEM, while unravelling the mysteries at its foundation...And perhaps, if you pay close attention to the posters on campus, you might decipher the society's code word, a first step to your initiation... NOTE: When signing up for the room, make sure you ONLY SIGN UP FOR ONE SLOT! And sign up with the discord name of someone we can contact so we can stay in touch during the event! The experience will at most take 40 min. We hope to see you there! Sign up: https://calendly.com/itu-escape/escape-room-booking ",
+        logoPath: "",
+      },
       {
         title: "Valorant 20.00  ",
         widgetUrl:"https://widget.toornament.com/tournaments/6568362849088102400/",
