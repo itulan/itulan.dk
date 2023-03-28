@@ -86,7 +86,7 @@ export default {
       },
     
       {
-        title: "Novo Foosball 21.00",
+        title: "Novo Foosball 20.00",
         widgetUrl: "",
         platform: "Foosball tables",
         description: " Sponser set up",
