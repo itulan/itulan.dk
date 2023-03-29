@@ -87,7 +87,7 @@ export default {
     
       {
         title: "Novo Foosball 20.00",
-        widgetUrl: "",
+        widgetUrl: "https://forms.office.com/Pages/ResponsePage.aspx?id=vdf-_WqfoUS2lG45xGjBUPIS4yN-cu9Gp6GIuJfkcq9UNlEyVUZNQjYyT0tLVExORVlXU0kwNUtQMy4u&origin=QRCode",
         platform: "Foosball tables",
         description: " Sponser set up",
         logoPath: "",

@@ -35,7 +35,7 @@
           <small>~4 hours</small>
         </div>
         <div>
-          <span class="time">21.00</span>
+          <span class="time">20.00</span>
           <span>Novo Foosball </span>
           <small>~2 hours</small>
         </div>
