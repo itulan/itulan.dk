@@ -62,7 +62,7 @@
           <small>~4 hours</small>
         </div>
         <div>
-          <span class="time">15.00</span>
+          <span class="time">14.00</span>
           <span>Just Dance 2022</span>
           <small>~2 hours</small>
         </div>
