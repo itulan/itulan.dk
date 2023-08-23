@@ -1,15 +1,25 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 data-aos="fade-right" data-aos-delay="100"> To Be Annonced  </h1>  
+      <h1 data-aos="fade-right" data-aos-delay="100"> ITU LAN Fall 2023 </h1>  
       <h1
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
         class="hollow-text"
       >
-        Fall 2023
+          27th - 29th Oct.
       </h1>
+      <!-- <h1 data-aos="fade-right" data-aos-delay="100"> Meet n' greet  </h1>  
+      <h1
+        data-aos="fade-left"
+        data-aos-delay="150"
+        id="season"
+        class="hollow-text"
+      >
+          4th sep - 16:00
+      </h1> -->
+
       <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" /> -->
       <!-- <div class="button-container">
         <Hyperlink
