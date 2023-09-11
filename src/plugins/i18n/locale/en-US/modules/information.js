@@ -21,7 +21,7 @@ export default {
             topic: "Alcohol",
             id: "Alcohol",
             paragraphs: [
-                "Alcohol consumption is prohibited above the ground floor as per ITU policy. People with open cups, i.e. ScrollBar cups, at LAN premises will be asked to move to ScrollBar, Atrium or the outdoor areas to protect the participants' personal belongings such as desktop computers."
+                "Alcohol consumption is prohibited above the ground floor as per ITU policy. People with open cups, i.g. ScrollBar cups, at LAN premises will be asked to move to ScrollBar, Atrium or the outdoor areas to protect the participants' personal belongings such as desktop computers."
             ],
         },
         {
