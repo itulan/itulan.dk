@@ -13,8 +13,24 @@ export default {
             topic: "Where and when is the LAN?",
             id: "where",
             paragraphs: [
-                "ITU LAN Spring 2023 takes place from March 31 to April 2nd at the IT University of Copenhagen."
+                "ITU LAN Fall 2023 takes place from October the 27th to the 29th at the IT University of Copenhagen."
                 // "Stay tuned for announcement of the next LAN.",
+            ],
+        },
+        {
+            topic: "Alcohol",
+            id: "Alcohol",
+            paragraphs: [
+                "Alcohol consumption is prohibited above the ground floor as per ITU policy. People with open cups, i.e. ScrollBar cups, at LAN premises will be asked to move to ScrollBar, Atrium or the outdoor areas to protect the participants' personal belongings such as desktop computers."
+            ],
+        },
+        {
+            topic: "Can I buy drinks in ScrollBar?",
+            id: "scrollbar",
+            paragraphs: [
+                "Yes - ScrollBar is open Friday 15.00-02.00 and is well-stocked with beers, soda, drinks, RedBull, etc. at student-friendly prices.",
+                "Please note that alcoholic beverages can only be enjoyed in the ScrollBar area, and you have to be 18 years of age to buy them.",
+                "Please drink responsibly.",
             ],
         },
         {
@@ -73,15 +89,7 @@ export default {
                 "Yes - you can bring your own food and heat it up in the kitchen on each floor. There are refrigerators and microwave ovens.",
             ],
         },
-        {
-            topic: "Can I buy drinks in ScrollBar?",
-            id: "scrollbar",
-            paragraphs: [
-                "Yes - ScrollBar is open Friday 15.00-02.00 and is well-stocked with beers, soda, drinks, RedBull, etc. at student-friendly prices.",
-                "Please note that alcoholic beverages can only be enjoyed in the ScrollBar area, and you have to be 18 years of age to buy them.",
-                "Please drink responsibly.",
-            ],
-        },
+       
         {
             topic: "Did you say storage?",
             id: "storage",
