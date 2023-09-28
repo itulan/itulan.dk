@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/views/Home.vue";
-import Meet from"@/views/Meet.vue";
+// import Meet from"@/views/Meet.vue";
 //import News from "@/views/News.vue";
 //import Tournaments from "@/views/Tournaments.vue";
 import Information from "@/views/Information.vue";
@@ -27,15 +27,15 @@ const router = new Router({
         id: "home"
       }
     },
-    {
-      path: "/Meet n' Greet",
-      name: "Meet n' Greet",
-      component: Meet,
-      meta: {
-        title: "Meet n' Greet",
-        id: "Meet"
-      }
-    },
+    // {
+    //   path: "/Meet n' Greet",
+    //   name: "Meet n' Greet",
+    //   component: Meet,
+    //   meta: {
+    //     title: "Meet n' Greet",
+    //     id: "Meet"
+    //   }
+    // },
     // {
     //   path: "/tickets",
     //   name: "buy tickets",
