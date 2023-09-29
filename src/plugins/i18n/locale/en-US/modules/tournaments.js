@@ -10,26 +10,19 @@ export default {
     platformLabel: "Platform: ",
     tournaments: [
       {
-      title: "League of legends 12:00 Sat",
+      title: "League of legends 13:00 Sat",
       widgetUrl: 
       " https://widget.toornament.com/tournaments/6545134842597015552/ ",
       platform: " PC ",
-      description:"",//"We're back with a League of Legends tournament for the ITU LAN S'23! Gather your 5 player team, and get ready to bask in the glory reflected in the salty tears of your opponents. This time we'll be using an external draft tool for champion selection (tournament draft): https://draftlol.dawe.gg/ The tournament will be open for up to 12 teams, which must be present physically at ITU LAN S'23 with valid tickets. First stage of the tournament is scheduled to begin at 12:00 on Saturday, April 1st. Check-in at 11:00 / 11 AM, after which we settle on the final tournament structure, based on the amount of teams present. Registration is on a first-come-first-served principle.- Sign up early to secure your spot! - Remember to read the rules if you sign up! https://play.toornament.com/en_GB/tournaments/6545134842597015552/rules The overall tournament has a potential duration of ~8 hours (depending on number of signups), but will include a scheduled recess (tba)",
+      description:"We're finally back with a League of Legends tournament for the ITU LAN F'23! Gather your 5 player team, and get ready to bask in the glory reflected in the salty tears of your opponents. The tournament will be open for up to 12 teams, which must be present physically at ITU LAN F'23 with valid tickets. First stage of the tournament is scheduled to begin at 13:00 / 1PM on Saturday, October the 28th. Check-in at 12:00 / Noon, after which we settle on the final tournament structure, based on the amount of teams present Checkin is a message from one discord in the tournament channel. Registration is on a first-come-first-served principle.\n - Sign up early to secure your spot! \n - Remember to read the rules if you sign up! https://play.toornament.com/en_GB/tournaments/7066932844652584960/rules The overall tournament has a potential duration of ~10 hours, but has a planned recess at 18:30 - 20:00, which is meant for the participants and organisers to have time to get dinner.",
       logoPath: ""
       }, 
       {
         title: "Mario Kart 8 Deluxe 17:00 Fri",
         widgetUrl:
-          "https://widget.toornament.com/tournaments/6527856000850731008/",
+          "https://play.toornament.com/en_US/tournaments/7110017525257347072/",
         platform: "Nintendo Switch",
         description:"",// "Come along, blue shell your way to the top and claim victory! 31st of March at 17.00! at Console Corner (1st Floor). (Disclaimer: We cannot guarantee that your victory will not cost a friendship or two, this is Mario Kart, after all) Please join our Discord to keep track with the tournament as we can only have 4 people play at a time! But please stick around for snack and insane drifts. discord.com/invite/nSFXWQN",
-        logoPath: "",
-      },
-      {
-        title: "Super Smash Bros 20:00 Sat",
-        widgetUrl:"https://widget.toornament.com/tournaments/6551353359086403584/",
-        platform: "Nintendo Switch",
-        description: "",//"Super Smash Bros are returning for this years LAN, and again we're hosting a tournament! Smash Bros is planned for the evening Saturday (20:00) (Please note: Gamecube adapters and controllers will not be supplied; if you want to use that for the tournament, please bring your own)",
         logoPath: "",
       },
       {
@@ -57,17 +50,17 @@ export default {
         logoPath: "",
       },
       {
-        title: "Valorant 20.00  ",
-        widgetUrl:"https://widget.toornament.com/tournaments/6568362849088102400/",
+        title: "Valorant 19:00 Fri  ",
+        widgetUrl:"https://organizer.toornament.com/toornament/tournaments/7107505424667041792/",
         platform: "PC",
-        description:"",// "The Valorant tournament is going be a single elimination tournament. If you do not have a full team/are participating solo, feel free to message in the \"lookingforgroup\" channel on the official ITU LAN Discord server. Alternatively, you can message us directly on Discord (TriaTheSpartanGR#9320) so we can help you find teammates! discord.com/invite/nSFXWQN",
+        description:"The Valorant tournament is going be a double elimination tournament. If you do not have a full team/are participating solo, feel free to message in the \"lookingforgroup\" channel on the official ITU LAN Discord server. For any other questions, message us directly on Discord (iceplunker, triathespartangr, kydonia, bonguy) so we can help you find teammates!",
         logoPath: "",
       },
       {
         title: "Magic the gathering 17.00 Fri",
-        widgetUrl: "https://widget.toornament.com/tournaments/6545164054309625856/",
+        widgetUrl: "https://play.toornament.com/en_US/tournaments/7107505424667041792/",
         platform: " Table top",
-        description:"",// " We're going to hold a paper magic draft again this year. However, unlike last year we're going to drafting from 3 different sets, so semi chaos. Please show up 20min before the draft for role calls. Also bring your own sleeves and basic lands just for good measure :) Players are not to keep the drafted cards. However, winners are awarded booster packs as prizes.",
+        description: "Greetings people \\[T]/ We're doing MTG tournament at ITU LAN yet again. This time around we'll be doing phamtom cube. The theme and content of the cube will be a surprise though so look forward",
         logoPath: "",
       },
       {
