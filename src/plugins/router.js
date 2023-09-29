@@ -1,17 +1,16 @@
 import Vue from "vue";
 import Router from "vue-router";
+import Information from "@/views/Information.vue";
 import Home from "@/views/Home.vue";
 // import Meet from"@/views/Meet.vue";
-//import News from "@/views/News.vue";
-//import Tournaments from "@/views/Tournaments.vue";
-import Information from "@/views/Information.vue";
-//import Tickets from "@/views/Tickets.vue";
-//import JoinUs from "@/views/JoinUs.vue";
+import Tournaments from "@/views/Tournaments.vue";
+import Tickets from "@/views/Tickets.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
-//import Schedule from "@/views/Schedule.vue";
+import Schedule from "@/views/Schedule.vue";
 //import Servers from "@/views/Servers.vue";
-
+// import JoinUs from "@/views/JoinUs.vue";
+// import News from "@/views/News.vue";
 Vue.use(Router);
 
 const router = new Router({
@@ -36,42 +35,34 @@ const router = new Router({
     //     id: "Meet"
     //   }
     // },
-    // {
-    //   path: "/tickets",
-    //   name: "buy tickets",
-    //   component: Tickets,
-    //   meta: {
-    //     title: "Tickets",
-    //     id: "tickets"
-    //   }
-    // },
-    // {
-    //   path: "/schedule",
-    //   name: "schedule",
-    //   component: Schedule,
-    //   meta: {
-    //     title: "Schedule",
-    //     id: "Schedule"
-    //   }
-    // },
-    // {
-    //   path: "/news",
-    //   name: "news",
-    //   component: News,
-    //   meta: {
-    //     title: "News",
-    //     id: "news"
-    //   }
-    // },
-    // {
-    //   path: "/tournaments",
-    //   name: "tournaments",
-    //   component: Tournaments,
-    //   meta: {
-    //     title: "Tournaments",
-    //     id: "tournaments"
-    //   }
-    // },
+    {
+      path: "/tickets",
+      name: "buy tickets",
+      component: Tickets,
+      meta: {
+        title: "Tickets",
+        id: "tickets"
+      }
+    },
+    {
+      path: "/schedule",
+      name: "schedule",
+      component: Schedule,
+      meta: {
+        title: "Schedule",
+        id: "Schedule"
+      }
+    },
+
+    {
+      path: "/tournaments",
+      name: "tournaments",
+      component: Tournaments,
+      meta: {
+        title: "Tournaments",
+        id: "tournaments"
+      }
+    },
     {
       path: "/information",
       name: "faq",
@@ -81,15 +72,6 @@ const router = new Router({
         id: "information"
       }
     },
-    //{
-    //   path: "/join",
-    //   name: "join the crew",
-    //   component: JoinUs,
-    //   meta: {
-    //     title: "Join the Crew",
-    //     id: "join"
-    //   }
-    // },
     {
       path: "/partner",
       name: "partner with us",
@@ -99,6 +81,24 @@ const router = new Router({
         id: "partner"
       }
     },
+    // {
+    //   path: "/join",
+    //   name: "join the crew",
+    //   component: JoinUs,
+    //   meta: {
+    //     title: "Join the Crew",
+    //     id: "join"
+    //   }
+    // },
+       // {
+    //   path: "/news",
+    //   name: "news",
+    //   component: News,
+    //   meta: {
+    //     title: "News",
+    //     id: "news"
+    //   }
+    // },
     // {
     //   path: "/servers",
     //   name: "servers",
