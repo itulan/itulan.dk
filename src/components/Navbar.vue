@@ -163,10 +163,14 @@ button {
   margin: 0 5px;
 }
 
-.some-button:hover {
+.some-button img:hover {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   transform: scale(1.4);
+}
+
+.some-button:hover img {
+  filter: invert(34%) sepia(90%) saturate(5228%) hue-rotate(276deg) brightness(98%) contrast(101%);
 }
 
 .navbar-brand {
@@ -186,6 +190,7 @@ button {
 .router-link-text {
   text-transform: uppercase;
   position: relative;
+  font-family: "Retro Gaming";
 }
 
 .desktop .router-link-text:after,
@@ -207,7 +212,11 @@ button {
   height: 2px;
 }
 .desktop .router-link-text:hover:after {
-  width: 100%;
+  /* width: 100%; */
+}
+
+.desktop .router-link-text:hover {
+  color: var(--brand-secondary);
 }
 
 .router-link-home {

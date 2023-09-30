@@ -1,15 +1,14 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 data-aos="fade-right" data-aos-delay="100"> ITU LAN Fall 2023 </h1>  
-      <h1
+      <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> ITU LAN Fall 2023 </h1>  
+      <h2
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
-        class="hollow-text"
       >
           27th - 29th Oct.
-      </h1>
+      </h2>
       <!-- <h1 data-aos="fade-right" data-aos-delay="100"> Meet n' greet  </h1>  
       <h1
         data-aos="fade-left"
@@ -98,6 +97,7 @@ export default {
   color: hsl(0, 0%, 100%);
 }
 
+
 @media only screen and (max-width: 750px) {
   .content {
     padding-top: 4rem;
@@ -125,7 +125,7 @@ export default {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: hsla(216, 92%, 14%, 0.8);
+  background: rgba(3, 29, 69, 0.8);
 }
 
 .header > *:not(:first-child) {
@@ -150,14 +150,20 @@ export default {
   margin: 15px auto;
   margin: 1rem;
 }
+
 #season {
   margin-top: 0;
+  font-family: "Retro Gaming";
+  font-size: 4rem;
 }
+
 h2 {
   margin-top: 2rem;
 }
+
 #emoji {
   font-size: 8rem;
   margin-top: 2rem;
 } 
+
 </style>
