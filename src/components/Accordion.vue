@@ -76,7 +76,7 @@ export default {
 .tab-header:hover {
   transition: all 0.2s;
   transform: scale(1.1);
-  color: hsl(var(--brand-gray-light));
+  color: var(--brand-gray-light);
 }
 
 .details {
@@ -90,7 +90,7 @@ h3 {
   font-size: 3rem;
 }
 hr {
-  background-color: hsl(var(--brand-white));
+  background-color: var(--brand-white);
 }
 
 .sponsor small {

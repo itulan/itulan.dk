@@ -1,12 +1,12 @@
 :root {
-  --brand-primary: 216 92% 14%;
-  --brand-secondary: 242 100% 50%;
-  --brand-white: 0 0% 100%;
-  --brand-gray-light: 0 0% 80%;
-  --brand-gray: 0 0% 50%;
-  --brand-dark-gray: 0 0% 36%;
-  --brand-gray-transparent: 0 0% 100%;
-  --brand-black: 0 0% 0%;
+  --brand-primary: rgb(3, 29, 69);
+  --brand-secondary: rgb(8, 0, 255);
+  --brand-white: rgb(255, 255, 255);
+  --brand-gray-light: rgb(204, 204, 204);
+  --brand-gray: rgb(128, 128, 128);
+  --brand-dark-gray: rgb(92, 92, 92);
+  --brand-gray-transparent: rgb(255, 255, 255);
+  --brand-black: rgb(0, 0, 0);
 }
 
 @font-face {
@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: hsl(var(--brand-primary));
+  background-color: var(--brand-primary);
   letter-spacing: 1px;
 }
 
@@ -67,7 +67,7 @@ h3 {
 }
 
 small {
-  color: hsl(var(--brand-gray));
+  color: var(--brand-gray);
 }
 
 iframe {
@@ -96,7 +96,7 @@ a:hover {
     Cantarell, Noto Sans, Sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsl(var(--brand-white));
+  color: var(--brand-white);
 }
 
 .center-image {
@@ -112,7 +112,7 @@ a:hover {
 .hollow-text {
   color: transparent;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: hsl(var(--brand-white));
+  -webkit-text-stroke-color: var(--brand-white);
 }
 
 .uppercase {

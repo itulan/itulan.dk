@@ -11,7 +11,7 @@ export default {};
   border: none;
   outline: none;
   color: #fff;
-  background: hsl(var(--brand-primary));
+  background: var(--brand-primary);
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -66,7 +66,7 @@ export default {};
   position: absolute;
   width: 100%;
   height: 100%;
-  background: hsl(var(--brand-secondary));
+  background: var(--brand-secondary);
   left: 0;
   top: 0;
 }

@@ -151,7 +151,7 @@ export default {
 #show-players-button {
   cursor: pointer;
   text-transform: capitalize;
-  color: hsl(var(--brand-gray));
+  color: var(--brand-gray);
   font-size: 0.8rem;
 }
 

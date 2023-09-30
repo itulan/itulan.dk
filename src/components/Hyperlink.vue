@@ -59,7 +59,7 @@ a {
   border: none;
   outline: none;
   color: #fff;
-  background: hsl(var(--brand-secondary));
+  background: var(--brand-secondary);
   position: relative;
   z-index: 0;
   display: inline-block;
@@ -75,7 +75,7 @@ a {
 /* https://codepen.io/althi/pen/eKdmaa */
 .button:hover,
 .button:focus {
-  color: hsl(var(--brand-primary));
+  color: var(--brand-primary);
   background-image: linear-gradient(
     to right,
     #e7484f,
@@ -102,13 +102,13 @@ a {
 }
 
 .pulse {
-  box-shadow: 0 0 0 hsl(var(--brand-secondary));
+  box-shadow: 0 0 0 var(--brand-secondary);
   animation: pulse 2s infinite;
 }
 
 @-webkit-keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 hsl(var(--brand-secondary));
+    -webkit-box-shadow: 0 0 0 0 var(--brand-secondary);
   }
   70% {
     -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
@@ -119,8 +119,8 @@ a {
 }
 @keyframes pulse {
   0% {
-    -moz-box-shadow: 0 0 0 0 hsl(var(--brand-secondary));
-    box-shadow: 0 0 0 0 hsl(var(--brand-secondary));
+    -moz-box-shadow: 0 0 0 0 var(--brand-secondary);
+    box-shadow: 0 0 0 0 var(--brand-secondary);
   }
   70% {
     -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);

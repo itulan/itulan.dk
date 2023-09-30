@@ -141,11 +141,11 @@ button {
 }
 
 .navbar-dark .navbar-toggler-icon {
-  color: hsl(var(--brand-white)) !important;
+  color: var(--brand-white) !important;
 }
 
 .navbar-toggler-icon {
-  color: hsl(var(--brand-white)) !important;
+  color: var(--brand-white) !important;
 }
 
 .bg-info {
@@ -153,7 +153,7 @@ button {
 }
 
 .open {
-  background-color: hsl(var(--brand-primary)) !important;
+  background-color: var(--brand-primary) !important;
   border-bottom: 4px solid white;
 }
 
@@ -175,7 +175,7 @@ button {
 
 .router-link {
   margin: 0 2rem;
-  color: hsl(var(--brand-white));
+  color: var(--brand-white);
   text-decoration: none;
 }
 
@@ -203,7 +203,7 @@ button {
   width: 0%;
   content: ".";
   color: transparent;
-  background: hsl(var(--brand-white));
+  background: var(--brand-white);
   height: 2px;
 }
 .desktop .router-link-text:hover:after {
@@ -216,7 +216,7 @@ button {
 }
 
 .router-link-active span:not(.router-link-home) {
-  color: hsl(var(--brand-gray));
+  color: var(--brand-gray);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -240,13 +240,13 @@ button {
     font-size: 2.5rem;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: hsl(var(--brand-white));
+    -webkit-text-stroke-color: var(--brand-white);
     letter-spacing: 4px;
     text-transform: uppercase;
     display: block;
   }
   .router-link:hover :not(.router-link-home) {
-    color: hsl(var(--brand-white));
+    color: var(--brand-white);
     -webkit-text-stroke-width: initial;
     -webkit-text-stroke-color: initial;
   }
