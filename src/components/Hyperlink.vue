@@ -1,4 +1,4 @@
-<template>
+x½<template>
   <a
     :class="{ button: asButton, pulse: pulse }"
     :href="url"

@@ -14,30 +14,15 @@
           <span>Magic the Gathering</span>
           <small>~6 hours</small>
         </div>
-        <div>
-          <span class="time">17.00</span>
-          <span>Mario Kart</span>
-          <small>~4 hours</small>
-        </div>
-        <div>
-          <span class="time">17.00</span>
-          <span>Novo Fruit Ninja </span>
-          <small>~3 hours</small>
-        </div>
-        <div>
+        <!-- <div>
           <span class="time">19.00</span>
           <span>Victoria 3</span>
           <small>~4 hours</small>
-        </div>
+        </div> -->
         <div>
           <span class="time">20.00</span>
           <span>Valorant </span>
-          <small>~4 hours</small>
-        </div>
-        <div>
-          <span class="time">20.00</span>
-          <span>Novo Foosball </span>
-          <small>~2 hours</small>
+          <small>~3 hours</small>
         </div>
       </div>
     </div>
@@ -51,32 +36,31 @@
           <span>Escape Room</span>
           <small>~14 hours</small>
         </div> -->
-        <div>
+             <div>
           <span class="time">12.00</span>
+          <span>Mario Cart</span>
+          <small>~3 hours</small>
+        </div>
+        <div>
+          <span class="time">13.00</span>
           <span>League of Legends</span>
-          <small>~8 hours</small>
+          <small>~10 hours</small>
         </div>
         <div>
-          <span class="time">12.00</span>
-          <span>Redbull Doodle art competition</span>
-          <small>~4 hours</small>
+          <span class="time">15.00</span>
+          <span>Town of Salem </span>
+          <small>~3 hours</small>
         </div>
         <div>
-          <span class="time">14.00</span>
-          <span>Just Dance 2022</span>
+          <span class="time">16.00</span>
+          <span>Just Dance 2023</span>
           <small>~2 hours</small>
         </div>
-        <div>
+        <!-- <div>
           <span class="time">19.00</span>
           <span>Victoria 3</span>
           <small>~4 hours</small>
-        </div>
-        
-        <div>
-          <span class="time">20.00</span>
-          <span>Smash Bros</span>
-          <small>~3 hours</small>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
