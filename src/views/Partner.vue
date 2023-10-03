@@ -23,21 +23,17 @@
         </p>
 
         <br />
-        <Hyperlink url="mailto:pr@itulan.dk"
-          >Interested? Please write an email to pr@itulan.dk</Hyperlink
-        >
+        <p>Interested? Please write an email to <a href="mailto:pr@itulan.dk"
+          >pr@itulan.dk</a
+        >.</p>
+        
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Hyperlink from "@/components/Hyperlink";
-
 export default {
-  components: {
-    Hyperlink,
-  },
   data() {
     return {
       pdf: require("../assets/docs/ITU-LAN-sponsor-folder-S20.pdf"),

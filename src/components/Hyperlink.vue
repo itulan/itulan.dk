@@ -53,6 +53,7 @@ export default {
 <style scoped>
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button {

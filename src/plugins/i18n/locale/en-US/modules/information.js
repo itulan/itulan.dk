@@ -21,7 +21,7 @@ export default {
             topic: "Alcohol",
             id: "Alcohol",
             paragraphs: [
-                "Alcohol consumption is prohibited above the ground floor as per ITU policy. People with open cups, i.g. ScrollBar cups, at LAN premises will be asked to move to ScrollBar, Atrium or the outdoor areas to protect the participants' personal belongings such as desktop computers."
+                "Alcohol consumption is prohibited above the ground floor as per ITU policy. People with open cups, e.g., ScrollBar cups, at LAN premises will be asked to move to ScrollBar, Atrium or the outdoor areas to protect the participants' personal belongings such as desktop computers."
             ],
         },
         {
@@ -53,7 +53,7 @@ export default {
             topic: "How do I contact the crew?",
             id: "contact",
             paragraphs: [
-                "Before LAN, the best way to contact us if you have any questions related to LAN is through our Discord page, which you can find <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>here<a>.",        
+                "Before LAN, the best way to contact us if you have any questions related to LAN is through our Discord page, which you can find <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>here<a>.",
                 "During the LAN, the primary platform for contact is our Discord server - join it <a target='_blank' rel='noopener' href='https://discord.gg/nSFXWQN'>here</a>! Here you can contact us directly, ask game- or event-specific questions, and get updates on the different tournaments.",
                 "If you need in-person help during the LAN, swing by the checkin area on the 1st floor or the crew area located at the checkin area, most crew members are wearing blue tshirt with ITU-lan print.",
             ],
@@ -89,13 +89,13 @@ export default {
                 "Yes - you can bring your own food and heat it up in the kitchen on each floor. There are refrigerators and microwave ovens.",
             ],
         },
-       
+
         {
             topic: "Did you say storage?",
             id: "storage",
             paragraphs: [
                 "Yes - there will be storage on each floor in 2A12-14, 3A12-14, and 4A12-14",
-                "If you need to store or pickup your gear please contact the crew at the checkin area (1st floor) or at the 4A10, or write @keywarden on <a href='https://discord.gg/nSFXWQN' target='_blank' rel='noopener'>our Discord channel</a>.",
+                "If you need to store or pickup your gear please contact the crew at the checkin area (1st floor) or write @keywarden on <a href='https://discord.gg/nSFXWQN' target='_blank' rel='noopener'>our Discord channel</a>.",
             ],
         },
     ],
