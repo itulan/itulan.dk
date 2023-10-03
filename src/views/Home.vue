@@ -9,24 +9,17 @@
       >
           27th - 29th Oct.
       </h2>
-      <!-- <h1 data-aos="fade-right" data-aos-delay="100"> Meet n' greet  </h1>  
-      <h2
-        data-aos="fade-left"
-        data-aos-delay="150"
-        id="season"
-      >
-          4th sep - 16:00
-      </h2> -->
 
-      <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" /> -->
-      <!-- <div class="button-container">
+       <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
+      <div class="button-container">
         <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tickets' })"
-          >Buy tickets</Hyperlink
+          >Buy tickets
+          </Hyperlink
         >
          <Hyperlink
           data-aos="fade-down"
@@ -44,19 +37,19 @@
           :onClick="() => $router.push({ path: 'schedule' })"
           >Schedule</Hyperlink
         > 
-      </div>  -->
+      </div>
     </div>
   </header>
 </template>
 
 <script>
-//import Sponsors from "@/components/Sponsors.vue";
-// import Hyperlink from "@/components/Hyperlink.vue"
+// import Sponsors from "@/components/Sponsors.vue";
+import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
-    //Sponsors,
-    // Hyperlink
+    // Sponsors,
+    Hyperlink
   },
 };
 </script>

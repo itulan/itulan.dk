@@ -11,21 +11,31 @@
     <div class="details" v-show="active">
       <hr />
       <div>
-        <p
+        <!-- <p
           class="description"
           v-if="
             tournament.description &&
             (isMobile || tournament.title.startsWith('Escape Room'))
           "
           v-html="tournament.description"
+        ></p> -->
+        <p
+          class="description"
+          v-html="tournament.description"
         ></p>
-        <iframe
+
+        <a class="Toornamentbutton" 
+        v-if="tournament.toornUrl" 
+        :href="tournament.toornUrl">
+        Sign Up >
+        </a>
+        <!-- <iframe
           v-if="tournament.widgetUrl"
           width="100%"
           height="640px"
           :src="tournament.widgetUrl"
           :title="'tournamet-wdiget-' + tournament.title"
-        ></iframe>
+        ></iframe> -->
       </div>
       <hr />
     </div>
@@ -61,6 +71,16 @@ export default {
 </script>
 
 <style scoped>
+.Toornamentbutton{
+  text-decoration: none;
+  /* background-color: #C329F0; */
+  background-image: linear-gradient(to  right, #031d45 , #C329F0 55%);
+  border-radius: 1rem;
+  border-color: #27497a;
+  border-style: solid;
+  border-width: 2px;
+  padding: 14px 35px;
+}
 .description {
   text-align: left;
 }
