@@ -70,6 +70,9 @@ export default {
 .circle-outline .message {
   text-transform: uppercase;
   font-family: Anton, Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-shadow: 4px 4px 0px #000000;
+  text-decoration: none;
   display: block;
   margin: 0 auto;
   width: 70%;

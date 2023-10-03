@@ -11,27 +11,9 @@
         >{{ $t("tickets.title") }}</TextCircle
       >
     </Hyperlink>
-
-    <div class="steps">
-      <span data-aos="fade-left" data-aos-delay="300">
-        <h3 class="hollow-text">1.</h3>
-        <h3>{{ $t("tickets.steps.findSeat.title") }}</h3>
-      </span>
-      <span data-aos="fade-left" data-aos-delay="600">
-        <h3 class="hollow-text">2.</h3>
-        <h3>{{ $t("tickets.steps.buyTicket.title") }}</h3>
-      </span>
-      <span data-aos="fade-left" data-aos-delay="900">
-        <h3 class="hollow-text">3.</h3>
-        <h3>{{ $t("tickets.steps.checkin.title") }}</h3>
-      </span>
-    </div>
     <small style="display:block; margin-bottom: 2rem;" ><i><strong>Sleeping is not allowed at ITU.</strong></i></small>
     <div id="step-one" data-aos="fade-up" data-aos-delay="200">
       <span class="step-header">
-        <h3 class="hollow-text">
-          {{ $t("tickets.steps.findSeat.stepNumber") }}
-        </h3>
         <h3>{{ $t("tickets.steps.findSeat.title") }}</h3>
       </span>
       <p>{{ $t("tickets.steps.findSeat.text") }}</p>
@@ -71,9 +53,6 @@
     <div class="flex-wrapper">
       <div id="step-two">
         <span class="step-header">
-          <h3 class="hollow-text">
-            {{ $t("tickets.steps.buyTicket.stepNumber") }}
-          </h3>
           <h3>{{ $t("tickets.steps.buyTicket.title") }}</h3>
         </span>
         <p>
@@ -84,9 +63,6 @@
       </div>
       <div id="step-three">
         <span class="step-header">
-          <h3 class="hollow-text">
-            {{ $t("tickets.steps.checkin.stepNumber") }}
-          </h3>
           <h3>{{ $t("tickets.steps.checkin.title") }}</h3>
         </span>
         <p>{{ $t("tickets.steps.checkin.text") }}</p>

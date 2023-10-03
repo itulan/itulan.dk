@@ -32,16 +32,4 @@ export default {
     margin: 80px auto;
   }
 }
-
-.Cookie__button {
-  background: hsl(242, 100%, 50%) !important;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.Cookie__button:hover {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  transform: scale(1.1);
-}
 </style>

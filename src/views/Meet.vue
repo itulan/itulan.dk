@@ -6,7 +6,6 @@
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
-        class="hollow-text"
       >
           4th sep - 16.00.
       </h1>
@@ -48,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: hsl(0, 0%, 100%);
+  color: var(--brand-white);
 }
 
 @media only screen and (max-width: 750px) {
@@ -78,7 +77,7 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: hsla(216, 92%, 14%, 0.8);
+  background: rgba(3, 29, 69, 0.8);
 }
 
 .header > *:not(:first-child) {

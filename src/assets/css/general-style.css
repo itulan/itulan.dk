@@ -58,6 +58,14 @@ h3 {
   font-family: Anton, Arial, Helvetica, sans-serif;
 }
 
+h2,
+h3 {
+  color: var(--brand-secondary);
+  font-family: "Retro Gaming";
+  font-style: italic;
+  text-shadow: 4px 4px 0px #000000;
+}
+
 h1 {
   font-size: 5rem;
   text-shadow: 6px 6px 0px #000000;
@@ -66,9 +74,6 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  text-shadow: 6px 6px 0px #000000;
-  color: var(--brand-secondary);
-  font-family: "Retro Gaming";
 }
 
 h3 {

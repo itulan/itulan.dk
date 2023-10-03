@@ -235,7 +235,7 @@ button {
   }
 
   .router-link-text {
-    font-family: "Anton", Arial, Helvetica, sans-serif;
+    /* font-family: "Anton", Arial, Helvetica, sans-serif; */
     text-align: center;
     line-height: 0.5;
   }
@@ -247,15 +247,17 @@ button {
   .router-link :not(.router-link-home) {
     margin: 0 auto;
     font-size: 2.5rem;
-    color: transparent;
+    /* color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--brand-white);
+    -webkit-text-stroke-color: var(--brand-white); */
     letter-spacing: 4px;
     text-transform: uppercase;
     display: block;
   }
   .router-link:hover :not(.router-link-home) {
-    color: var(--brand-white);
+    color: var(--brand-secondary);
+    font-style: italic;
+    text-shadow: 4px 4px 0px #000000;
     -webkit-text-stroke-width: initial;
     -webkit-text-stroke-color: initial;
   }

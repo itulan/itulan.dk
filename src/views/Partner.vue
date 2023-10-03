@@ -2,7 +2,7 @@
   <div>
     <div class="title-wrapper">
       <h1>{{ $route.name }}</h1>
-      <h2 class="hollow-text">{{ $t("partner.subtitle") }}</h2>
+      <h2>{{ $t("partner.subtitle") }}</h2>
     </div>
 
     <div class="flex-wrapper">
@@ -11,7 +11,7 @@
         <h3>{{ $t("partner.aboutUs") }}</h3>
         <p>
           ITU LAN is a non-profit university organization. We host a biannual
-          LAN party at the IT University with more than 300 students
+          LAN party at the IT University of Copenhagen with more than 200 students
           participating in each event.
         </p>
         <p>

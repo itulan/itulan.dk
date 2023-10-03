@@ -10,14 +10,13 @@
           27th - 29th Oct.
       </h2>
       <!-- <h1 data-aos="fade-right" data-aos-delay="100"> Meet n' greet  </h1>  
-      <h1
+      <h2
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
-        class="hollow-text"
       >
           4th sep - 16:00
-      </h1> -->
+      </h2> -->
 
       <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" /> -->
       <!-- <div class="button-container">
@@ -81,7 +80,7 @@ export default {
   left: 0;
   height: 100vh;
   width: 100%;
-  background-image: url(../assets/img/home/home_background.jpg);
+  background-image: url(../assets/img/home/home_background_honeycomb_compressed.jpg);
   isolation: isolate;
   object-fit: cover;
   background-size: cover;
@@ -94,7 +93,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: hsl(0, 0%, 100%);
+  color: var(--brand-white);
 }
 
 
@@ -118,14 +117,6 @@ export default {
 
 .content > * {
   max-width: 800px;
-}
-
-.header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background: rgba(3, 29, 69, 0.8);
 }
 
 .header > *:not(:first-child) {
