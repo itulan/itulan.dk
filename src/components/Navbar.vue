@@ -211,9 +211,6 @@ button {
   background: var(--brand-white);
   height: 2px;
 }
-.desktop .router-link-text:hover:after {
-  /* width: 100%; */
-}
 
 .desktop .router-link-text:hover {
   color: var(--brand-secondary);
@@ -235,9 +232,8 @@ button {
   }
 
   .router-link-text {
-    /* font-family: "Anton", Arial, Helvetica, sans-serif; */
     text-align: center;
-    line-height: 0.5;
+    line-height: 1;
   }
 
   .router-link-active span {
@@ -246,11 +242,8 @@ button {
 
   .router-link :not(.router-link-home) {
     margin: 0 auto;
-    font-size: 2.5rem;
-    /* color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--brand-white); */
-    letter-spacing: 4px;
+    font-size: 2rem;
+    letter-spacing: 2px;
     text-transform: uppercase;
     display: block;
   }

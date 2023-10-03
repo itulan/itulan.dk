@@ -126,6 +126,11 @@ export default {
   .button-container {
     flex-direction: column;
   }
+
+  #season {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
 }
 
 .button-container > button,
@@ -138,7 +143,6 @@ export default {
 #season {
   margin-top: 0;
   font-family: "Retro Gaming";
-  font-size: 4rem;
 }
 
 h2 {
