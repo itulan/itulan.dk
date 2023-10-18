@@ -14,7 +14,12 @@
           <span>Magic the Gathering</span>
           <small>~6 hours</small>
         </div>
-    <div>
+        <div>
+          <span class="time">17.00</span>
+          <span> VR Fruit Ninj </span>
+          <small>~4 hours</small>
+        </div>
+        <div>
           <span class="time">19.00</span>
           <span>Civilization VI</span>
           <small>~4 hours</small>
@@ -23,6 +28,11 @@
           <span class="time">20.00</span>
           <span>Valorant </span>
           <small>~3 hours</small>
+        </div>
+        <div>
+          <span class="time">20.00</span>
+          <span>Foosball  </span>
+          <small>~1 hours</small>
         </div>
       </div>
     </div>
@@ -62,7 +72,7 @@
           <small>~2 hours</small>
         </div>
         <div>
-          <span class="time">19.00</span>
+          <span class="time">20.00</span>
           <span>Civilization VI</span>
           <small>~4 hours</small>
         </div>
