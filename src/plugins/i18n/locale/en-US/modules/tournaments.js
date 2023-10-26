@@ -79,14 +79,14 @@ export default {
         title: " VR Fruit Ninja 17:00 Fri",
         //toornUrl: "",
         platform: " ",
-        description: "Sponser tournament",
+        description: "Sponsor tournament",
         logoPath: "",
       },
            {
         title: "Foosball 20:00",
         //toornUrl: "",
         platform: " ",
-        description: "Sponser tournament",
+        description: "Sponsor tournament",
         logoPath: "",
       },
       // {

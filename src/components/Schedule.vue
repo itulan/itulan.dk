@@ -16,7 +16,7 @@
         </div>
         <div>
           <span class="time">17.00</span>
-          <span> VR Fruit Ninj </span>
+          <span> VR Fruit Ninja </span>
           <small>~4 hours</small>
         </div>
         <div>
@@ -48,7 +48,7 @@
         </div>
              <div>
           <span class="time">12.00</span>
-          <span>Mario Cart</span>
+          <span>Mario Kart</span>
           <small>~3 hours</small>
         </div>
         <div>
