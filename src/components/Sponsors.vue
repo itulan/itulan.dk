@@ -13,25 +13,31 @@
           loading="lazy"
         />
       </Hyperlink>
-       <!-- <div class="minor-sponsors"> 
-        <img
+       <div class="minor-sponsors"> 
+         <img
+          src="../assets/img/common/sponsor_logos/Modl.ai/modl.ai_white.png" 
+          alt="Modl.ai Logo"
+          style="padding-bottom:13px"
+        />
+        <!-- <img
           src="../assets/img/common/sponsor_logos/ida/IDA_white.png" 
           alt="IDA logo"
           style="padding-bottom:13px"
           
-        /> -->
-        <!-- <img
+        /> 
+
+         <img
           src="../assets/img/common/sponsor_logos/kmd/KMD_WHITE.png"
           alt="KMD logo" 
-        /> -->
-        <!-- <div>
+        /> 
+        <div>
           <img
             style="margin-bottom: 2rem"
             src="../assets/img/common/sponsor_logos/accenture/AccentureLogo.png"
             alt="Accenture logo"  
           />
-        </div>  
-      </div>-->
+        </div>  --> 
+      </div>
     </div>
   </div>
 </template>
