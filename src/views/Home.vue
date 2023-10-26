@@ -10,7 +10,7 @@
           27th - 29th Oct.
       </h2>
 
-       <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
+       <Sponsors data-aos="fade-right" data-aos-delay="200" /> 
       <div class="button-container">
         <Hyperlink
           data-aos="fade-down"
@@ -43,12 +43,12 @@
 </template>
 
 <script>
-// import Sponsors from "@/components/Sponsors.vue";
+import Sponsors from "@/components/Sponsors.vue";
 import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
-    // Sponsors,
+    Sponsors,
     Hyperlink
   },
 };

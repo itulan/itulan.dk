@@ -14,15 +14,25 @@
           <span>Magic the Gathering</span>
           <small>~6 hours</small>
         </div>
-        <!-- <div>
-          <span class="time">19.00</span>
-          <span>Victoria 3</span>
+        <div>
+          <span class="time">17.00</span>
+          <span> VR Fruit Ninj </span>
           <small>~4 hours</small>
-        </div> -->
+        </div>
+        <div>
+          <span class="time">19.00</span>
+          <span>Civilization VI</span>
+          <small>~4 hours</small>
+        </div> 
         <div>
           <span class="time">20.00</span>
           <span>Valorant </span>
           <small>~3 hours</small>
+        </div>
+        <div>
+          <span class="time">20.00</span>
+          <span>Foosball  </span>
+          <small>~1 hours</small>
         </div>
       </div>
     </div>
@@ -31,11 +41,11 @@
         <h3 class="weekday">Saturday</h3>
       </div>
       <div class="flex schedule">
-        <!-- <div>
+        <div>
           <span class="time">10.00</span>
           <span>Escape Room</span>
           <small>~14 hours</small>
-        </div> -->
+        </div>
              <div>
           <span class="time">12.00</span>
           <span>Mario Cart</span>
@@ -56,11 +66,16 @@
           <span>Just Dance 2023</span>
           <small>~2 hours</small>
         </div>
-        <!-- <div>
+        <div>
           <span class="time">19.00</span>
-          <span>Victoria 3</span>
+          <span>Super Mario Bros Wonder</span>
+          <small>~2 hours</small>
+        </div>
+        <div>
+          <span class="time">20.00</span>
+          <span>Civilization VI</span>
           <small>~4 hours</small>
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
