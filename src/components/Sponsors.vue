@@ -5,7 +5,7 @@
     </span>
     <br />
     <div class="sponsors">
-      <Hyperlink newTab url="https://www.novonordisk.dk/">
+      <!-- <Hyperlink newTab url="https://www.novonordisk.dk/">
         <img
           alt="Epico NextGen logo"
           class="logo primary"
@@ -18,7 +18,7 @@
           src="../assets/img/common/sponsor_logos/Modl.ai/modl.ai_white.png" 
           alt="Modl.ai Logo"
           style="padding-bottom:13px"
-        />
+        /> -->
         <!-- <img
           src="../assets/img/common/sponsor_logos/ida/IDA_white.png" 
           alt="IDA logo"
@@ -36,17 +36,17 @@
             src="../assets/img/common/sponsor_logos/accenture/AccentureLogo.png"
             alt="Accenture logo"  
           />
-        </div>  --> 
-      </div>
+        </div>  
+      </div>--> 
     </div>
   </div>
 </template>
 
 <script>
-import Hyperlink from "@/components/Hyperlink";
+// import Hyperlink from "@/components/Hyperlink";
 export default {
   components: {
-    Hyperlink,
+    // Hyperlink,
   },
 };
 </script>
