@@ -1,17 +1,17 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> ITU LAN Fall 2023 </h1>  
+      <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> ITU LAN Sring 2024 </h1>  
       <h2
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
       >
-          27th - 29th Oct.
+          To be announced
       </h2>
 
-       <Sponsors data-aos="fade-right" data-aos-delay="200" /> 
-      <div class="button-container">
+       <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
+      <!-- <div class="button-container">
         <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
@@ -37,19 +37,19 @@
           :onClick="() => $router.push({ path: 'schedule' })"
           >Schedule</Hyperlink
         > 
-      </div>
+      </div> -->
     </div>
   </header>
 </template>
 
 <script>
-import Sponsors from "@/components/Sponsors.vue";
-import Hyperlink from "@/components/Hyperlink.vue"
+// import Sponsors from "@/components/Sponsors.vue";
+// import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
-    Sponsors,
-    Hyperlink
+    // Sponsors,
+    // Hyperlink
   },
 };
 </script>
