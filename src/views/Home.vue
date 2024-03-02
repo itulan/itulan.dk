@@ -1,13 +1,16 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> ITU LAN Sring 2024 </h1>  
+      <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> 
+        
+        12th - 14th April
+        </h1>  
       <h2
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
       >
-          To be announced
+        ITU LAN Sring 2024   
       </h2>
 
        <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
