@@ -10,7 +10,7 @@
         data-aos-delay="150"
         id="season"
       >
-        ITU LAN Sring 2024   
+        ITU LAN Spring 2024   
       </h2>
 
        <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
