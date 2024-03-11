@@ -4,7 +4,7 @@ import Information from "@/views/Information.vue";
 import Home from "@/views/Home.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
-// import Tickets from "@/views/Tickets.vue";
+import Tickets from "@/views/Tickets.vue";
 // import Tournaments from "@/views/Tournaments.vue";
 // import Schedule from "@/views/Schedule.vue";
 // import Meet from"@/views/Meet.vue";
@@ -35,15 +35,15 @@ const router = new Router({
     //     id: "Meet"
     //   }
     // },
-    // {
-    //   path: "/tickets",
-    //   name: "buy tickets",
-    //   component: Tickets,
-    //   meta: {
-    //     title: "Tickets",
-    //     id: "tickets"
-    //   }
-    // },
+    {
+      path: "/tickets",
+      name: "buy tickets",
+      component: Tickets,
+      meta: {
+        title: "Tickets",
+        id: "tickets"
+      }
+    },
     // {
     //   path: "/schedule",
     //   name: "schedule",
