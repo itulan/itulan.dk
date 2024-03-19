@@ -5,8 +5,8 @@ import Home from "@/views/Home.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
 import Tickets from "@/views/Tickets.vue";
-// import Tournaments from "@/views/Tournaments.vue";
-// import Schedule from "@/views/Schedule.vue";
+import Tournaments from "@/views/Tournaments.vue";
+import Schedule from "@/views/Schedule.vue";
 // import Meet from"@/views/Meet.vue";
 // import Servers from "@/views/Servers.vue";
 // import JoinUs from "@/views/JoinUs.vue";
@@ -44,25 +44,25 @@ const router = new Router({
         id: "tickets"
       }
     },
-    // {
-    //   path: "/schedule",
-    //   name: "schedule",
-    //   component: Schedule,
-    //   meta: {
-    //     title: "Schedule",
-    //     id: "Schedule"
-    //   }
-    // },
+    {
+      path: "/schedule",
+      name: "schedule",
+      component: Schedule,
+      meta: {
+        title: "Schedule",
+        id: "Schedule"
+      }
+    },
 
-    // {
-    //   path: "/tournaments",
-    //   name: "tournaments",
-    //   component: Tournaments,
-    //   meta: {
-    //     title: "Tournaments",
-    //     id: "tournaments"
-    //   }
-    // },
+    {
+      path: "/tournaments",
+      name: "tournaments",
+      component: Tournaments,
+      meta: {
+        title: "Tournaments",
+        id: "tournaments"
+      }
+    },
     {
       path: "/information",
       name: "faq",

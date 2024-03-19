@@ -12,7 +12,6 @@
       >
         ITU LAN Spring 2024   
       </h2>
-
        <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
       <div class="button-container">
         <Hyperlink
@@ -24,7 +23,7 @@
           >Buy tickets
           </Hyperlink
         >
-         <!-- <Hyperlink
+         <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
           asButton
@@ -39,7 +38,7 @@
           pulse
           :onClick="() => $router.push({ path: 'schedule' })"
           >Schedule</Hyperlink
-        > -->
+        >
       </div> 
     </div>
   </header>
