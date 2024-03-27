@@ -14,6 +14,11 @@
           <span>Magic the Gathering</span>
           <small>~6 hours</small>
         </div>
+          <div>
+          <span class="time">17.00</span>
+          <span>Plate Up</span>
+          <small>~24 hours</small>
+        </div>
         <div>
           <span class="time">18.00</span>
           <span>Valorant </span>
