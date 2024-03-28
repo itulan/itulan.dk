@@ -45,7 +45,7 @@ export default {
         title: "Escape Room Sat",
         toornUrl:"https://calendly.com/itu-escape/escape-room-booking",
         platform: "IRL",
-        description: "ttention! Calling all warlocks, bards, and rogues! A new adventure arises as we get closer to this semester's ITU LAN event!</br>A mind-boggling journey awaits ahead in this semester's DND themed escape room, captivating your mind and testing your skills. Escape this dungeon to prove your might, and crown yourselves as the champions of The Basilisk\'s Nest! 🏆 </br>Will your adventurer group reach the top of the leaderboard? Prove yourself as the best adventurer in the guild by passing the dungeon's challenges! 🧩 </br>Sign up here:<a href=\"https://calendly.com/itu-escape/escape-room-booking\">here</a>",
+        description: "Attention! Calling all warlocks, bards, and rogues! A new adventure arises as we get closer to this semester's ITU LAN event!</br>A mind-boggling journey awaits ahead in this semester's DND themed escape room, captivating your mind and testing your skills. Escape this dungeon to prove your might, and crown yourselves as the champions of The Basilisk's Nest! 🏆 </br>Will your adventurer group reach the top of the leaderboard? Prove yourself as the best adventurer in the guild by passing the dungeon's challenges! 🧩 </br>Sign up here:<a href=\"https://calendly.com/itu-escape/escape-room-booking\">here</a>",
         logoPath: "",
       },
       {
