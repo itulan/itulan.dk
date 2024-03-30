@@ -28,7 +28,7 @@ export default {
       {
         title: "Civilization VI 19:00 Fri+Sat",
         toornUrl:
-          "https://play.toornament.com/tournaments/7147994555363844096/" ,
+          "https://play.toornament.com/tournaments/7637633888955768832/" ,
         platform: "PC",
         description:"Are you a fan of strategy games? Do you enjoy making fragile alliances with other players, only to betray them when they are most vulnerable? Do you enjoy pitting the whole world against one player, or in turn having the whole world pitted against you? Well then you'll enjoy this semesters ITU LAN tournament in Sid Meier's Civilization VI. </br>The game will be played in two parts, from 19:00 to 23:00 on Friday and 20:00-00:00 on Saturday.</br>Empires will be drafted on the day of, so unfortunately, little planning before the tournament will be possible.",
         logoPath: "",
