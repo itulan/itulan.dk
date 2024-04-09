@@ -63,14 +63,14 @@ export default {
         logoPath: "",
       },
       {
-        title: "Smash Brothers Ultimate - TBD",
+        title: "Smash Brothers Ultimate - 17:00 Sat",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/7609650516166868992/",
         platform: "PC",
         description: "We are playing smashy bros. once again, we are still playing Ultimate (there hasn't been a new game ¯\\_(ツ)_/¯ ). This is where you want to be for the LAN if you want to play some organized smashing of your bros (\"no johns between bros.\" - Reggie (probably)).</br></br>Most everything is covered in the rules, so READ THEM.</br></br>Bring your own controller. Loaners are probably available but aren't guaranteed.",
         logoPath: "",
       },
       {
-        title: "Window Wars - TBD",
+        title: "Window Wars - 15:Sat",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/7635148179406938112/",
         platform: " ",
         description: "Prepare yourselves for the ultimate showdown in this new and refreshing arena brawler game. The first-ever tournament of Window Wars is upon us!!</br></br></br>Make sure you bring your PC and have downloaded the latest version of the game.</br></br>Download <a href=\"https://learus.itch.io/we-windows/download/1VPoB0rhT0ZNc0Ka_YSch1J7UZgGyRbOcm_M1mpB\">here</a></br></br>P.S. There will be prizes... and maybe snack",
