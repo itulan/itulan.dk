@@ -50,7 +50,7 @@ export default {
       },
       {
         title: "Valorant 18:00 Fri  ",
-        toornUrl:"https://play.toornament.com/tournaments/7617588066485182464/",
+        toornUrl:"https://play.toornament.com/tournaments/7641071248043155456/",
         platform: "PC",
         description:"The VALORANT tournament is going be a double elimination tournament.</br>If you do not have a full team/are participating solo, feel free to message in the \"lookingforgroup\" channel on the official ITU LAN Discord server. For any other questions, message us directly on Discord (triathespartangr) so we can help you find teammates!",
         logoPath: "",
