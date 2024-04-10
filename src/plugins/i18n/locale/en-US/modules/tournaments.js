@@ -10,7 +10,7 @@ export default {
     platformLabel: "Platform: ",
     tournaments: [
     {
-      title: "karaoke 13:00 Fri",
+      title: "karaoke Fri",
       toornUrl: 
         "https://doodle.com/bp/isabellar/itu-lan-spring-2024-karaoke",      
       platform: " PC ",
