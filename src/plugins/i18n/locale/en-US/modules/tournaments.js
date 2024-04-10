@@ -9,6 +9,14 @@ export default {
     descriptionTBA: "Description TBA",
     platformLabel: "Platform: ",
     tournaments: [
+    {
+      title: "karaoke 13:00 Fri",
+      toornUrl: 
+        "https://doodle.com/bp/isabellar/itu-lan-spring-2024-karaoke",      
+      platform: " PC ",
+      description:" Join us for a night of karaoke fun and sing your heart out at this collaboratory event between ITU LAN and Node </br></br>This karaoke activity takes place on the 12th of April and is for everybody whether you're a seasoned performer or an upcoming singer! Don't miss out on the chance to make unforgettable musical memories and bond over your favourite tunes.",
+      logoPath: ""
+      },
       {
       title: "League of legends 13:00 Sat",
       toornUrl: 
