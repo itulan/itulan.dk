@@ -7,7 +7,7 @@
         data-aos-delay="150"
         id="season"
       >
-          4th sep - 16.00.
+          A very correct date 
       </h1>
       
       

@@ -2,19 +2,28 @@
   <header class="home header container">
     <div class="content">
       <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> 
-        
-        12th - 14th April
+        <!-- date goes here  -->
+        ITULAN Fall
         </h1>  
       <h2
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
       >
-        ITU LAN Spring 2024   
+      <!-- Season -->
+        To be announced
       </h2>
        <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
-      <div class="button-container">
-        <Hyperlink
+        <div class="button-container">
+          <hyperlink
+          data-aos="fade-down"
+          data-aos-delay="250"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'Meet n\' Greet' })"
+          >Meet n' greet
+          </Hyperlink>
+         <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
@@ -38,7 +47,7 @@
           pulse
           :onClick="() => $router.push({ path: 'schedule' })"
           >Schedule</Hyperlink
-        >
+        > -->
       </div> 
     </div>
   </header>
