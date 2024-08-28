@@ -3,7 +3,7 @@
     <div class="content">
       <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> 
         <!-- date goes here  -->
-        ITULAN Fall
+        8th - 10th Nov
         </h1>  
       <h2
         data-aos="fade-left"
@@ -11,7 +11,7 @@
         id="season"
       >
       <!-- Season -->
-        To be announced
+        ITULAN Fall
       </h2>
        <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
         <div class="button-container">
