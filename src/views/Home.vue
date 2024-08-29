@@ -3,7 +3,7 @@
     <div class="content">
       <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> 
         <!-- date goes here  -->
-        8th - 10th Nov
+        15th - 17th Nov
         </h1>  
       <h2
         data-aos="fade-left"
