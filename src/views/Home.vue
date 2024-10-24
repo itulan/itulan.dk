@@ -33,7 +33,7 @@
           </Hyperlink
         >
 
-        <!--<Hyperlink
+        <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
           asButton
@@ -48,7 +48,7 @@
           pulse
           :onClick="() => $router.push({ path: 'schedule' })"
           >Schedule</Hyperlink
-        > -->
+        > 
       </div> 
     </div>
   </header>
