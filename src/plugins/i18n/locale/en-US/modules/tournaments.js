@@ -66,7 +66,7 @@ export default {
           logoPath: "",
         },
         {
-          title: "Taken 8 - 19:00 Fri ",
+          title: "Tekken 8 - 19:00 Fri ",
           toornUrl: "https://play.toornament.com/en_GB/tournaments/8232297042904719360/",
           platform: " ",
           description: "Welcome to this semester's TEKKEN 8 tournament!</br></br>We have double elimination, meaning you will have more than one shot to get a price!</br></br>So get ready to duke it out with friendly competitors in TEKKEN 8! No previous fighting game experience is required for participation, so grab a friend and join in on the fun!",

@@ -21,7 +21,7 @@
         </div>
         <div>
           <span class="time">19.00</span>
-          <span>Taken 8</span>
+          <span>Tekken 8</span>
           <small>~4 hours</small>
         </div> 
         <div>
