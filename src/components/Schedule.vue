@@ -42,6 +42,11 @@
           <small>~14 hours</small>
         </div>
         <div>
+          <span class="time">12.00</span>
+          <span>Just Dance</span>
+          <small>~2 hours</small>
+        </div>
+        <div>
           <span class="time">13.00</span>
           <span>League of Legends</span>
           <small>~10 hours</small>

@@ -38,10 +38,10 @@ export default {
         logoPath: "",
       },
       {
-        title: "Just Dance 2024 tbd",
+        title: "Just Dance 2024 - 12:00 Sat",
         toornUrl:"https://play.toornament.com/tournaments/8261526198452051968/",
         platform: "Nintendo Switch",
-        description:"TBD",
+        description:"✨ Ready to Dance Your Heart Out? ✨</br></br>🗓 Date: November 16, 2024</br>🕛 Time: 12 PM</br>📍 Location: Console Corner, 1st Floor</br></br>🕺No dance experience? No worries at all! Everyone is welcome to join the fun.</br></br>🏆 This is your chance to dance, laugh and maybe even claim some fantastic rewards! Mark your calendars, bring your friends and let's make this a day to remember. We can't wait to see you there! 🎉💃",
         logoPath: "",
       },
       {
