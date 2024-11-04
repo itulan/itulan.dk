@@ -24,7 +24,7 @@ export default {
         logoPath: "",
       },
       {
-        title: "Mario Kart 8 Deluxe 14:00 Sat",
+        title: "Mario Kart 8 Deluxe 14:30 Sat",
         toornUrl:"https://play.toornament.com/en_GB/tournaments/8153272581437988864/",
         platform: "Nintendo Switch",
         description:"Welcome to this semester's Mario Kart tournament!</br>Are you ready to throw your friends out the map? Race yourself to the top? Then come join us at the Fall 2024 LAN at console corner on 16/11/24 at 14:30!</br></br>We have double elimination again this semester, meaning you will have more than one shot to get a price!</br></br>So grab your friends by the hand, and signup for the tournament!</br></br>As always we will provide soda and possibly some snacks during the tournament, and of course we will bring a lot of fun!",
@@ -46,9 +46,9 @@ export default {
       },
       {
         title: "Escape Room Sat",
-        toornUrl:"https://calendly.com/itu-escape/escape-room-booking",
+        toornUrl:"",
         platform: "IRL",
-        description: "tbd", //<a href=\"https://calendly.com/itu-escape/escape-room-booking\">here</a>",
+        description: "🧛‍♂️ Enter if you dare... The Transylvania Escape Room awaits! Step into a dark, eerie castle where vampires lurk in every shadow. 🏰 Feel the chill of ancient secrets and race against the clock to escape Count Dracula's lair and save your friends from becoming vampires before midnight strikes! Can you solve the clues and avoid becoming his next feast? ⚰️</br></br>Gather your bravest friends, and get ready for a spine-chilling adventure. Book your spot for free now if you think you’re up for the challenge... if you dare. 🕯️🔒", //<a href=\"https://calendly.com/itu-escape/escape-room-booking\">here</a>",
         logoPath: "",
       },
       {

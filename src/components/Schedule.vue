@@ -52,7 +52,7 @@
           <small>~10 hours</small>
         </div>
         <div>
-          <span class="time">13.00</span>
+          <span class="time">14.30</span>
           <span>Mario kart</span>
           <small>~3 hours</small>
         </div>
