@@ -46,9 +46,9 @@ export default {
       },
       {
         title: "Escape Room Sat",
-        toornUrl:"",
+        toornUrl:"https://calendly.com/itu-escape/escape-room-booking",
         platform: "IRL",
-        description: "🧛‍♂️ Enter if you dare... The Transylvania Escape Room awaits! Step into a dark, eerie castle where vampires lurk in every shadow. 🏰 Feel the chill of ancient secrets and race against the clock to escape Count Dracula's lair and save your friends from becoming vampires before midnight strikes! Can you solve the clues and avoid becoming his next feast? ⚰️</br></br>Gather your bravest friends, and get ready for a spine-chilling adventure. Book your spot for free now if you think you’re up for the challenge... if you dare. 🕯️🔒", //<a href=\"https://calendly.com/itu-escape/escape-room-booking\">here</a>",
+        description: "🧛‍♂️ Enter if you dare... The Transylvania Escape Room awaits! Step into a dark, eerie castle where vampires lurk in every shadow. 🏰 Feel the chill of ancient secrets and race against the clock to escape Count Dracula's lair and save your friends from becoming vampires before midnight strikes! Can you solve the clues and avoid becoming his next feast? ⚰️</br></br>Gather your bravest friends, and get ready for a spine-chilling adventure. Book your spot for free now if you think you’re up for the challenge... if you dare. 🕯️🔒</br> Sign up link: <a href=\"https://calendly.com/itu-escape/escape-room-booking\">here</a>",
         logoPath: "",
       },
       {
