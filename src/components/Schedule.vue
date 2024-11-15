@@ -62,7 +62,7 @@
           <small>~4 hours</small>
         </div>
         <div>
-          <span class="time">17.00</span>
+          <span class="time">18.00</span>
           <span>Mario Party</span>
           <small>~2 hours</small>
         </div> 
