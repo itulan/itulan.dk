@@ -7,7 +7,7 @@
         data-aos-delay="150"
         id="season"
       >
-          12th sept.
+          6th March
       </h1>
       
       
