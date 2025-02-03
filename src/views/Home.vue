@@ -15,15 +15,15 @@
       </h2>
        <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
         <div class="button-container">
-          <hyperlink
+          <!-- <hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'Meet n\' Greet' })"
           >Meet n' greet
-          </Hyperlink>
-         <!-- <Hyperlink
+          </Hyperlink> -->
+         <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
@@ -32,7 +32,8 @@
           >Buy tickets
           </Hyperlink
         >
-         <Hyperlink
+
+        <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
           asButton
@@ -47,7 +48,7 @@
           pulse
           :onClick="() => $router.push({ path: 'schedule' })"
           >Schedule</Hyperlink
-        > -->
+        > 
       </div> 
     </div>
   </header>
