@@ -2,13 +2,13 @@
   <header class="Meet header container">
     <div class="content">
       <h1 data-aos="fade-right" data-aos-delay="100"> Meet n' greet </h1>  
-      <h1
+      <h2
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
       >
           6th March
-      </h1>
+      </h2>
       
       
     </div>
