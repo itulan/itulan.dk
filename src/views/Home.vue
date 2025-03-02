@@ -13,7 +13,7 @@
       <!-- Season -->
         ITULAN Spring
       </h2>
-       <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
+       <Sponsors data-aos="fade-right" data-aos-delay="200" /> 
          <div class="button-container">
         <!--  <hyperlink
           data-aos="fade-down"
@@ -33,7 +33,7 @@
           </Hyperlink
         >
 
-        <!-- <Hyperlink
+        <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
           asButton
@@ -41,7 +41,7 @@
           :onClick="() => $router.push({ path: 'tournaments' })"
           >Tournaments</Hyperlink
         > 
-        <Hyperlink
+        <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="450"
           asButton
@@ -55,12 +55,12 @@
 </template>
 
 <script>
-// import Sponsors from "@/components/Sponsors.vue";
+import Sponsors from "@/components/Sponsors.vue";
 import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
-    // Sponsors,
+    Sponsors,
     Hyperlink
   },
 };

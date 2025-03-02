@@ -9,7 +9,7 @@ import information from './modules/information'
 import tickets from './modules/tickets'
 import servers from './modules/servers'
 import footer from './modules/footer'
-
+import sponsorPage from './modules/sponsorPage'
 
 
 export default {
@@ -24,4 +24,5 @@ export default {
   tickets,
   servers,
   footer,
+  sponsorPage,
 };

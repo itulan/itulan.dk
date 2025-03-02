@@ -57,7 +57,9 @@ export default {
   display: flex;
   flex-direction: column;
 }
-
+em{
+  font-size: 3em;
+}
 .minor-sponsors {
   display: flex;
   flex-direction: row;

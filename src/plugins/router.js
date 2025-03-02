@@ -5,7 +5,8 @@ import Home from "@/views/Home.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
 import Tickets from "@/views/Tickets.vue";
-// import Tournaments from "@/views/Tournaments.vue";
+import sponsorpage from "@/views/SponsorPage.vue";
+import Tournaments from "@/views/Tournaments.vue";
 // import Schedule from "@/views/Schedule.vue";
 // import Meet from"@/views/Meet.vue";
 // import Servers from "@/views/Servers.vue";
@@ -23,8 +24,8 @@ const router = new Router({
       component: Home,
       meta: {
         title: "ITU LAN",
-        id: "home"
-      }
+        id: "home",
+      },
     },
     // {
     //   path: "/Meet n' Greet",
@@ -41,8 +42,8 @@ const router = new Router({
       component: Tickets,
       meta: {
         title: "Tickets",
-        id: "tickets"
-      }
+        id: "tickets",
+      },
     },
     // {
     //   path: "/schedule",
@@ -53,23 +54,32 @@ const router = new Router({
     //     id: "Schedule"
     //   }
     // },
-    // {
-    //   path: "/tournaments",
-    //   name: "tournaments",
-    //   component: Tournaments,
-    //   meta: {
-    //     title: "Tournaments",
-    //     id: "tournaments"
-    //   }
-    // },
+    {
+      path: "/tournaments",
+      name: "tournaments",
+      component: Tournaments,
+      meta: {
+        title: "Tournaments",
+        id: "tournaments"
+      }
+    },
     {
       path: "/information",
       name: "faq",
       component: Information,
       meta: {
         title: "Information",
-        id: "information"
-      }
+        id: "information",
+      },
+    },
+    {
+      path: "/Sponsors",
+      name: "Sponsor",
+      component: sponsorpage,
+      meta: {
+        title: "Sponsopr",
+        id: "sponsorPage",
+      },
     },
     {
       path: "/partner",
@@ -77,8 +87,8 @@ const router = new Router({
       component: Partner,
       meta: {
         title: "Partner with us",
-        id: "partner"
-      }
+        id: "partner",
+      },
     },
     // {
     //   path: "/join",
@@ -89,7 +99,7 @@ const router = new Router({
     //     id: "join"
     //   }
     // },
-       // {
+    // {
     //   path: "/news",
     //   name: "news",
     //   component: News,
@@ -111,10 +121,10 @@ const router = new Router({
       path: "*",
       component: NotFound,
       meta: {
-        title: "404"
-      }
-    }
-  ]
+        title: "404",
+      },
+    },
+  ],
 });
 
 // This callback runs before every route change, including on page load.
@@ -124,31 +134,31 @@ router.beforeEach((to, from, next) => {
   const nearestWithTitle = to.matched
     .slice()
     .reverse()
-    .find(r => r.meta && r.meta.title);
+    .find((r) => r.meta && r.meta.title);
 
   // Find the nearest route element with meta tags.
   const nearestWithMeta = to.matched
     .slice()
     .reverse()
-    .find(r => r.meta && r.meta.metaTags);
+    .find((r) => r.meta && r.meta.metaTags);
 
   // If a route with a title was found, set the document (page) title to that value.
   if (nearestWithTitle) document.title = nearestWithTitle.meta.title;
 
   // Remove any stale meta tags from the document using the key attribute we set below.
-  Array.from(
-    document.querySelectorAll("[data-vue-router-controlled]")
-  ).map(el => el.parentNode.removeChild(el));
+  Array.from(document.querySelectorAll("[data-vue-router-controlled]")).map(
+    (el) => el.parentNode.removeChild(el)
+  );
 
   // Skip rendering meta tags if there are none.
   if (!nearestWithMeta) return next();
 
   // Turn the meta tag definitions into actual elements in the head.
   nearestWithMeta.meta.metaTags
-    .map(tagDef => {
+    .map((tagDef) => {
       const tag = document.createElement("meta");
 
-      Object.keys(tagDef).forEach(key => {
+      Object.keys(tagDef).forEach((key) => {
         tag.setAttribute(key, tagDef[key]);
       });
 
@@ -157,10 +167,9 @@ router.beforeEach((to, from, next) => {
       return tag;
     })
     // Add the meta tags to the document head.
-    .forEach(tag => document.head.appendChild(tag));
+    .forEach((tag) => document.head.appendChild(tag));
 
   next();
 });
-
 
 export default router;
