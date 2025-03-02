@@ -5,21 +5,22 @@
     </span>
     <br />
     <div class="sponsors">
-      <!-- <Hyperlink newTab url="https://www.novonordisk.dk/">
+      <Hyperlink newTab url="https://www.accenture.com/">
         <img
-          alt="Epico NextGen logo"
+          alt="Accenture"
           class="logo primary"
-          src="../assets/img/common/sponsor_logos/novo_nordisk/novo-nordisk-innovationHub_BW.png" 
+          src="../assets/img/common/sponsor_logos/accenture/Acc_Logo_White_Purple_RGB.png" 
           loading="lazy"
+          style="width: 50%;"
         />
       </Hyperlink>
-       <div class="minor-sponsors"> 
+          <!--  <div class="minor-sponsors"> 
          <img
           src="../assets/img/common/sponsor_logos/Modl.ai/modl.ai_white.png" 
           alt="Modl.ai Logo"
           style="padding-bottom:13px"
-        /> -->
-        <!-- <img
+        /> 
+    <img
           src="../assets/img/common/sponsor_logos/ida/IDA_white.png" 
           alt="IDA logo"
           style="padding-bottom:13px"
@@ -43,10 +44,10 @@
 </template>
 
 <script>
-// import Hyperlink from "@/components/Hyperlink";
+import Hyperlink from "@/components/Hyperlink";
 export default {
   components: {
-    // Hyperlink,
+     Hyperlink,
   },
 };
 </script>
