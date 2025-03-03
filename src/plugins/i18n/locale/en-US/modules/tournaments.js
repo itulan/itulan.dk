@@ -32,7 +32,7 @@ export default {
       },
       {
         title: "Teamfight Tactics",
-        toornUrl: "https://organizer.toornament.com/toornament/tournaments/8635230389846835200/",
+        toornUrl: "https://play.toornament.com/en_GB/tournaments/8635230389846835200/",
         platform: "PC",
         description: "Welcome to the first ever TFT tournament at ITU LAN!!</br></br>If you are joining please use your Riot Account Name as it makes it easier to figure out each other's summoner name!</br></br>This tournament will be playing on PC and will have a total of 16 participants.</br></br>You will be required to have a EUW account as this is the region we will be playing in.</br></br>Otherwise join the ITU LAN discord in order to get more info or if you have any questions. Hope to see you join!!</br></br>Please check the rules for information about how the tournament is structured!",
         logoPath: "",
