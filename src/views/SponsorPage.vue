@@ -16,9 +16,11 @@
           <!-- <h3>{{ $t("spn.aboutUs") }}</h3> -->
           <p v-html="$t('sponsorPage.text')"></p>
           <br />
-          <p>Interested? Please take a look on their <a href="$t('sponserPage.website')"
-            >Website</a
-          >.</p>
+          <p>Interested? Please take a look on their 
+          <a target="_blank" :href="$t('sponsorPage.website')">Website</a>
+
+
+          </p>
           
 
       </div>
@@ -26,7 +28,14 @@
   </template>
   
 
-  
+  <!-- <script>
+import Hyperlink from "@/components/Hyperlink";
+export default {
+  components: {
+     Hyperlink,
+  },
+};
+</script> -->
   <style scoped>
   .title-wrapper {
     margin-bottom: 5rem;

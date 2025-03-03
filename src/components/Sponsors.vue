@@ -58,6 +58,7 @@ export default {
   flex-direction: column;
 }
 em{
+  font-family: "Retro Gaming";
   font-size: 3em;
 }
 .minor-sponsors {

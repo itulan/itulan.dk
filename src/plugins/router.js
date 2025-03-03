@@ -77,7 +77,7 @@ const router = new Router({
       name: "Sponsor",
       component: sponsorpage,
       meta: {
-        title: "Sponsopr",
+        title: "Sponsor",
         id: "sponsorPage",
       },
     },
