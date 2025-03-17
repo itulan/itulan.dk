@@ -40,12 +40,40 @@ export default {
       {
         title: "Mario Kart",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/8632335306561134592/",
-        platform: " ",
-        description: "TBA",
+        platform: "Nintendo Switch",
+        description: "Welcome to this semesters Mario Kart tournament, sponsored by Accenture!</br></br>We are happy to bring back this lovely tournament that you all love each semester!</br>The tournament is a second elimination setup, so you will get a redemption chance if you don't make it the first time!</br>When all 16 slots have been filled we'll create lineup.</br></br>For any questions don't be afraid to contact us on the mail or write to us in the discord channel.</br></br>Hope to see you at the tournament!",
+        logoPath: "",
+      },
+      {
+        title: "Plate up",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/8652293204689305600/",
+        platform: "PC",
+        description: "The plateup tournament will work in a \"best run wins\" sort of way.</br></br>When the tournament starts, we will publish a seed and recipe that you should use. After that you have 4h to get the best run you possibly can and \"submit\" it in the discord (more details on the day). We will then meet up so each group can present their restaurant and we can crown the winner.</br></br>Teams are 1-2 people, at least one team member has to be level 7.</br></br>If you have any questions, you can reach out on Discord to kydonia or iceplunker.",
+        logoPath: "",
+      },
+      {
+        title: "Beat Saber (Novice)",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/8655460653743955968/",
+        platform: "VR Headset",
+        description: "Are you an expert at slicing blocks apart with</br>preposterously advanced light saber weaponry at high speed intervals? Just looking for some casual fun with friends? Or feel the need to get in a bit of exercise away from the chosen gaming chair of the weekend?</br></br>Then come and join us Spring 2025 LAN at the console corner first floor in the ITU building on the 28th of march at 20:00 / 8PM Friday, and become the champion amongst the challengers, or go out in the glorious blaze trying!</br></br>Check-in is an hour earlier at 19:00 / 7PM, after which we settle on the final tournament structure, there will be a check-in notification over LAN's Discord.</br></br>Registration is on a first-come-first-served principle.</br>- Sign up early to secure your spot!</br>- Remember to read the rules if you sign up!",
+        logoPath: "",
+      },
+      {
+        title: "Beat Saber (Expert)",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/8655525664808509440/",
+        platform: "VR headset",
+        description: "Are you an expert at slicing blocks apart with</br>preposterously advanced light saber weaponry at high speed intervals? Just looking for some casual fun with friends? Or feel the need to get in a bit of exercise away from the chosen gaming chair of the weekend?</br></br>Then come and join us Spring 2025 LAN at the console corner first floor in the ITU building on the 29th of march at 20:00 / 8PM Friday, and become the champion amongst the challengers, or go out in the glorious blaze trying!</br></br>Check-in is an hour earlier at 19:00 / 7PM, after which we settle on the final tournament structure, there will be a check-in notification over LAN's Discord.</br></br>Registration is on a first-come-first-served principle.</br>- Sign up early to secure your spot!</br>- Remember to read the rules if you sign up!",
+        logoPath: "",
+      },
+      {
+        title: "Catan",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/8655680569766330368/",
+        platform: "Table top",
+        description: "Welcome to Catan settlers, you want to show off your resource gathering skills, knight gathering and road building?</br></br>Then this tournament is for you.</br></br>We will be providing the board games.</br></br>This tournament will be divided into three rounds, the top 2 winners of each board will move on to semifinals and the</br>",
         logoPath: "",
       },
       // {
-      //   title: "",
+      //   title: "",mm36spxf6uh3rhd
       //   toornUrl: "",
       //   platform: " ",
       //   description: "",
