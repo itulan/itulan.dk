@@ -72,8 +72,15 @@ export default {
         description: "Welcome to Catan settlers, you want to show off your resource gathering skills, knight gathering and road building?</br></br>Then this tournament is for you.</br></br>We will be providing the board games.</br></br>This tournament will be divided into three rounds, the top 2 winners of each board will move on to semifinals and the</br>",
         logoPath: "",
       },
+      {
+        title: "Tekken 8",
+        toornUrl: "https://play.toornament.com/en_GB/tournaments/8670032691804839936/",
+        platform: "Playstaytion",
+        description: "Welcome to this semester's TEKKEN 8 tournament!</br></br>We're doing double elimination, meaning you will have more than one shot to get a price!</br></br></br>So get ready to duke it out with friendly competitors in TEKKEN 8! No previous fighting game experience is required for participation, so grab a friend and join in on the fun!",
+        logoPath: "",
+      },
       // {
-      //   title: "",mm36spxf6uh3rhd
+      //   title: "",
       //   toornUrl: "",
       //   platform: " ",
       //   description: "",
