@@ -26,6 +26,7 @@
 
         <a class="Toornamentbutton" 
         v-if="tournament.toornUrl" 
+        target="_blank"
         :href="tournament.toornUrl">
         Sign Up >
         </a>

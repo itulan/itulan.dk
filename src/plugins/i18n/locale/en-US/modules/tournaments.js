@@ -9,18 +9,18 @@ export default {
     descriptionTBA: "Description TBA",
     platformLabel: "Platform: ",
     tournaments: [
-      // {
-      //   title: "Escape Room Sat",
-      //   toornUrl:"https://calendly.com/itu-escape/escape-room-booking",
-      //   platform: "IRL",
-      //   description: "🧛‍♂️ Enter if you dare... The Transylvania Escape Room awaits! Step into a dark, eerie castle where vampires lurk in every shadow. 🏰 Feel the chill of ancient secrets and race against the clock to escape Count Dracula's lair and save your friends from becoming vampires before midnight strikes! Can you solve the clues and avoid becoming his next feast? ⚰️</br></br>Gather your bravest friends, and get ready for a spine-chilling adventure. Book your spot for free now if you think you’re up for the challenge... if you dare. 🕯️🔒</br> Sign up link: <a href=\"https://calendly.com/itu-escape/escape-room-booking\">here</a>",
-      //   logoPath: "",
-      // },
       {
         title: "Civilization VI",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/8637919328462045184/",
         platform: "PC",
         description: "Are you a fan of strategy games? Do you enjoy making fragile alliances with other players, only to betray them when they are most vulnerable? Do you enjoy pitting the whole world against one player, or in turn having the whole world pitted against you? Well then you'll enjoy this semesters ITU LAN tournament in Sid Meier's Civilization VI.</br></br>The game will be played in two parts, from 19:00 to 23:00 on Friday and Saturday.</br></br>Empires will be drafted on the day of, so unfortunately, little planning before the tournament will be possible.</br></br>Note that the expansions \"Rise and Fall\" and \"Gathering Storm\" are necessary for participation.</br></br>The mod list for the game can be found <a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3045475898\">here</a>",
+        logoPath: "",
+      },
+      {
+        title: "Escape Room Sat",
+        toornUrl: "https://calendly.com/itu-escape/escape-room-booking",
+        platform: "IRL",
+        description: "Step into the world of ancient legends, mighty gods, and fearsome beasts in an escape room experience like no other! 🏛️</br></br>To earn your freedom, you must complete a series of divine trials set by the Olympian gods themselves. Solve riddles posed by Athena, listen to the sirens' song and navigate the Labyrinth of the Minotaur 🔒</br></br>⏳ You have just 45 minutes to prove your worth and escape the clutches of Olympus... or be trapped for eternity!</br></br>Are you ready, hero? The gods await... 🏺🌟🧩</br></br>🔗 Sign up here --> <a target=\"_blank\"  href=\"https://calendly.com/itu-escape/escape-room-booking\">here</a>\"</br></br>Note: Remember you need a LAN ticket to participate in the escape room",
         logoPath: "",
       },
       {
