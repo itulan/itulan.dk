@@ -11,16 +11,16 @@
           class="logo primary"
           src="../assets/img/common/sponsor_logos/accenture/Acc_Logo_White_Purple_RGB.png" 
           loading="lazy"
-          style="width: 50%;"
+          style="width: 70%;padding-bottom:2rem"
         />
       </Hyperlink>
-          <!--  <div class="minor-sponsors"> 
+    
+         <!-- <div class="minor-sponsors"> 
          <img
-          src="../assets/img/common/sponsor_logos/Modl.ai/modl.ai_white.png" 
-          alt="Modl.ai Logo"
-          style="padding-bottom:13px"
-        /> 
-    <img
+          src= "../assets/img/common/sponsor_logos/ida/IDA_Logo_2.png"
+          alt= "IDA logo"
+        />  -->
+      <!-- <img
           src="../assets/img/common/sponsor_logos/ida/IDA_white.png" 
           alt="IDA logo"
           style="padding-bottom:13px"
@@ -37,8 +37,8 @@
             src="../assets/img/common/sponsor_logos/accenture/AccentureLogo.png"
             alt="Accenture logo"  
           />
-        </div>  
-      </div>--> 
+        </div> 
+      </div>-->  
     </div>
   </div>
 </template>

@@ -50,6 +50,12 @@
           >Schedule</Hyperlink
         >  -->
       </div>
+      <div class="minor-sponsors"> 
+         <img
+          src= "../assets/img/common/sponsor_logos/ida/IDA_Logo_2.png"
+          alt= "IDA logo"
+        /> 
+      </div>
     </div>
   </header>
 </template>
