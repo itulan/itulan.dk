@@ -3,7 +3,7 @@
     <div class="content">
       <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> 
         <!-- date goes here  -->
-        28th - 30th March
+        14th - 16th Nov
         </h1>  
       <h2
         data-aos="fade-left"
@@ -11,36 +11,34 @@
         id="season"
       >
       <!-- Season -->
-        ITULAN Spring
+        ITULAN FAll
       </h2>
-       <Sponsors data-aos="fade-right" data-aos-delay="200" /> 
+       <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
          <div class="button-container">
-        <!--  <hyperlink
+         <hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'Meet n\' Greet' })"
           >Meet n' greet
-          </Hyperlink> -->
-         <Hyperlink
+          </Hyperlink>
+         <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tickets' })"
           >Buy tickets
-          </Hyperlink
-        >
+          </Hyperlink> -->
 
-        <Hyperlink
+        <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tournaments' })"
-          >Tournaments</Hyperlink
-        > 
+          >Tournaments</Hyperlink>  -->
         <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="450"
@@ -50,23 +48,23 @@
           >Schedule</Hyperlink
         >  -->
       </div>
-      <div class="minor-sponsors"> 
+      <!-- <div class="minor-sponsors"> 
          <img
           src= "../assets/img/common/sponsor_logos/ida/IDA_Logo_2.png"
           alt= "IDA logo"
-        /> 
-      </div>
+        />  
+      </div>-->
     </div>
   </header>
 </template>
 
 <script>
-import Sponsors from "@/components/Sponsors.vue";
+//import Sponsors from "@/components/Sponsors.vue";
 import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
-    Sponsors,
+    //Sponsors,
     Hyperlink
   },
 };

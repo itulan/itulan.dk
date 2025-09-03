@@ -7,9 +7,10 @@
         data-aos-delay="150"
         id="season"
       >
-          6th March
+          9th Sept.
+          
       </h2>
-      
+      <h2>2A20</h2>
       
     </div>
   </header>
