@@ -7,7 +7,7 @@
         data-aos-delay="150"
         id="season"
       >
-          9th Sept.
+          9th Sept. at 16.15
           
       </h2>
       <h2>2A20</h2>
