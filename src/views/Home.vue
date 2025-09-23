@@ -15,14 +15,14 @@
       </h2>
        <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
          <div class="button-container">
-         <hyperlink
+         <!-- <hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'Meet n\' Greet' })"
           >Meet n' greet
-          </Hyperlink>
+          </Hyperlink> -->
          <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
@@ -60,12 +60,12 @@
 
 <script>
 //import Sponsors from "@/components/Sponsors.vue";
-import Hyperlink from "@/components/Hyperlink.vue"
+//import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
     //Sponsors,
-    Hyperlink
+    //Hyperlink
   },
 };
 </script>

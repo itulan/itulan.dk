@@ -4,11 +4,11 @@ import Information from "@/views/Information.vue";
 import Home from "@/views/Home.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
-// import Tickets from "@/views/Tickets.vue";
+import Tickets from "@/views/Tickets.vue";
 // import sponsorpage from "@/views/SponsorPage.vue";
 // import Tournaments from "@/views/Tournaments.vue";
 // import Schedule from "@/views/Schedule.vue";
-import Meet from "@/views/Meet.vue";
+// import Meet from "@/views/Meet.vue";
 // import Servers from "@/views/Servers.vue";
 // import JoinUs from "@/views/JoinUs.vue";
 // import News from "@/views/News.vue";
@@ -27,24 +27,24 @@ const router = new Router({
         id: "home",
       },
     },
-    {
-      path: "/Meet n' Greet",
-      name: "Meet n' Greet",
-      component: Meet,
-      meta: {
-        title: "Meet n' Greet",
-        id: "Meet"
-      }
-    },
     // {
-    //   path: "/tickets",
-    //   name: "buy tickets",
-    //   component: Tickets,
+    //   path: "/Meet n' Greet",
+    //   name: "Meet n' Greet",
+    //   component: Meet,
     //   meta: {
-    //     title: "Tickets",
-    //     id: "tickets",
-    //   },
+    //     title: "Meet n' Greet",
+    //     id: "Meet"
+    //   }
     // },
+    {
+      path: "/tickets",
+      name: "buy tickets",
+      component: Tickets,
+      meta: {
+        title: "Tickets",
+        id: "tickets",
+      },
+    },
     // {
     //   path: "/schedule",
     //   name: "schedule",
