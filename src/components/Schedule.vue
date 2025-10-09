@@ -52,7 +52,7 @@
           <small>~2 hours</small>
         </div>
         <div>
-          <span class="time">14.00</span>
+          <span class="time">16.00</span>
           <span>2xKO</span>
           <small>~3 hours</small>
         </div>
