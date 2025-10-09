@@ -14,6 +14,11 @@
           <span>Magic the Gathering</span>
           <small>~6 hours</small>
         </div>
+        <div>
+          <span class="time">20.00</span>
+          <span>PokemonShowdown</span>
+          <small>~2 hours</small>
+        </div>
       </div>
     </div>
     <div id="saturday" class="flex day">
@@ -27,9 +32,29 @@
           <small>~14 hours</small>
         </div>
         <div>
+          <span class="time">12.00</span>
+          <span>Your Only Move Is Hustle</span>
+          <small>~2 hours</small>
+        </div>
+        <div>
+          <span class="time">12.00</span>
+          <span>PEAK</span>
+          <small>~4 hours</small>
+        </div>
+        <div>
           <span class="time">14.00</span>
           <span>Just Dance</span>
           <small>~2 hours</small>
+        </div>
+        <div>
+          <span class="time">16.00</span>
+          <span>Star Realms</span>
+          <small>~2 hours</small>
+        </div>
+        <div>
+          <span class="time">14.00</span>
+          <span>2xKO</span>
+          <small>~3 hours</small>
         </div>
       </div>
     </div>
