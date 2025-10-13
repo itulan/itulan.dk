@@ -17,8 +17,8 @@ export default {
         logoPath: "",
       },
       {
-        title: "Magic the Gathering Draf",
-        toornUrl: "TBA",
+        title: "Magic the Gathering Commander",
+        toornUrl: "https://play.toornament.com/en_GB/tournaments/2322042980878680063/",
         platform: "Table Top",
         description: "🎴 Commander Night @ ITU LAN! 🎴</br></br>Gather your creatures, shuffle your decks, and prepare for an evening of legendary battles! 💥</br></br>Join us for a Magic: the Gathering Commander Night on Friday, 14th of November, at the IT University of Copenhagen.</br>We’ll be hosting a 16-player casual tournament divided into four pods of 4 players. Whether you’re a seasoned planeswalker or just getting into Commander, this is your chance to summon your favourite legends and have a great time!</br></br>🕓 Schedule:</br></br>Attendance call: 17:15</br></br>Event start: 17:30 (±5 min)</br></br>We’ll play until all pods have finished their games!</br></br>🧙‍♂️ Bring your own deck or borrow one of our loaner Commander decks — everyone’s welcome to join in on the fun!</br></br>Expect a relaxed atmosphere, cool plays, and maybe a few chaotic board wipes along the way 😄</br></br>💬 Join our official Discord server:<a href=\"https://discord.gg/zHgkDwNJKb\">here </a> </br></br>This tournament is sponsored by I/O Interactive",
         logoPath: "",
