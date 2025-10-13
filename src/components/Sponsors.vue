@@ -5,7 +5,7 @@
     </span>
     <br />
     <div class="sponsors">
-      <Hyperlink newTab url="https://www.accenture.com/">
+      <!-- <Hyperlink newTab url="https://www.accenture.com/">
         <img
           alt="Accenture"
           class="logo primary"
@@ -13,7 +13,7 @@
           loading="lazy"
           style="width: 70%;padding-bottom:2rem"
         />
-      </Hyperlink>
+      </Hyperlink> -->
     
          <!-- <div class="minor-sponsors"> 
          <img
@@ -44,10 +44,10 @@
 </template>
 
 <script>
-import Hyperlink from "@/components/Hyperlink";
+// import Hyperlink from "@/components/Hyperlink";
 export default {
   components: {
-     Hyperlink,
+    //  Hyperlink,
   },
 };
 </script>

@@ -48,23 +48,24 @@
           >Schedule</Hyperlink
         >  -->
       </div>
-      <!-- <div class="minor-sponsors"> 
+      <div class="minor-sponsors"> 
          <img
-          src= "../assets/img/common/sponsor_logos/ida/IDA_Logo_2.png"
-          alt= "IDA logo"
+          src= "../assets/img/common/sponsor_logos/ioi/IOI_Square_Black_White.png"
+          alt= "IO interactive logo"
+          style="height: 100px;margin-top: 30px;"
         />  
-      </div>-->
+      </div>
     </div>
   </header>
 </template>
 
 <script>
-//import Sponsors from "@/components/Sponsors.vue";
+// import Sponsors from "@/components/Sponsors.vue";
 import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
-    //Sponsors,
+    // Sponsors,
     Hyperlink
   },
 };
