@@ -56,6 +56,16 @@
           <span>2xKO</span>
           <small>~3 hours</small>
         </div>
+        <div>
+          <span class="time">20.00</span>
+          <span>Mario Kart</span>
+          <small>~2 hours</small>
+        </div>
+        <div>
+          <span class="time">20.00</span>
+          <span>TFT</span>
+          <small>~3 hours</small>
+        </div>
       </div>
     </div>
   </div>

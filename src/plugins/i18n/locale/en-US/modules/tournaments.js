@@ -18,16 +18,16 @@ export default {
       },
       {
         title: "Magic the Gathering Commander",
-        toornUrl: "https://play.toornament.com/en_GB/tournaments/2322042980878680063/",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/2322042980878680063/",
         platform: "Table Top",
-        description: "🎴 Commander Night @ ITU LAN! 🎴</br></br>Gather your creatures, shuffle your decks, and prepare for an evening of legendary battles! 💥</br></br>Join us for a Magic: the Gathering Commander Night on Friday, 14th of November, at the IT University of Copenhagen.</br>We’ll be hosting a 16-player casual tournament divided into four pods of 4 players. Whether you’re a seasoned planeswalker or just getting into Commander, this is your chance to summon your favourite legends and have a great time!</br></br>🕓 Schedule:</br></br>Attendance call: 17:15</br></br>Event start: 17:30 (±5 min)</br></br>We’ll play until all pods have finished their games!</br></br>🧙‍♂️ Bring your own deck or borrow one of our loaner Commander decks — everyone’s welcome to join in on the fun!</br></br>Expect a relaxed atmosphere, cool plays, and maybe a few chaotic board wipes along the way 😄</br></br>💬 Join our official Discord server:<a href=\"https://discord.gg/zHgkDwNJKb\">here </a> </br></br>This tournament is sponsored by I/O Interactive",
+        description: "This tournament is sponsored by I/O Interactive</br></br>🎴 Commander Night @ ITU LAN! 🎴</br></br>Gather your creatures, shuffle your decks, and prepare for an evening of legendary battles! 💥</br></br>Join us for a Magic: the Gathering Commander Night on Friday, 14th of November, at the IT University of Copenhagen.</br>We’ll be hosting a 16-player casual tournament divided into four pods of 4 players. Whether you’re a seasoned planeswalker or just getting into Commander, this is your chance to summon your favourite legends and have a great time!</br></br>🕓 Schedule:</br></br>Attendance call: 17:15</br></br>Event start: 17:30 (±5 min)</br></br>We’ll play until all pods have finished their games!</br></br>🧙‍♂️ Bring your own deck or borrow one of our loaner Commander decks — everyone’s welcome to join in on the fun!</br></br>Expect a relaxed atmosphere, cool plays, and maybe a few chaotic board wipes along the way 😄</br></br>💬 Join our official Discord server <a href=\"https://discord.gg/zHgkDwNJKb\">here </a>",
         logoPath: "",
       },
       {
         title: "Teamfight Tactics",
-        toornUrl: "https://play.toornament.com/en_GB/tournaments/2316855016444657663/",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/2316855016444657663/",
         platform: "PC",
-        description: "TBA",
+        description: "Welcome back to another TFT tournament at ITU LAN!</br></br>You are required to have a Seating Ticket in order to participate!</br></br>For this tournament we will play for points in order to find placement and then have a final round to decide on the winners. (Things can change depending on the amount of participants so stay tuned!)</br></br>Before the tournament starts we will meet at (a TBA location) in order to check for valid wrist</br>bands as well as to see who you will be competing against.</br></br>Hopefully it'll be enjoyable and see you on the 15th of November!",
         logoPath: "",
       },
       // {
@@ -41,7 +41,7 @@ export default {
         title: "Star Realms",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2318851019208622079/",
         platform: "PC",
-        description: "The plateup tournament will work in a \"best run wins\" sort of way.</br></br>When the tournament starts, we will publish a seed and recipe that you should use. After that you have 4h to get the best run you possibly can and \"submit\" it in the discord (more details on the day). We will then meet up so each group can present their restaurant and we can crown the winner.</br></br>Teams are 1-2 people, at least one team member has to be level 7.</br></br>If you have any questions, you can reach out on Discord to kydonia or iceplunker.",
+        description: "A new expanse of space has been found and you want to expand your Star Realm. But other leaders have also claimed this area as theirs. Can your Star Realm be the winner?</br></br>The Star Realms tournament will be points based. Players with most points wins a prize.</br></br>When the tournament starts, there will be 6 tables of 1 VS 1 matches with each table having a different set of star realms. Whenever you win against an opponent, you write it down on a piece of paper and change opponent.</br></br>After 2 hours, games will stop and points will be tallied till some players have been deemed winners.</br></br>Star realms will be provided at the tournament. If you have any questions, write to VeeBee on our discord server.",
         logoPath: "",
       },
       {
@@ -69,14 +69,14 @@ export default {
         title: "2xKO",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2316834889860845567/",
         platform: "PC",
-        description: "TBA",
+        description: "Welcome to this semester's 2XKO tournament!</br></br>We're doing double elimination, meaning you will have more than one shot to get a price!</br></br>So get ready to duke it out with friendly competitors in 2XKO! No previous fighting game experience is required for participation, so grab a friend and join in on the fun!</br></br>It's going to be chaotic as it's 2 vs 2, so grab a good buddy, and come have fun!",
         logoPath: "",
       },
       {
         title: "Your Only Move is Hustle",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2316818167428544511/",
         platform: "PC",
-        description: "TBA",
+        description: "At the ITU Fall semester LAN you can play Your Only Move Is Hustle!!!</br></br>Beat up your friends in slow motion, feel like a fighting game god without having to practice the frame perfect combo.</br></br>Participation requires a ticket to ITU LAN but it's otherwise free.</br></br>The tournament will take place over 2 hours starting at 12 and ending at approximately at 14 on saturday</br></br>For questions about location or other topics go to the Your Only Move Is Hustle discord channel on the ITULAN discord server.",
         logoPath: "",
       },
       // {
