@@ -30,13 +30,13 @@ export default {
         description: "Welcome back to another TFT tournament at ITU LAN!</br></br>You are required to have a Seating Ticket in order to participate!</br></br>For this tournament we will play for points in order to find placement and then have a final round to decide on the winners. (Things can change depending on the amount of participants so stay tuned!)</br></br>Before the tournament starts we will meet at (a TBA location) in order to check for valid wrist</br>bands as well as to see who you will be competing against.</br></br>Hopefully it'll be enjoyable and see you on the 15th of November!",
         logoPath: "",
       },
-      // {
-      //   title: "Mario Kart",
-      //   toornUrl: "https://play.toornament.com/en_GB/tournaments/8632335306561134592/",
-      //   platform: "Nintendo Switch",
-      //   description: "Welcome to this semesters Mario Kart tournament, sponsored by Accenture!</br></br>We are happy to bring back this lovely tournament that you all love each semester!</br>The tournament is a second elimination setup, so you will get a redemption chance if you don't make it the first time!</br>When all 16 slots have been filled we'll create lineup.</br></br>For any questions don't be afraid to contact us on the mail or write to us in the discord channel.</br></br>Hope to see you at the tournament!",
-      //   logoPath: "",
-      // },
+      {
+        title: "Mario Kart",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/2335531366320560127/",
+        platform: "Nintendo Switch",
+        description: "Welcome to this semester's Mario Kart tournament!</br>Are you ready to throw your friends out the map? Race yourself to the top? Then come join us at the Fall 2025 LAN at console corner on 15/11/25 at 20:00!</br></br>Grab your friends by the hand, and signup for the tournament!</br></br>As always we will provide soda and snacks during the tournament, and of course we will bring a lot of fun!</br></br>This tournament is part of the ITU LAN event and you must have a ticket to enter the event, otherwise the tournament is free to participate in</br></br>Make sure to arrive on time, if you end up changing plans and cant attend then make sure to inform me in due time. Otherwise any missing attendants will lose their spot and will be up for grabs for anyone. No-Show's spots will be free to grab by 20:10",
+        logoPath: "",
+      },
       {
         title: "Star Realms",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2318851019208622079/",
@@ -48,7 +48,7 @@ export default {
         title: "Pokemon Showdown",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2316868006516441087/",
         platform: "PC",
-        description: "TBA",
+        description: "Want to be the very best like no one ever was? Then join the Pokemon Showdown tournament at ITU during FALL 2025 LAN! It will start at 20:00 (and estimated to end around 22:00) on Friday the 14th November!</br></br>Since this is an ITU LAN event you would need minimum a roaming ticket to participate.</br></br>Please inform me if you cannot participate anyways. If not then your spot in the tournament is up for grabs.",
         logoPath: "",
       },
       {
@@ -77,6 +77,13 @@ export default {
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2316818167428544511/",
         platform: "PC",
         description: "At the ITU Fall semester LAN you can play Your Only Move Is Hustle!!!</br></br>Beat up your friends in slow motion, feel like a fighting game god without having to practice the frame perfect combo.</br></br>Participation requires a ticket to ITU LAN but it's otherwise free.</br></br>The tournament will take place over 2 hours starting at 12 and ending at approximately at 14 on saturday</br></br>For questions about location or other topics go to the Your Only Move Is Hustle discord channel on the ITULAN discord server.",
+        logoPath: "",
+      },
+      {
+        title: "Tekken 8",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/2340876649513183231/",
+        platform: " ",
+        description: "TBA",
         logoPath: "",
       },
       // {
