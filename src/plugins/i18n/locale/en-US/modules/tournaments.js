@@ -59,13 +59,6 @@ export default {
         logoPath: "",
       },
       {
-        title: "Just Dance",
-        toornUrl: "https://play.toornament.com/en_GB/tournaments/2316847425657839615/",
-        platform: "Switch",
-        description: "ITU LAN'S MOST ANTICIPATED TOURNAMENT IS HERE!</br>JUST DANCE IS BACK, BABY!</br></br>Do you like to dance?</br>Do you like to have fun??</br>Do you like to win awesome prizes???</br></br>If you can answer YES to all the questions above, you must join ITU LAN's JUST DANCE 2024 TOURNAMENT!</br></br>You don't need any previous dance experience. Come as you are :^)</br></br>The tournament starts the 15/11/2025 @14:00 and takes place in Console Corner (1st floor).",
-        logoPath: "",
-      },
-      {
         title: "2xKO",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2316834889860845567/",
         platform: "PC",
