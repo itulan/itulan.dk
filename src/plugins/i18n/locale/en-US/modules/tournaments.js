@@ -55,14 +55,14 @@ export default {
         title: "PEAK",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2316865045776596991/",
         platform: "PC",
-        description: "Are you here to make the scoutmaster proud? Bring your best buddy and show that you can conquer the mountain.</br></br>The PEAK tournament will run in teams of 2 people. The tournament consists of 2 rounds of PEAK on the same mountain.</br></br>For the first round each team will have time to climb the entire mountain and each team will earn points for reaching checkpoints, surviving, speed and of course bringing Bing-Bong along, based on the points half the teams will be eliminated.</br></br>For the second round it will be purely speed based, the remaining teams will start at the same time and then have exactly one hour to make it as far up the mountain as possible. Prizes will then be awarded to the two teams that make it furthest up the mountain</br></br>Before the tournament starts there will be a small gathering for briefing on the rules and points system.</br></br>It is necessary to own PEAK to participate in the tournament",
+        description: "Are you here to make the scoutmaster proud? Bring your best buddy and show that you can conquer the mountain.</br></br>The PEAK tournament will run in teams of 2 people. The tournament consists of 2 rounds of PEAK on the same mountain.</br></br>For the first round each team will have time to climb the entire mountain and each team will earn points for reaching checkpoints, surviving, speed and of course bringing Bing-Bong along, based on the points half the teams will be eliminated.</br></br>For the second round it will be purely speed based, the remaining teams will start at the same time and then will have at most 1.5 hour to make it to the top of the mountain. Prizes will then be awarded to the team that make it to the top first or the furthest up the mountain.</br></br>At least one member from each team needs to join the ITU LAN discord, and at tournament start, 12:00 exactly (TBD location), there will be a small gathering for meeting the competition and briefing on the rules and points system. Afterwards the teams can sit wherever they want within the limits of ITU LAN.</br></br>It is necessary to own PEAK to participate in the tournament",
         logoPath: "",
       },
       {
         title: "2xKO",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2316834889860845567/",
         platform: "PC",
-        description: "Welcome to this semester's 2XKO tournament!</br></br>We're doing double elimination, meaning you will have more than one shot to get a price!</br></br>So get ready to duke it out with friendly competitors in 2XKO! No previous fighting game experience is required for participation, so grab a friend and join in on the fun!</br></br>It's going to be chaotic as it's 2 vs 2, so grab a good buddy, and come have fun!",
+        description: "This tournament is generously sponsored by  <a href=\"https://ida.dk/\">IDA</a></br></br>Welcome to this semester's 2XKO tournament!</br></br>We're doing double elimination, meaning you will have more than one shot to get a price!</br>So get ready to duke it out with friendly competitors in 2XKO! No previous fighting game experience is required for participation, so grab a friend and join in on the fun!</br></br>It's going to be chaotic as it's 2 vs 2, so grab a good buddy, and come have fun!",
         logoPath: "",
       },
       {
@@ -76,9 +76,16 @@ export default {
         title: "Tekken 8",
         toornUrl: "https://play.toornament.com/en_US/tournaments/2340876649513183231/",
         platform: " ",
-        description: "TBA",
+        description: "Welcome to the TEKKEN 8 tournament!</br></br>We're doing double elimination, meaning you will have more than one shot to get a price!</br></br>So get ready to duke it out with friendly competitors in TEKKEN 8! No previous fighting game experience is required for participation, so grab a friend and join in on the fun!</br></br>The tournament will be held in the atrium. To test if it is a viable location for a better viewing experience.</br></br>This time it's an open tournament so everyone is welcome. That means people from outside might come and compete if not give a show.</br>",
         logoPath: "",
       },
+      {
+        title: "Karaoke by Node",
+        toornUrl: "",
+        platform: " ",
+        description: "Friday at 17 in aud 2",
+        logoPath: "",
+      }
       // {
       //   title: "",
       //   toornUrl: "",

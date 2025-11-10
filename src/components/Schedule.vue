@@ -11,6 +11,11 @@
         </div>
         <div>
           <span class="time">17.00</span>
+          <span>Karaoke</span>
+          <small>~4 hours</small>
+        </div>
+        <div>
+          <span class="time">17.00</span>
           <span>Magic the Gathering</span>
           <small>~6 hours</small>
         </div>

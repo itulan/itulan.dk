@@ -54,6 +54,16 @@
           alt= "IO interactive logo"
           style="height: 100px;margin-top: 30px;"
         />  
+         <img
+          src= "../assets/img/common/sponsor_logos/nordic_blockchain/Main_logo.png"
+          alt= "IO interactive logo"
+          style="height: 100px;margin-top: 30px;padding-left: 5rem;"
+        />  
+         <img
+          src= "../assets/img/common/sponsor_logos/bybit/bybitlogo.png"
+          alt= "IO interactive logo"
+          style="height: 100px;margin-top: 30px;padding-left: 5rem;"
+        />  
       </div>
     </div>
   </header>
