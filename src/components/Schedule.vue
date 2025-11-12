@@ -11,18 +11,18 @@
         </div>
         <div>
           <span class="time">17.00</span>
-          <span>Karaoke</span>
-          <small>~4 hours</small>
+          <span>Karaoke </span>
+          <small>Aud 3 ~4h</small>
         </div>
         <div>
           <span class="time">17.00</span>
           <span>Magic the Gathering</span>
-          <small>~6 hours</small>
+          <small>TT ~6h</small>
         </div>
         <div>
           <span class="time">20.00</span>
           <span>PokemonShowdown</span>
-          <small>~2 hours</small>
+          <small> PC ~2h</small>
         </div>
       </div>
     </div>
@@ -34,42 +34,42 @@
         <div>
           <span class="time">10.00</span>
           <span>Escape Room</span>
-          <small>~14 hours</small>
+          <small>~14h</small>
         </div>
         <div>
           <span class="time">12.00</span>
-          <span>Your Only Move Is Hustle</span>
-          <small>~2 hours</small>
+          <span style="font-size: 23px;">Your Only Move Is Hustle</span>
+          <small>PC ~2h</small>
         </div>
         <div>
           <span class="time">12.00</span>
           <span>PEAK</span>
-          <small>~4 hours</small>
+          <small>PC ~4h</small>
         </div>
         <div>
           <span class="time">14.00</span>
           <span>Just Dance</span>
-          <small>~2 hours</small>
+          <small>Switch ~2h</small>
         </div>
         <div>
           <span class="time">16.00</span>
           <span>Star Realms</span>
-          <small>~2 hours</small>
+          <small>PC ~2h</small>
         </div>
         <div>
           <span class="time">16.00</span>
           <span>2xKO</span>
-          <small>~3 hours</small>
+          <small>PC ~3h</small>
         </div>
         <div>
           <span class="time">20.00</span>
           <span>Mario Kart</span>
-          <small>~2 hours</small>
+          <small>Switch ~2h</small>
         </div>
         <div>
           <span class="time">20.00</span>
           <span>TFT</span>
-          <small>~3 hours</small>
+          <small>PC ~3h</small>
         </div>
       </div>
     </div>

@@ -11,9 +11,9 @@ export default {
     tournaments: [
       {
         title: "Escape Room Sat",
-        toornUrl: "TBA",
+        toornUrl: "https://calendly.com/itu-escape/escape-room-booking",
         platform: "IRL",
-        description: "TBA",
+        description: "Sign up for the escape room that is hosted during lan on the 5th floor",
         logoPath: "",
       },
       {
