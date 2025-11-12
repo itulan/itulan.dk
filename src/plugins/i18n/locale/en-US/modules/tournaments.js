@@ -83,9 +83,16 @@ export default {
         title: "Karaoke by Node",
         toornUrl: "",
         platform: " ",
-        description: "Friday at 17 in aud 2",
+        description: "Friday at 17 in aud 3",
         logoPath: "",
-      }
+      },
+      {
+        title: "Just Dance ",
+        toornUrl: "",
+        platform: "Nintendo Switch",
+        description: "ITU LAN'S MOST ANTICIPATED TOURNAMENT IS HERE!</br>JUST DANCE IS BACK, BABY!</br></br>Do you like to dance?</br>Do you like to have fun??</br>Do you like to win awesome prizes???</br></br>If you can answer YES to all the questions above, you must join ITU LAN's JUST DANCE 2024 TOURNAMENT!</br></br>You don't need any previous dance experience. Come as you are :^)</br></br>The tournament starts the 15/11/2025 @14:00 and takes place in Console Corner (1st floor).",
+        logoPath: "",
+      },
       // {
       //   title: "",
       //   toornUrl: "",

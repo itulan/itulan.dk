@@ -47,6 +47,11 @@
           <small>~4 hours</small>
         </div>
         <div>
+          <span class="time">14.00</span>
+          <span>Just Dance</span>
+          <small>~2 hours</small>
+        </div>
+        <div>
           <span class="time">16.00</span>
           <span>Star Realms</span>
           <small>~2 hours</small>
