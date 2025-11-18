@@ -1,28 +1,28 @@
 <template>
   <header class="home header container">
     <div class="content">
-      <h1 class="main-title" data-aos="fade-right" data-aos-delay="100"> 
+      <h1 class="main-title" data-aos="fade-right" data-aos-delay="100">
         <!-- date goes here  -->
-        14th - 16th Nov
-        </h1>  
+        Come for the games, stay for the people 
+        </h1>
       <h2
         data-aos="fade-left"
         data-aos-delay="150"
         id="season"
       >
       <!-- Season -->
-        ITULAN FAll
+        ITULAN Spring
       </h2>
        <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
-         <div class="button-container">
-         <!-- <hyperlink
+         <!-- <div class="button-container">
+         <hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'Meet n\' Greet' })"
           >Meet n' greet
-          </Hyperlink> -->
+          </Hyperlink>
           <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
@@ -31,52 +31,34 @@
           :onClick="() => $router.push({ path: 'tickets' })"
           >Buy tickets
           </Hyperlink> 
-
-         <Hyperlink
+          <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tournaments' })"
-          >Tournaments</Hyperlink>  
-        <!-- <Hyperlink
+          >Tournaments</Hyperlink>   
+         <Hyperlink
           data-aos="fade-down"
           data-aos-delay="450"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'schedule' })"
           >Schedule</Hyperlink
-        >  -->
-      </div>
-      <div class="minor-sponsors"> 
-         <img
-          src= "../assets/img/common/sponsor_logos/ioi/IOI_Square_Black_White.png"
-          alt= "IO interactive logo"
-          style="height: 100px;margin-top: 30px;"
-        />  
-         <img
-          src= "../assets/img/common/sponsor_logos/nordic_blockchain/Main_logo.png"
-          alt= "IO interactive logo"
-          style="height: 100px;margin-top: 30px;padding-left: 5rem;"
-        />  
-         <img
-          src= "../assets/img/common/sponsor_logos/bybit/bybitlogo.png"
-          alt= "IO interactive logo"
-          style="height: 100px;margin-top: 30px;padding-left: 5rem;"
-        />  
-      </div>
+        >  
+      </div> -->
     </div>
   </header>
 </template>
 
 <script>
 // import Sponsors from "@/components/Sponsors.vue";
-import Hyperlink from "@/components/Hyperlink.vue"
+// import Hyperlink from "@/components/Hyperlink.vue"
 export default {
   name: "Home",
   components: {
     // Sponsors,
-    Hyperlink
+    // Hyperlink
   },
 };
 </script>
@@ -179,6 +161,6 @@ h2 {
 #emoji {
   font-size: 8rem;
   margin-top: 2rem;
-} 
+}
 
 </style>
