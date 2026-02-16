@@ -38,13 +38,13 @@
           pulse
           :onClick="() => $router.push({ path: 'tournaments' })"
           >Tournaments</Hyperlink>   
-         <!-- <Hyperlink
+         <Hyperlink
           data-aos="fade-down"
           data-aos-delay="450"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'schedule' })"
-          >Schedule</Hyperlink -->
+          >Schedule</Hyperlink
         >  
       </div>
     </div>

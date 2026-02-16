@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="flex wrapper">
     <div id="friday" class="flex day">
       <div>
@@ -74,7 +74,7 @@
       </div>
     </div>
   </div>
-</template>
+</template> -->
 
 <style scoped>
 .flex {
