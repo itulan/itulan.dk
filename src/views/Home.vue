@@ -23,21 +23,21 @@
           :onClick="() => $router.push({ path: 'Meet n\' Greet' })"
           >Meet n' greet
           </Hyperlink> -->
-          <!-- <Hyperlink
+          <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tickets' })"
           >Buy tickets
-          </Hyperlink>  -->
-          <!-- <Hyperlink
+          </Hyperlink> 
+          <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tournaments' })"
-          >Tournaments</Hyperlink>    -->
+          >Tournaments</Hyperlink>   
          <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="450"
@@ -52,13 +52,13 @@
 </template>
 
 <script>
-// import Sponsors from "@/components/Sponsors.vue";
-// import Hyperlink from "@/components/Hyperlink.vue";
+import Sponsors from "@/components/Sponsors.vue";
+import Hyperlink from "@/components/Hyperlink.vue";
 export default {
   name: "Home",
   components: {
-  //  Sponsors,
-  //  Hyperlink
+   Sponsors,
+   Hyperlink
   },
 };
 </script>

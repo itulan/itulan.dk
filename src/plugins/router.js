@@ -4,9 +4,9 @@ import Information from "@/views/Information.vue";
 import Home from "@/views/Home.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
-// import Tickets from "@/views/Tickets.vue";
+import Tickets from "@/views/Tickets.vue";
 // import sponsorpage from "@/views/SponsorPage.vue";
-// import Tournaments from "@/views/Tournaments.vue";
+import Tournaments from "@/views/Tournaments.vue";
 // import Schedule from "@/views/Schedule.vue";
 // import Meet from "@/views/Meet.vue";
 // import Servers from "@/views/Servers.vue";
@@ -35,15 +35,15 @@ const router = new Router({
     //     id: "Meet"
     //   }
     // },
-    // {
-    //   path: "/tickets",
-    //   name: "buy tickets",
-    //   component: Tickets,
-    //   meta: {
-    //     title: "Tickets",
-    //     id: "tickets",
-    //   },
-    // },
+    {
+      path: "/tickets",
+      name: "buy tickets",
+      component: Tickets,
+      meta: {
+        title: "Tickets",
+        id: "tickets",
+      },
+    },
     // {
     //   path: "/schedule",
     //   name: "schedule",
@@ -53,15 +53,15 @@ const router = new Router({
     //     id: "Schedule"
     //   }
     // },
-    // {
-    //   path: "/tournaments",
-    //   name: "tournaments",
-    //   component: Tournaments,
-    //   meta: {
-    //     title: "Tournaments",
-    //     id: "tournaments"
-    //   }
-    // },
+    {
+      path: "/tournaments",
+      name: "tournaments",
+      component: Tournaments,
+      meta: {
+        title: "Tournaments",
+        id: "tournaments"
+      }
+    },
     {
       path: "/information",
       name: "faq",
