@@ -3,7 +3,7 @@
     <div class="content">
       <h1 class="main-title" data-aos="fade-right" data-aos-delay="100">
         <!-- date goes here  -->
-        Come for the games, stay for the people 
+       24th - 26th April
         </h1>
       <h2
         data-aos="fade-left"
@@ -13,52 +13,52 @@
       <!-- Season -->
         ITULAN Spring
       </h2>
-       <!-- <Sponsors data-aos="fade-right" data-aos-delay="200" />  -->
-         <!-- <div class="button-container">
-         <hyperlink
+       <Sponsors data-aos="fade-right" data-aos-delay="200" />
+         <div class="button-container">
+         <!-- <hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'Meet n\' Greet' })"
           >Meet n' greet
-          </Hyperlink>
-          <Hyperlink
+          </Hyperlink> -->
+          <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="250"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tickets' })"
           >Buy tickets
-          </Hyperlink> 
-          <Hyperlink
+          </Hyperlink>  -->
+          <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="350"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tournaments' })"
-          >Tournaments</Hyperlink>   
-         <Hyperlink
+          >Tournaments</Hyperlink>    -->
+         <!-- <Hyperlink
           data-aos="fade-down"
           data-aos-delay="450"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'schedule' })"
-          >Schedule</Hyperlink
+          >Schedule</Hyperlink -->
         >  
-      </div> -->
+      </div>
     </div>
   </header>
 </template>
 
 <script>
 // import Sponsors from "@/components/Sponsors.vue";
-// import Hyperlink from "@/components/Hyperlink.vue"
+// import Hyperlink from "@/components/Hyperlink.vue";
 export default {
   name: "Home",
   components: {
-    // Sponsors,
-    // Hyperlink
+  //  Sponsors,
+  //  Hyperlink
   },
 };
 </script>
