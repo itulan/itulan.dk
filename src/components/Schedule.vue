@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <div class="flex wrapper">
     <div id="friday" class="flex day">
       <div>
@@ -12,17 +12,27 @@
         <div>
           <span class="time">17.00</span>
           <span>Karaoke </span>
-          <small>Aud 3 ~4h</small>
+          <small>Aud 2 ~4h</small>
         </div>
         <div>
           <span class="time">17.00</span>
-          <span>Magic the Gathering</span>
-          <small>TT ~6h</small>
+          <span>Magic the gathering</span>
+          <small>TT ~7h</small>
         </div>
         <div>
-          <span class="time">20.00</span>
-          <span>PokemonShowdown</span>
+          <span class="time">17.00</span>
+          <span>Tekken 8</span>
           <small> PC ~2h</small>
+        </div>
+        <div>
+          <span class="time">19.00</span>
+          <span>Civilization 6</span>
+          <small>PC ~5h</small>
+        </div>
+        <div>
+          <span class="time">21.00</span>
+          <span>Beat Saber</span>
+          <small>VR ~2h</small>
         </div>
       </div>
     </div>
@@ -32,49 +42,39 @@
       </div>
       <div class="flex schedule">
         <div>
-          <span class="time">10.00</span>
-          <span>Escape Room</span>
-          <small>~14h</small>
-        </div>
-        <div>
           <span class="time">12.00</span>
-          <span style="font-size: 23px;">Your Only Move Is Hustle</span>
-          <small>PC ~2h</small>
-        </div>
-        <div>
-          <span class="time">12.00</span>
-          <span>PEAK</span>
-          <small>PC ~4h</small>
-        </div>
-        <div>
-          <span class="time">14.00</span>
           <span>Just Dance</span>
-          <small>Switch ~2h</small>
+          <small>Switch ~3h</small>
+        </div>
+        <div>
+          <span class="time">13.00</span>
+          <span>Counter-Strike 2</span>
+          <small>PC ~5h</small>
         </div>
         <div>
           <span class="time">16.00</span>
-          <span>Star Realms</span>
-          <small>PC ~2h</small>
-        </div>
-        <div>
-          <span class="time">16.00</span>
-          <span>2xKO</span>
-          <small>PC ~3h</small>
-        </div>
-        <div>
-          <span class="time">20.00</span>
           <span>Mario Kart</span>
           <small>Switch ~2h</small>
         </div>
         <div>
-          <span class="time">20.00</span>
-          <span>TFT</span>
-          <small>PC ~3h</small>
+          <span class="time">18.00</span>
+          <span>Star Realms</span>
+          <small>TT ~3h</small>
+        </div>
+        <div>
+          <span class="time">19.00</span>
+          <span>Civilization 6</span>
+          <small>PC ~5h</small>
+        </div>
+        <div>
+          <span class="time">19.00</span>
+          <span>Team Fight Tactics</span>
+          <small>PC ~2h</small>
         </div>
       </div>
     </div>
   </div>
-</template> -->
+</template>
 
 <style scoped>
 .flex {

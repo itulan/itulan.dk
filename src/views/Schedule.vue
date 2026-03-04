@@ -1,21 +1,21 @@
 <template>
   <div id="schedule" style="max-width: 1200px">
-      <!-- <h1 class="title" data-aos="fade-up">Schedule</h1>
+      <h1 class="title" data-aos="fade-up">Schedule</h1>
       <a class="TournamentLink" href="Tournaments">Sign up here</a>
       <Hyperlink
           class="tournament-link"
           asButton
           pulse
           :onClick="() => $router.push({ path: 'tournaments' })"
-          >Sign up here
+          >
           </Hyperlink
-        > -->
+        >
       <schedule></schedule>
   </div>
 </template>
 
 <!-- Tempoary "TBA" for schedule, remove this whole template when schedule has been setup -->
-<template>
+<!-- <template>
   <div class="schedule">
     <h1 class="title" data-aos="fade-up">Schedule</h1>
     <p data-aos="fade-up" data-aos-delay="200">
@@ -26,7 +26,7 @@
           Schedule to be announced...
         </h3></em>
     </div>
-</template>
+</template> -->
 
 <script>
 import Schedule from "@/components/Schedule";
