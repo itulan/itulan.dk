@@ -74,7 +74,7 @@ export default {
       },
       {
         title: "Just Dance ",
-        toornUrl: "https://play.toornament.com/en_GB/tournaments/2316847425657839615/",
+        toornUrl: "https://play.toornament.com/en_US/tournaments/2426311782129092607/",
         platform: "Nintendo Switch",
         description: "JUST DANCE IS BACK, BABY! Do you like to dance? Do you like to have fun? Do you like to win awesome prizes? If you can answer YES to all of the above, you have to join ITU LAN’s Just Dance Tournament! We’ll be battling it out using Just Dance+, so you can choose from a large selection of both new and classic songs. No previous dance experience is needed — just show up as you are and have fun!",
         logoPath: "",
