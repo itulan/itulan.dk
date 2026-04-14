@@ -11,9 +11,9 @@ export default {
     tournaments: [
       {
         title: "Escape Room",
-        toornUrl: "TBA",
+        toornUrl: "https://calendly.com/angelagalw/60min",
         platform: "IRL",
-        description: "TBA",
+        description: "The Scranton branch of Dunder Mifflin had been struck by an awful event! Non other than Dwight K. Schrute Assistant to the Regional manager had been killed in the office and there's nobody to solve the case. Come and solve the case to make Dwight proud!",
         logoPath: "",
       },
       {

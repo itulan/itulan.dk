@@ -30,7 +30,7 @@
           <small>PC ~5h</small>
         </div>
         <div>
-          <span class="time">21.00</span>
+          <span class="time">20.00</span>
           <span>Beat Saber</span>
           <small>VR ~2h</small>
         </div>
