@@ -17,7 +17,7 @@
         <div>
           <span class="time">17.00</span>
           <span>Magic the gathering</span>
-          <small>TT ~7h</small>
+          <small> 2A52 ~7h</small>
         </div>
         <div>
           <span class="time">17.00</span>
