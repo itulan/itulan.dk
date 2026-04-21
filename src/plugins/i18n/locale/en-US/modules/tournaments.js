@@ -87,6 +87,20 @@ export default {
         logoPath: "",
       },
       {
+        title: "Chess Tournament",
+        toornUrl: "https://play.toornament.com/tournaments/2442902907440078847/",
+        platform: "IRL",
+        description: "Get ready to join a super exciting chess tournament! There's prizes lined up for both beginners and seasoned players, so no matter your level, we're excited for you to join in!",
+        logoPath: "",
+      },
+            {
+        title: "CommIT Con gaming quiz",
+        toornUrl: "",
+        platform: "IRL",
+        description: "This quiz is a video gaming history by CommIT Con. The quiz is multiple choice. You don't have to be the biggest gamer or nerd in order to attend, the quiz is very broad. There will be prizes for the top 3 scorers! The quiz will be held in Aud 3 - You don't need to sign up to join in! Just show up friday at 19.00!",
+        logoPath: "",
+      },
+            {
         title: "",
         toornUrl: "",
         platform: " ",

@@ -30,6 +30,11 @@
           <small>PC ~5h</small>
         </div>
         <div>
+          <span class="time">19.00</span>
+          <span>CommiIT Con Quiz</span>
+          <small>Aud 3 ~1h</small>
+        </div>
+        <div>
           <span class="time">20.00</span>
           <span>Beat Saber</span>
           <small>VR ~2h</small>
@@ -55,6 +60,11 @@
           <span class="time">16.00</span>
           <span>Mario Kart</span>
           <small>Switch ~2h</small>
+        </div>
+        <div>
+          <span class="time">16.00</span>
+          <span>Chess Tournament</span>
+          <small>Room 2A20 ~4h</small>
         </div>
         <div>
           <span class="time">18.00</span>
