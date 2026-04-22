@@ -31,7 +31,7 @@
         </div>
         <div>
           <span class="time">19.00</span>
-          <span>CommiIT Con Quiz</span>
+          <span>CommIT Con Quiz</span>
           <small>Aud 3 ~1h</small>
         </div>
         <div>
