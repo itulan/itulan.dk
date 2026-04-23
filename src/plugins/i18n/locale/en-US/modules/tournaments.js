@@ -60,7 +60,7 @@ export default {
       },
       {
         title: "Tekken 8",
-        toornUrl: "https://play.toornament.com/en_US/tournaments/2340876649513183231/",
+        toornUrl: "https://play.toornament.com/en_GB/tournaments/2438438381085059071/",
         platform: "PC",
         description: "It is time for another bout of TEKKEN 8! The fall tournament was a blast, so grab a friend, and come have some friendly fun in the best fighting game to date! No previous fighting game experience is required for participation and the tournament is open for all!",
         logoPath: "",
