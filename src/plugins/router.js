@@ -8,6 +8,8 @@ import Tickets from "@/views/Tickets.vue";
 // import sponsorpage from "@/views/SponsorPage.vue";
 import Tournaments from "@/views/Tournaments.vue";
 import Schedule from "@/views/Schedule.vue";
+import Gallery from "@/views/Gallery.vue";
+import GalleryCollection from "@/views/GalleryCollection.vue";
 // import Meet from "@/views/Meet.vue";
 // import Servers from "@/views/Servers.vue";
 // import JoinUs from "@/views/JoinUs.vue";
@@ -69,6 +71,22 @@ const router = new Router({
       meta: {
         title: "Information",
         id: "information",
+      },
+    },
+    {
+      path: "/gallery",
+      name: "gallery",
+      component: Gallery,
+      meta: {
+        title: "Gallery",
+        id: "gallery",
+      },
+    },
+    {
+      path: "/gallery/:collection",
+      component: GalleryCollection,
+      meta: {
+        title: "Gallery",
       },
     },
     // {
