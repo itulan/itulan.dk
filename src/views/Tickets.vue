@@ -81,7 +81,7 @@ export default {
   },
   computed: {
     isPublic() {
-      return false;
+      return true;
     },
   },
 };
