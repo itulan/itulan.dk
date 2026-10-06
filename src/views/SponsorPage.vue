@@ -1,100 +1,75 @@
 <template>
-    <div>
-      <div class="title-wrapper">
-        <h1>{{ $route.name }}</h1>
-        <h2>{{$t("sponsorPage.sponsor")}}</h2>
-      </div>
+  <div>
+    <div class="title-wrapper">
+      <h1>{{ $route.name }}</h1>
+      <h2>{{ $t("sponsorPage.sponsor") }}</h2>
+    </div>
+
+    <div class="content">
       <img
-          alt="Accenture"
-          class="logo primary"
-          src="../assets/img/common/sponsor_logos/accenture/Acc_Logo_White_Purple_RGB.png" 
-          loading="lazy"
-          style="width: 50%;padding: 2rem;"
-        />
+        class="logo"
+        :alt="$t('sponsorPage.sponsor')"
+        :src="$t('sponsorPage.logo')"
+        loading="lazy"
+      />
 
-        <div id="text">
-          <!-- <h3>{{ $t("spn.aboutUs") }}</h3> -->
-          <p v-html="$t('sponsorPage.text')"></p>
-          <br />
-          <p>Interested? Please take a look on their 
-          <a target="_blank" :href="$t('sponsorPage.website')">Website</a>
+      <div id="text">
+        <p>{{ $t("sponsorPage.text") }}</p>
 
-
-          </p>
-          
-
+        <p>
+          Interested? Please take a look at their
+          <a
+            :href="$t('sponsorPage.website')"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            website
+          </a>
+        </p>
       </div>
     </div>
-  </template>
-  
+  </div>
+</template>
 
-  <!-- <script>
-import Hyperlink from "@/components/Hyperlink";
-export default {
-  components: {
-     Hyperlink,
-  },
-};
-</script> -->
-  <style scoped>
+<style scoped>
+.title-wrapper {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2rem 30px;
+  box-sizing: border-box;
+}
+
+#text {
+  padding: 0 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 750px) {
   .title-wrapper {
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
   }
-  
-  h3 {
-    margin-top: 0px;
-    text-align: left;
+
+  .logo {
+    padding: 1rem 0;
   }
-  
-  .flex-wrapper {
-    display: flex;
-    margin-bottom: 3rem;
-  }
-  
+
   #text {
-    text-align: left;
-    letter-spacing: 0px;
-    padding-left: 30px;
+    padding: 0;
   }
-  
-  .flex-wrapper > div {
-    padding: 0px 20px;
-  }
-  
-  .flex-wrapper > #image {
-    overflow: hidden;
-    background-position: center;
-    background-size: cover;
-    background-image: url("$t('sponserPage.logo')");
-    width: 100%;
-  }
-  
-  @media only screen and (max-width: 750px) {
-    .title-wrapper {
-      margin-bottom: 1rem;
-    }
-  
-    .flex-wrapper {
-      flex-direction: column-reverse;
-    }
-  
-    .flex-wrapper > div {
-      padding: 20px 0px;
-    }
-  
-    .flex-wrapper > #image {
-      width: initial;
-      height: 300px;
-    }
-  
-    #text {
-      padding-left: initial;
-    }
-  }
-  </style>
-  
-
-
-
-
-  
+}
+</style>

@@ -5,7 +5,7 @@ import Home from "@/views/Home.vue";
 import Partner from "@/views/Partner.vue";
 import NotFound from "@/views/NotFound.vue";
 import Tickets from "@/views/Tickets.vue";
-// import sponsorpage from "@/views/SponsorPage.vue";
+import sponsorpage from "@/views/SponsorPage.vue";
 import Tournaments from "@/views/Tournaments.vue";
 import Schedule from "@/views/Schedule.vue";
 import Gallery from "@/views/Gallery.vue";
@@ -89,15 +89,15 @@ const router = new Router({
         title: "Gallery",
       },
     },
-    // {
-    //   path: "/Sponsors",
-    //   name: "Sponsor",
-    //   component: sponsorpage,
-    //   meta: {
-    //     title: "Sponsor",
-    //     id: "sponsorPage",
-    //   },
-    // },
+    {
+      path: "/Sponsors",
+      name: "Sponsor",
+      component: sponsorpage,
+      meta: {
+        title: "Sponsor",
+        id: "sponsorPage",
+      },
+    },
     {
       path: "/partner",
       name: "partner with us",

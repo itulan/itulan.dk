@@ -2,7 +2,7 @@ export default {
     ticketUrl: "https://itulan-1.ticketbutler.io/en/e/itu-lan-spring-2024/",
     socialMedia: {
       discord: {
-        url: "https://discord.gg/nSFXWQN",
+        url: "https://discord.gg/KpGJKDaWPj",
         description:
           "Discord is our primary platform for contacting the crew during the LAN.",
       },
