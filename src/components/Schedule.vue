@@ -11,36 +11,32 @@
         </div>
         <div>
           <span class="time">17.00</span>
-          <span>Karaoke </span>
-          <small>Aud 2 ~4h</small>
-        </div>
-        <div>
-          <span class="time">17.00</span>
-          <span>Magic the gathering</span>
-          <small> 2A52 ~7h</small>
+          <span>Rock, Paper,  & scissors</span>
+          <small>Atrium* ~2h</small>
         </div>
         <div>
           <span class="time">17.00</span>
           <span>Tekken 8</span>
-          <small> PC ~2h</small>
+          <small>Aud 1 ~3h</small>
         </div>
         <div>
-          <span class="time">19.00</span>
-          <span>Civilization 6</span>
-          <small>PC ~5h</small>
+          <span class="time">17.00</span>
+          <span>MTG </span>
+          <small>2A20* ~6h</small>
         </div>
         <div>
-          <span class="time">19.00</span>
-          <span>CommIT Con Quiz</span>
-          <small>Aud 3 ~1h</small>
+          <span class="time">17.00</span>
+          <span>Tetris </span>
+          <small>Aud 2 ~4h</small>
         </div>
         <div>
-          <span class="time">20.00</span>
-          <span>Beat Saber</span>
-          <small>VR ~2h</small>
+          <span class="time">21.00</span>
+          <span>Trackmainia  </span>
+          <small>PC ~2h</small>
         </div>
       </div>
     </div>
+
     <div id="saturday" class="flex day">
       <div>
         <h3 class="weekday">Saturday</h3>
@@ -52,34 +48,29 @@
           <small>Switch ~3h</small>
         </div>
         <div>
-          <span class="time">13.00</span>
-          <span>Counter-Strike 2</span>
-          <small>PC ~5h</small>
-        </div>
-        <div>
-          <span class="time">16.00</span>
-          <span>Mario Kart</span>
-          <small>Switch ~2h</small>
-        </div>
-        <div>
-          <span class="time">16.00</span>
-          <span>Chess Tournament</span>
-          <small>Room 2A20 ~4h</small>
-        </div>
-        <div>
-          <span class="time">18.00</span>
+          <span class="time">14.00</span>
           <span>Star Realms</span>
-          <small>TT ~3h</small>
+          <small>2A20* ~3h</small>
+        </div>
+        <div>
+          <span class="time">12.00</span>
+          <span>Beat Saber</span>
+          <small>VR ~2h</small>
+        </div>
+        <div>
+          <span class="time">16.00</span>
+          <span>Rocket League</span>
+          <small>PC ~3h</small>
         </div>
         <div>
           <span class="time">19.00</span>
-          <span>Civilization 6</span>
-          <small>PC ~5h</small>
+          <span>Marvel Rivals</span>
+          <small>PC ~3h</small>
         </div>
         <div>
-          <span class="time">19.00</span>
-          <span>Team Fight Tactics</span>
-          <small>PC ~2h</small>
+          <span class="time">20.00</span>
+          <span>TFT</span>
+          <small>PC ~3h</small>
         </div>
       </div>
     </div>

@@ -1,17 +1,16 @@
 <template>
   <div id="schedule" style="max-width: 1200px">
-    <h1 class="title" data-aos="fade-up">Schedule</h1>
-    <div v-if="isPublic">
-      <a class="TournamentLink" href="Tournaments">Sign up here</a>
+      <h1 class="title" data-aos="fade-up">Schedule</h1>
+      <!-- <a class="TournamentLink" href="Tournaments">Sign up here</a> -->
+      <Hyperlink
+          class="tournament-link"
+          asButton
+          pulse
+          :onClick="() => $router.push({ path: 'tournaments' })"
+          >Sign up here
+          </Hyperlink
+        >
       <schedule></schedule>
-    </div>
-    <div v-else>
-      <em
-        ><h3 data-aos="fade-up" data-aos-delay="300">
-          Schedule to be announced...
-        </h3></em
-      >
-    </div>
   </div>
 </template>
 
@@ -31,11 +30,11 @@
 
 <script>
 import Schedule from "@/components/Schedule";
-// import Hyperlink from "@/components/Hyperlink.vue"
+import Hyperlink from "@/components/Hyperlink.vue"
 export default {
     components: {
         Schedule,
-        // Hyperlink
+       Hyperlink
     },
     computed: {
         isPublic() {
