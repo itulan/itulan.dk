@@ -34,7 +34,7 @@ export default {
         title: "Trackmainia",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2575593857279864831/",
         platform: "PC",
-        description: "Do you like going fast? Do you know how to hit racing lines? Are you a fan of the hit free-to-play racing game \"Trackmania: Nations forever\"?</br></br>If you answered yes to any of these questions, then come and join us for the ITU LAN Trackmania: Nations forever Cup on the 23rd of October at 21:00 / 9pm Friday for a friendly competition (With prizes!)</br>Organized by Daniel Holm Larsen",
+        description: "Do you like going fast? Do you know how to hit racing lines? Are you a fan of the hit free-to-play racing game Trackmania: Nations forever?</br></br>If you answered yes to any of these questions, then come and join us for the ITU LAN Trackmania: Nations forever Cup on the 23rd of October at 21:00 / 9pm Friday for a friendly competition (With prizes!)</br>Organized by Daniel Holm Larsen",
         logoPath: "",
       },
             {
@@ -76,7 +76,7 @@ export default {
         title: "Mario Kart 8 Deluxe",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2575577890438971391/",
         platform: "Switch",
-        description:  "Welcome to this semester's Mario Kart tournament! Are you ready to throw your friends out the map? Race yourself to the top? Then come join us at the Spring 2026 LAN at console corner on 25/4/26 at 16:00!</br></br> Grab your friends by the hand, and signup for the tournament!</br></br> As always we will provide soda and snacks during the tournament, and of course we will bring a lot of fun!</br></br> This tournament is part of the ITU LAN event and you must have a ticket to enter the event, otherwise the tournament is free to participate in.</br></br>Make sure to arrive on time, if you end up changing plans and cant attend then make sure to inform me in due time. Otherwise any missing attendants will lose their spot and will be up for grabs for anyone. No-Show\'s spots will be free to grab.</br>Organized byKaramTNC",
+        description:  "Welcome to this semester's Mario Kart tournament! Are you ready to throw your friends out the map? Race yourself to the top? Then come join us at the Spring 2026 LAN at console corner on 25/4/26 at 16:00!</br></br> Grab your friends by the hand, and signup for the tournament!</br></br> As always we will provide soda and snacks during the tournament, and of course we will bring a lot of fun!</br></br> This tournament is part of the ITU LAN event and you must have a ticket to enter the event, otherwise the tournament is free to participate in.</br></br>Make sure to arrive on time, if you end up changing plans and cant attend then make sure to inform me in due time. Otherwise any missing attendants will lose their spot and will be up for grabs for anyone. No-Shows spots will be free to grab.</br>Organized byKaramTNC",
         logoPath: "",
       },
             {
