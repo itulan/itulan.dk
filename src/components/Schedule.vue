@@ -16,18 +16,23 @@
         </div>
         <div>
           <span class="time">17.00</span>
+          <span>Karaoke</span>
+          <small>Aud 3 ~4h</small>
+        </div>
+        <div>
+          <span class="time">17.00</span>
           <span>Tekken 8</span>
           <small>Aud 1 ~3h</small>
         </div>
         <div>
           <span class="time">17.00</span>
           <span>MTG </span>
-          <small>2A20* ~6h</small>
+          <small>3A54* ~6h</small>
         </div>
         <div>
           <span class="time">17.00</span>
           <span>Tetris </span>
-          <small>Aud 2 ~4h</small>
+          <small>Switch ~4h</small>
         </div>
         <div>
           <span class="time">21.00</span>
@@ -50,6 +55,11 @@
         <div>
           <span class="time">14.00</span>
           <span>Star Realms</span>
+          <small>3A54* ~3h</small>
+        </div>
+        <div>
+          <span class="time">14.00</span>
+          <span>CommIT Con</span>
           <small>2A20* ~3h</small>
         </div>
         <div>
