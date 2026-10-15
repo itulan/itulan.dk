@@ -17,7 +17,7 @@
         <div>
           <span class="time">17.00</span>
           <span>Karaoke</span>
-          <small>Aud 3 ~4h</small>
+          <small>Aud 2 ~4h</small>
         </div>
         <div>
           <span class="time">17.00</span>
