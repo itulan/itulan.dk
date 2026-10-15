@@ -19,8 +19,8 @@ export default {
       {
         title: "Karaoke by Node",
         toornUrl: "",
-        platform: " ",
-        description: "Join us Friday 16 to 21 for a night of karaoke fun and sing your heart out at this collaboratory event between ITU LAN and Node",
+        platform: "IRL",
+        description: "Come Join us in Aud 2 from 16 to 21 for a night of karaoke, sing your heart out at this collaboratory event between ITU LAN and Node.",
         logoPath: "",
       },
             {
