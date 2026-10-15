@@ -22,7 +22,7 @@
         />  
         <div class="minor-sponsors"> 
          <img
-          src= "..\assets\img\common\sponsor_logos\ioi\IOI_white_large.png"
+          src= "../assets/img/common/sponsor_logos/ioi/IOI_white_large.png"
           alt= "IDA logo"
         />  
         <!--  <img
