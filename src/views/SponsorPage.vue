@@ -2,24 +2,28 @@
   <div>
     <div class="title-wrapper">
       <h1>{{ $route.name }}</h1>
-      <h2>{{ $t("sponsorPage.sponsor") }}</h2>
     </div>
 
-    <div class="content">
+    <!-- Iterate over the list of sponsors -->
+    <div
+      v-for="sponsor in sponsors"
+      :key="sponsor.id || sponsor.name"
+      class="content"
+    >
       <img
         class="logo"
-        :alt="$t('sponsorPage.sponsor')"
-        :src="$t('sponsorPage.logo')"
+        :alt="sponsor.name"
+        :src="sponsor.logo"
         loading="lazy"
       />
 
-      <div id="text">
-        <p>{{ $t("sponsorPage.text") }}</p>
+      <div class="text">
+        <p>{{ sponsor.text }}</p>
 
         <p>
           Interested? Please take a look at their
           <a
-            :href="$t('sponsorPage.website')"
+            :href="sponsor.website"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,6 +34,19 @@
     </div>
   </div>
 </template>
+
+<script>
+import sponsorsData from "@/plugins/i18n/locale/en-US/modules/sponsorPage.js";
+
+export default {
+  name: "SponsorView",
+  data() {
+    return {
+      sponsors: sponsorsData,
+    };
+  },
+};
+</script>
 
 <style scoped>
 .title-wrapper {

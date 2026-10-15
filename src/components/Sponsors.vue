@@ -15,19 +15,17 @@
         />
       </Hyperlink> -->
     
-         <!-- <div class="minor-sponsors"> 
+        <div class="minor-sponsors"> 
          <img
           src= "../assets/img/common/sponsor_logos/ida/IDA_Logo_2.png"
           alt= "IDA logo"
-        />  -->
-      <!-- <img
-          src="../assets/img/common/sponsor_logos/ida/IDA_white.png" 
-          alt="IDA logo"
-          style="padding-bottom:13px"
-          
-        /> 
-
+        />  
+        <div class="minor-sponsors"> 
          <img
+          src= "..\assets\img\common\sponsor_logos\ioi\IOI_white_large.png"
+          alt= "IDA logo"
+        />  
+        <!--  <img
           src="../assets/img/common/sponsor_logos/kmd/KMD_WHITE.png"
           alt="KMD logo" 
         /> 
@@ -36,9 +34,9 @@
             style="margin-bottom: 2rem"
             src="../assets/img/common/sponsor_logos/accenture/AccentureLogo.png"
             alt="Accenture logo"  
-          />
-        </div> 
-      </div>-->  
+          />-->
+        </div>   
+      </div>
     </div>
   </div>
 </template>
