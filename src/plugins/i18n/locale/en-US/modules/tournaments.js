@@ -101,7 +101,7 @@ export default {
         logoPath: "",
       },
             {
-        title: "Takken 8",
+        title: "Tekken 8",
         toornUrl: "https://play.toornament.com/en_GB/tournaments/2586515577016406015/",
         platform: "PC*",
         description: "Welcome to the TEKKEN 8 tournament!</br></br>We're doing double elimination, meaning you will have more than one shot to get a price!</br></br>So get ready to duke it out with friendly competitors in TEKKEN 8! No previous fighting game experience is required for participation, so grab a friend and join in on the fun!</br></br>The tournament will be held in aud 1</br></br>It's okay if you didn't sign up before; just show up and we'll figure it out.",
