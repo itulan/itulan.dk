@@ -11,9 +11,16 @@ export default {
     tournaments: [
       {
         title: "Escape Room",
-        toornUrl: "TBA",
+        toornUrl: "https://calendly.com/escapeit-itu/escape-room?back=1&month=2026-10&date=2026-10-23",
         platform: "IRL",
-        description: "TBA",
+        description: "Welcome to the Psychedelic Circus! Step into a strange and colourful world full of quirky questions, curious commodities, and a touch of marvelous madness.</br></br>Explore the room, look for shrooms, solve the madness, and work together to figure out what is going on (in life?). Keep your eyes open and your mind contagious, because things might not always be what they seem!</br></br>Can you figure out what is going on and make it out before time runs out?</br></br>We hope so... (cough cough coffin)... good luck!",
+        logoPath: "",
+      },
+      {
+        title: "Commit Con",
+        toornUrl: "",
+        platform: "IRL",
+        description: "Do you want to feel a sense of accomplishment from your gaming knowledge? Well then you should stop by CommIT Con’s quiz at ITU LAN! The quiz will be about guessing the video games based on a screenshot from the game. All you need to participate is a device with internet connection and to physically show up on 24/10/26 at 14:00 in 2A20!</br></br>Do not know who CommIT Con is? We are a student organization that hosts an event celebrating pop-culture at ITU. If you want to know more then why not stop by and talk to us? We hope to see you!",
         logoPath: "",
       },
       {

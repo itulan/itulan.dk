@@ -30,7 +30,7 @@
           <small>3A54* ~6h</small>
         </div>
         <div>
-          <span class="time">17.00</span>
+          <span class="time">19.00</span>
           <span>Tetris </span>
           <small>Switch ~4h</small>
         </div>
@@ -63,7 +63,7 @@
           <small>2A20* ~3h</small>
         </div>
         <div>
-          <span class="time">12.00</span>
+          <span class="time">15.00</span>
           <span>Beat Saber</span>
           <small>VR ~2h</small>
         </div>
