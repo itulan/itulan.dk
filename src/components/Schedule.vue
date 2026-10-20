@@ -32,7 +32,7 @@
         <div>
           <span class="time">19.00</span>
           <span>Tetris </span>
-          <small>Switch ~4h</small>
+          <small>Switch ~3h</small>
         </div>
         <div>
           <span class="time">21.00</span>
