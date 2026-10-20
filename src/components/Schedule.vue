@@ -73,6 +73,11 @@
           <small>PC ~3h</small>
         </div>
         <div>
+          <span class="time">17.00</span>
+          <span>Mario Kart</span>
+          <small>Switch ~3h</small>
+        </div> 
+        <div>
           <span class="time">19.00</span>
           <span>Marvel Rivals</span>
           <small>PC ~3h</small>
